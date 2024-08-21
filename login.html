@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #53575e;
+            background-image: url('./src/login_back.jpg');
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        
+        img{
+            background: radial-gradient(circle,rgb(158, 153, 153) 1%, rgba(73, 74, 81, 0.358) 60% );
+            border-radius: 50px;
+            /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            height: 600px;
+            position: relative;
+            top: 80px;
+            left: 200px;
+            scale: 1.1 1.1;
+            
+        }
+        
+        .container_form{
+            /* visibility: hidden; */
+            background-color: rgb(87, 97, 110);
+            width: 400px;
+            height: 500px;
+            position: absolute;
+            right: 250px;
+            top: 150px;
+            border-radius: 30px;
+            
+        }
+        .form_body{
+            /* background-color: #f3d4d4D1; */
+            height: 250px;
+            width: 380px;
+            position: relative;
+            top: 200px;
+            left: 40px;
+        }
+        input,#summit{
+            height: 40px;
+            border-radius: 15px;
+            border: 0px;
+            margin: 10px;
+            padding: 0px 8px;
+            font-size: 20px;
+        }
+        #summit{
+            display: block;
+            height: 70px;
+            width: 100px;
+            /* padding: 0px 40px 0px 40px; */
+            background-color: rgb(193, 221, 189);
+            position: relative;
+            top: 30px;
+            left: 210px;
+        }
+    </style>
+</head>
+<body>
+    <img src="./src/LOGO_DEMO.jpeg"   onmousedown="return false;">
+    
+    <div class="container_form">
+        <div class="form">
+            <form action="" class="form_body">
+                <label for="account">帳號：</label><input type="text" id="account">
+                <br>
+                <label for="password">密碼：</label><input type="password" id="password">
+                <br>
+                <button type="submit" id="summit">Login</button>
+            </form>
+        </div>  
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Data Table</title>
+    <style>
+        th,td{
+            margin: 0px;
+            border: 2px solid rgb(195, 195, 195);
+            height: 30px;
+        }
+        th{
+            border-bottom: 3px solid rgb(195, 195, 195);
+        }
+        td{
+            text-align: center ;
+        }
+        .col_id{
+            width: 70px;
+        }
+        .col_name{
+            width: 70px;
+        }
+        .col_sex{
+            width: 70px;
+        }
+        .col_birth{
+            width: 120px;
+        }
+        .col_posi{
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <table id="employee-table" style="border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th class="column_name col_id">id</th>
+                <th class="column_name col_name">name</th>
+                <th class="column_name col_sex">sex</th>
+                <th class="column_name col_birth">birthday</th>
+                <th class="column_name col_posi">position</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="row1-col1" ></td>
+                <td id="row1-col2" ></td>
+                <td id="row1-col3" ></td>
+                <td id="row1-col4" ></td>
+                <td id="row1-col5" ></td>
+            </tr>
+            <tr>
+                <td id="row2-col1" ></td>
+                <td id="row2-col2" ></td>
+                <td id="row2-col3" ></td>
+                <td id="row2-col4" ></td>
+                <td id="row2-col5" ></td>
+            </tr>
+            <tr>
+                <td id="row3-col1" ></td>
+                <td id="row3-col2" ></td>
+                <td id="row3-col3" ></td>
+                <td id="row3-col4" ></td>
+                <td id="row3-col5" ></td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="next-page" style="display: none;">下一頁</button>
+
+    <script src="./index.js"></script>
+</body>
+</html>

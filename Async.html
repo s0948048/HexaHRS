@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //清除目前的LocalStorage！避免資料衝突
+        //之後還要補上判斷式。
+        localStorage.clear();
+
+        //串接JSON檔案的資料
+        fetch('./data/employeeData.json')
+        .then((response) => {return response.json();})
+        .then((response)=>{
+
+// >>   //所有對資料的操作都應該在第二次的promise中
+
+            //存入LocalStorage的方法！！:DD
+            localStorage.setItem('employeeData',JSON.stringify(response));
+            var employeeData = JSON.parse(localStorage.getItem('employeeData'));
+            
+            //迭代物件，並顯示出來~~~~
+            employeeData.forEach(employee => {
+                console.log(`姓名: ${employee.name}, 職位: ${employee.position}, 薪資: ${employee.salary}`);
+            });
+
+            //以ID為索引的陣列
+            var employeeIDObject={};
+            employeeData.forEach(emp=>{
+                employeeIDObject[emp.id]=emp;
+            })
+
+            //看一下484正常
+            console.log(employeeIDObject);
+            
+        })
+        
+
+
+
+
+    </script>
+</body>
+</html>
