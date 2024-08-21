@@ -63,23 +63,20 @@
             <div class="main_contain">
                 <!-- 動態內容插入點 -->
                 <div class="insert_site" id="insert_site">
-                    <div class="pop_search_emp_sry">
-                        <div class="search">查詢員工薪資</div>
-                        <button id="change_search_str_sry" onclick="">查詢薪資架構</button>
+                    <div class="pop_modify_atn_structure">
+                        <div class="search">修改假勤參數</div>
                         <hr>
-                        <label for="emp_status">員工編號</label><input type="text" id="emp_status" style="width: 325px;"><br>
-                        <label for="emp_num">職位</label><input type="text" id="emp_num" style="width: 325px;"><br>
-                        <label for="emp_name">員工姓名</label><input type="text" id="emp_name">至<input type="text" id="emp_name"><br>
-                        <label for="emp_emply">到職日</label><input type="text" id="emp_emply">至</label><input type="text" id="emp_emply"><br>
-                        <label for="emp_termin">離職日</label><input type="text" id="emp_termin">至</label><input type="text" id="emp_termin"><br>
-                        <label for="emp_posit">員工職位</label><input type="text" id="emp_posit" style="width: 325px;"></label><br>
+                        <label for="atn_name">假別</label><input type="text" id="atn_name" style="width: 325px;"><br>
+                        <label for="atn_day">天數</label><input type="text" id="atn_day" style="width: 325px;"><br>
+                        <label for="atn_rule">請假條件</label><input type="text" id="atn_rule" style="width: 325px;"><br>
+                        <label for="mdfy_day" style="vertical-align: top;">假勤增加條件</label><textarea name="" id="mdfy_day"></textarea><br>
                         <div class="search_btn">
                             <button type="submit">查詢</button>
                             <button type="reset">清除</button>
                             <button type="button">取消</button>
                         </div>
                     </div>
-                    <div class="pop_search_str_sry">
+                    <!-- <div class="pop_search_str_sry">
                         <div class="search">查詢薪資架構</div>
                         <button id="change_search_str_sry" onclick="">查詢員工薪資</button>
                         <hr>
@@ -91,18 +88,235 @@
                             <button type="reset">清除</button>
                             <button type="button">取消</button>
                         </div>
-                    </div>
-                    <div class="sry_top">
+                    </div> -->
+                    <div class="atn_top">
                         <div class="emp_h">假勤管理</div>
                     </div>
-                    <div class="sry_bottom2">
+                    <div class="atn_bottom2">
                         <button class="btn_item2" id="see_detail" onclick="">查看假別天數條件</button>
-                        <button class="btn_item2" id="see_data" onclick="">查看員工假別明細</button>
-                        <button class="btn_item2" id="modify">修改假別架構</button>
+                        <button class="btn_item2" id="modify">修改假勤參數</button>
+                        <button class="btn_item2" id="see_data" onclick="">查看異常假別明細</button>
                         <button class="btn_item2" id="modify">查詢員工假勤</button>
                     </div>
                     <div class="wrap">
-                        <table id="salary_data">
+                        <!-- <table class="atn_except_table">
+                            <tr>
+                                <th width="66px">員工編號</th>
+                                <th width="">員工姓名</th>
+                                <th width="55px">性別</th>
+                                <th width="115px">員工生日</th>
+                                <th width="115px">職位</th>
+                                <th width="80px">在職狀態</th>
+                                <th width="115px">到職日期</th>
+                                <th width="115px">離職日期</th>
+                                <th width="55px">年資</th>
+                                <th width="">一級主管</th>
+                                <th width="">二級主管</th>
+                            </tr>
+                            <tr>
+                                <td >7</td>
+                                <td >劉佳慧</td>
+                                <td >男</td>
+                                <td >1996-04-23</td>
+                                <td >特約人員</td>
+                                <td >在職</td>
+                                <td >2017-05-26</td>
+                                <td >2017-01-26</td>
+                                <td >7</td>
+                                <td >980</td>
+                                <td >706</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>劉佳慧</td>
+                                <td>男</td>
+                                <td>1996-04-23</td>
+                                <td>特約人員</td>
+                                <td>在職</td>
+                                <td>2017-05-26</td>
+                                <td>2017-01-26</td>
+                                <td>7</td>
+                                <td>980</td>
+                                <td>706</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>劉佳慧</td>
+                                <td>男</td>
+                                <td>1996-04-23</td>
+                                <td>特約人員</td>
+                                <td>在職</td>
+                                <td>2017-05-26</td>
+                                <td>2017-01-26</td>
+                                <td>7</td>
+                                <td>980</td>
+                                <td>706</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>劉佳慧</td>
+                                <td>男</td>
+                                <td>1996-04-23</td>
+                                <td>特約人員</td>
+                                <td>在職</td>
+                                <td>2017-05-26</td>
+                                <td>2017-01-26</td>
+                                <td>7</td>
+                                <td>980</td>
+                                <td>706</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>劉佳慧</td>
+                                <td>男</td>
+                                <td>1996-04-23</td>
+                                <td>特約人員</td>
+                                <td>在職</td>
+                                <td>2017-05-26</td>
+                                <td>2017-01-26</td>
+                                <td>7</td>
+                                <td>980</td>
+                                <td>706</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>劉佳慧</td>
+                                <td>男</td>
+                                <td>1996-04-23</td>
+                                <td>特約人員</td>
+                                <td>在職</td>
+                                <td>2017-05-26</td>
+                                <td>2017-01-26</td>
+                                <td>7</td>
+                                <td>980</td>
+                                <td>706</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>劉佳慧</td>
+                                <td>男</td>
+                                <td>1996-04-23</td>
+                                <td>特約人員</td>
+                                <td>在職</td>
+                                <td>2017-05-26</td>
+                                <td>2017-01-26</td>
+                                <td>7</td>
+                                <td>980</td>
+                                <td>706</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>劉佳慧</td>
+                                <td>男</td>
+                                <td>1996-04-23</td>
+                                <td>特約人員</td>
+                                <td>在職</td>
+                                <td>2017-05-26</td>
+                                <td>2017-01-26</td>
+                                <td>7</td>
+                                <td>980</td>
+                                <td>706</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>劉佳慧</td>
+                                <td>男</td>
+                                <td>1996-04-23</td>
+                                <td>特約人員</td>
+                                <td>在職</td>
+                                <td>2017-05-26</td>
+                                <td>2017-01-26</td>
+                                <td>7</td>
+                                <td>980</td>
+                                <td>706</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>劉佳慧</td>
+                                <td>男</td>
+                                <td>1996-04-23</td>
+                                <td>特約人員</td>
+                                <td>在職</td>
+                                <td>2017-05-26</td>
+                                <td>2017-01-26</td>
+                                <td>7</td>
+                                <td>980</td>
+                                <td>706</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>劉佳慧</td>
+                                <td>男</td>
+                                <td>1996-04-23</td>
+                                <td>特約人員</td>
+                                <td>在職</td>
+                                <td>2017-05-26</td>
+                                <td>2017-01-26</td>
+                                <td>7</td>
+                                <td>980</td>
+                                <td>706</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>劉佳慧</td>
+                                <td>男</td>
+                                <td>1996-04-23</td>
+                                <td>特約人員</td>
+                                <td>在職</td>
+                                <td>2017-05-26</td>
+                                <td>2017-01-26</td>
+                                <td>7</td>
+                                <td>980</td>
+                                <td>706</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>劉佳慧</td>
+                                <td>男</td>
+                                <td>1996-04-23</td>
+                                <td>特約人員</td>
+                                <td>在職</td>
+                                <td>2017-05-26</td>
+                                <td>2017-01-26</td>
+                                <td>7</td>
+                                <td>980</td>
+                                <td>706</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>劉佳慧</td>
+                                <td>男</td>
+                                <td>1996-04-23</td>
+                                <td>特約人員</td>
+                                <td>在職</td>
+                                <td>2017-05-26</td>
+                                <td>2017-01-26</td>
+                                <td>7</td>
+                                <td>980</td>
+                                <td>706</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>劉佳慧</td>
+                                <td>男</td>
+                                <td>1996-04-23</td>
+                                <td>特約人員</td>
+                                <td>在職</td>
+                                <td>2017-05-26</td>
+                                <td>2017-01-26</td>
+                                <td>7</td>
+                                <td>980</td>
+                                <td>706</td>
+                            </tr>
+                            
+                            </table>
+                            <div class="emp_bottom1">
+                                <button class="btn_item1" id="next">下一頁</button>
+                                <button class="btn_item1" id="last">上一頁</button>
+                            </div>
+                        </div> -->
+                        
+                        <table id="attendance_structure">
                             <tr>
                                 <th width="80px">假別</th>
                                 <th width="120px">天數</th>
