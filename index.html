@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>福多太有限公司人力系統</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="attendance.css" id="css_link">
+    <link rel="stylesheet" href="employee.css" id="css_link">
 </head>
 <body>
     <header>
@@ -23,7 +23,7 @@
             <button onclick="loadPage('leave');">假勤</button>
         </nav>
         <div class="account">
-            <span class="now_user">現在使用者：</span><p id="account">陳小姐</p>
+            <span class="now_user">現在使用者：</span><p id="account">陳桑！</p>
             <div class="logout">登出</div>
         </div>
     </header>
@@ -63,105 +63,6 @@
             <div class="main_contain">
                 <!-- 動態內容插入點 -->
                 <div class="insert_site" id="insert_site">
-                    <div class="pop_modify_atn_structure">
-                        <div class="search">修改假勤參數</div>
-                        <hr>
-                        <label for="atn_name">假別</label><input type="text" id="atn_name" style="width: 325px;"><br>
-                        <label for="atn_day">天數</label><input type="text" id="atn_day" style="width: 325px;"><br>
-                        <label for="atn_rule">請假條件</label><input type="text" id="atn_rule" style="width: 325px;"><br>
-                        <label for="mdfy_day" style="vertical-align: top;">假勤增加條件</label><textarea name="" id="mdfy_day"></textarea><br>
-                        <div class="search_btn">
-                            <button type="submit">查詢</button>
-                            <button type="reset">清除</button>
-                            <button type="button">取消</button>
-                        </div>
-                    </div>
-                    <!-- <div class="pop_search_str_sry">
-                        <div class="search">查詢薪資架構</div>
-                        <button id="change_search_str_sry" onclick="">查詢員工薪資</button>
-                        <hr>
-                        <label for="emp_num">職位</label><input type="text" id="emp_num" style="width: 325px;"><br>
-                        <label for="emp_name">年資範圍</label><input type="text" id="emp_name">至<input type="text" id="emp_name"><br>
-                        <label for="emp_emply">院外年資</label><input type="text" id="emp_emply">至</label><input type="text" id="emp_emply"><br>
-                        <div class="search_btn">
-                            <button type="submit">查詢</button>
-                            <button type="reset">清除</button>
-                            <button type="button">取消</button>
-                        </div>
-                    </div> -->
-                    <div class="atn_top">
-                        <div class="emp_h">假勤管理</div>
-                    </div>
-                    <div class="atn_bottom2">
-                        <button class="btn_item2" id="atn_list" onclick="loadPage('attendance')">查看假別天數條件</button>
-                        <button class="btn_item2" id="modify_atn_list">修改假勤參數</button>
-                        <button class="btn_item2" id="see_except_data" onclick="loadPage('attendance_except_brief')">查看異常簡要</button>
-                        <button class="btn_item2" id="modify">查詢員工假勤</button>
-                    </div>
-                    <div class="wrap" id="atn_insert">
-                        
-                        
-
-
-
-                        <!-- 主頁面展示，誤動 -->
-                        <table id="attendance_structure">
-                            <tr>
-                                <th width="80px">假別</th>
-                                <th width="120px">天數</th>
-                                <th width="240px">請假條件</th>
-                                <th width="420px">增加假勤數量條件</th>
-                            </tr>
-                            <tr>
-                                <td>特休假</td>
-                                <td>依法律規定</td>
-                                <td>無</td>
-                                <td>未滿3年者，10日；未滿5年未滿者，每年14日；五年以上，每年增加1日</td>
-                            </tr>
-                            <tr>
-                                <td>特休假</td>
-                                <td>依法律規定</td>
-                                <td>無</td>
-                                <td>未滿3年者，10日；未滿5年未滿者，每年14日；五年以上，每年增加1日</td>
-                            </tr>
-                            <tr>
-                                <td>特休假</td>
-                                <td>依法律規定</td>
-                                <td>無</td>
-                                <td>未滿3年者，10日；未滿5年未滿者，每年14日；五年以上，每年增加1日</td>
-                            </tr>
-                            <tr>
-                                <td>特休假</td>
-                                <td>依法律規定</td>
-                                <td>無</td>
-                                <td>未滿3年者，10日；未滿5年未滿者，每年14日；五年以上，每年增加1日</td>
-                            </tr>
-                            <tr>
-                                <td>特休假</td>
-                                <td>依法律規定</td>
-                                <td>無</td>
-                                <td>未滿3年者，10日；未滿5年未滿者，每年14日；五年以上，每年增加1日</td>
-                            </tr>
-                            <tr>
-                                <td>特休假</td>
-                                <td>依法律規定</td>
-                                <td>無</td>
-                                <td>未滿3年者，10日；未滿5年未滿者，每年14日；五年以上，每年增加1日</td>
-                            </tr>
-                            <tr>
-                                <td>特休假</td>
-                                <td>依法律規定</td>
-                                <td>無</td>
-                                <td>未滿3年者，10日；未滿5年未滿者，每年14日；五年以上，每年增加1日</td>
-                            </tr>
-                            <tr>
-                                <td>特休假</td>
-                                <td>依法律規定</td>
-                                <td>無</td>
-                                <td>未滿3年者，10日；未滿5年未滿者，每年14日；五年以上，每年增加1日</td>
-                            </tr>
-                        </table>
-                    </div>
                     
                 </div>
             </div>
@@ -195,6 +96,6 @@
   
     
     </script>
-    <script src="attendance.js" id="js_src"></script>
+    <script src="" id="js_src"></script>
 </body>
 </html>
