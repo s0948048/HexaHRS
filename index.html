@@ -20,7 +20,7 @@
             <button onclick="loadPage('employee');">員工</button>
             <button onclick="loadPage('salary');">薪資</button>
             <button onclick="loadPage('attendance');">考勤</button>
-            <button onclick="loadPage('employee');">假勤</button>
+            <button onclick="loadPage('leave');">假勤</button>
         </nav>
         <div class="account">
             <span class="now_user">現在使用者：</span><p id="account">陳小姐</p>
@@ -95,7 +95,7 @@
                     <div class="atn_bottom2">
                         <button class="btn_item2" id="atn_list" onclick="loadPage('attendance')">查看假別天數條件</button>
                         <button class="btn_item2" id="modify_atn_list">修改假勤參數</button>
-                        <button class="btn_item2" id="see_except_data" onclick="loadPage('attendance_except')">查看異常假別明細</button>
+                        <button class="btn_item2" id="see_except_data" onclick="loadPage('attendance_except_brief')">查看異常簡要</button>
                         <button class="btn_item2" id="modify">查詢員工假勤</button>
                     </div>
                     <div class="wrap" id="atn_insert">
@@ -177,13 +177,13 @@
                 document.getElementById('css_link').setAttribute('href',`${page}.css`);
                 document.getElementById('insert_site').innerHTML = "";
                 document.getElementById('insert_site').innerHTML = data;
-                console.log(data);
+                console.log('work');
                 // const script = document.getElementById('js_src');
                 // script.src = `${page}.js`;
             })
             .catch(error => console.error('Error loading the page:', error));
     }
-    loadPage('attendance_except')
+    loadPage('employee')
     function changeSalaryTable(table){
         fetch(`${table}.html`)
         .then(response => response.text())

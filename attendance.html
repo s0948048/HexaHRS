@@ -1,99 +1,208 @@
-<div class="pop_modify_atn_structure">
-    <div class="search">修改假勤參數</div>
+<div class="pop_search">
+    <div class="search">查詢視窗</div>
     <hr>
-    <label for="atn_name">假別</label><input type="text" id="atn_name" style="width: 325px;"><br>
-    <label for="atn_day">天數</label><input type="text" id="atn_day" style="width: 325px;"><br>
-    <label for="atn_rule">請假條件</label><input type="text" id="atn_rule" style="width: 325px;"><br>
-    <label for="mdfy_day" style="vertical-align: top;">假勤增加條件</label><textarea name="" id="mdfy_day"></textarea><br>
+    <label for="emp_num">員工編號</label><input type="text" id="emp_num" style="width: 325px;"><br>
+    <label for="emp_name">員工姓名</label><input type="text" id="emp_name" style="width: 325px;"><br>
+    <label for="emp_emply">出勤狀態</label><input type="text" id="emp_emply" style="width: 325px;"><br>
+    <label for="emp_posit">異常類別</label><input type="text" id="emp_posit" style="width: 325px;"></label><br>
+    <label for="emp_termin">上班打卡時間</label><input type="text" id="emp_termin">至</label><input type="text" id="emp_termin"><br>
+    <label for="emp_termin">下班打卡時間</label><input type="text" id="emp_termin">至</label><input type="text" id="emp_termin"><br>
     <div class="search_btn">
         <button type="submit">查詢</button>
         <button type="reset">清除</button>
         <button type="button">取消</button>
     </div>
 </div>
-<!-- <div class="pop_search_str_sry">
-    <div class="search">查詢薪資架構</div>
-    <button id="change_search_str_sry" onclick="">查詢員工薪資</button>
-    <hr>
-    <label for="emp_num">職位</label><input type="text" id="emp_num" style="width: 325px;"><br>
-    <label for="emp_name">年資範圍</label><input type="text" id="emp_name">至<input type="text" id="emp_name"><br>
-    <label for="emp_emply">院外年資</label><input type="text" id="emp_emply">至</label><input type="text" id="emp_emply"><br>
-    <div class="search_btn">
-        <button type="submit">查詢</button>
-        <button type="reset">清除</button>
-        <button type="button">取消</button>
-    </div>
-</div> -->
-<div class="atn_top">
-    <div class="emp_h">假勤管理</div>
+<div class="emp_top">
+    <div class="emp_h">考勤表</div>
 </div>
-<div class="atn_bottom2">
-    <button class="btn_item2" id="atn_list" onclick="loadPage('attendance')">查看假別天數條件</button>
-    <button class="btn_item2" id="modify_atn_list">修改假勤參數</button>
-    <button class="btn_item2" id="see_except_data" onclick="loadPage('attendance_except')">查看異常假別明細</button>
-    <button class="btn_item2" id="modify">查詢員工假勤</button>
+<div class="emp_bottom2">
+    <label for="input_atn_data" class="btn_item2">匯入資料</label>
+    <input type="file" value="查詢" style="display: none;" id="input_atn_data">
+    <button class="btn_item2" id="modify">查詢</button>
 </div>
-<div class="wrap" id="atn_insert">
+<div class="wrap">
+    <table>
+    <tr>
+        <th width="90px">日期</th>
+        <th width="45px">編號</th>
+        <th width="75px">姓名</th>
+        <th width="75px">職位</th>
+        <th width="120px">出勤日期</th>
+        <th width="75px">出勤狀態</th>
+        <th width="120px">異常</th>
+        <th width="px">上班打卡時間</th>
+        <th width="px">下班打卡時間</th>
+    </tr>
+    <tr>
+        <td >2024-08-09</td>
+        <td >7</td>
+        <td >劉佳慧</td>
+        <td >特約人員</td>
+        <td >2024-08-09</td>
+        <td >警告</td>
+        <td >Late</td>
+        <td >2024-08-09 18:05:00</td>
+        <td >2024-08-09 18:05:00</td>
+    </tr>
+    <tr>
+        <td >2024-08-09</td>
+        <td >7</td>
+        <td >劉佳慧</td>
+        <td >特約人員</td>
+        <td >2024-08-09</td>
+        <td >警告</td>
+        <td >Late</td>
+        <td >2024-08-09 18:05:00</td>
+        <td >2024-08-09 18:05:00</td>
+    </tr>
+    <tr>
+        <td >2024-08-09</td>
+        <td >7</td>
+        <td >劉佳慧</td>
+        <td >特約人員</td>
+        <td >2024-08-09</td>
+        <td >警告</td>
+        <td >Late</td>
+        <td >2024-08-09 18:05:00</td>
+        <td >2024-08-09 18:05:00</td>
+    </tr>
+    <tr>
+        <td >2024-08-09</td>
+        <td >7</td>
+        <td >劉佳慧</td>
+        <td >特約人員</td>
+        <td >2024-08-09</td>
+        <td >警告</td>
+        <td >Late</td>
+        <td >2024-08-09 18:05:00</td>
+        <td >2024-08-09 18:05:00</td>
+    </tr>
+    <tr>
+        <td >2024-08-09</td>
+        <td >7</td>
+        <td >劉佳慧</td>
+        <td >特約人員</td>
+        <td >2024-08-09</td>
+        <td >警告</td>
+        <td >Late</td>
+        <td >2024-08-09 18:05:00</td>
+        <td >2024-08-09 18:05:00</td>
+    </tr>
+    <tr>
+        <td >2024-08-09</td>
+        <td >7</td>
+        <td >劉佳慧</td>
+        <td >特約人員</td>
+        <td >2024-08-09</td>
+        <td >警告</td>
+        <td >Late</td>
+        <td >2024-08-09 18:05:00</td>
+        <td >2024-08-09 18:05:00</td>
+    </tr>
+    <tr>
+        <td >2024-08-09</td>
+        <td >7</td>
+        <td >劉佳慧</td>
+        <td >特約人員</td>
+        <td >2024-08-09</td>
+        <td >警告</td>
+        <td >Late</td>
+        <td >2024-08-09 18:05:00</td>
+        <td >2024-08-09 18:05:00</td>
+    </tr>
+    <tr>
+        <td >2024-08-09</td>
+        <td >7</td>
+        <td >劉佳慧</td>
+        <td >特約人員</td>
+        <td >2024-08-09</td>
+        <td >警告</td>
+        <td >Late</td>
+        <td >2024-08-09 18:05:00</td>
+        <td >2024-08-09 18:05:00</td>
+    </tr>
+    <tr>
+        <td >2024-08-09</td>
+        <td >7</td>
+        <td >劉佳慧</td>
+        <td >特約人員</td>
+        <td >2024-08-09</td>
+        <td >警告</td>
+        <td >Late</td>
+        <td >2024-08-09 18:05:00</td>
+        <td >2024-08-09 18:05:00</td>
+    </tr>
+    <tr>
+        <td >2024-08-09</td>
+        <td >7</td>
+        <td >劉佳慧</td>
+        <td >特約人員</td>
+        <td >2024-08-09</td>
+        <td >警告</td>
+        <td >Late</td>
+        <td >2024-08-09 18:05:00</td>
+        <td >2024-08-09 18:05:00</td>
+    </tr>
+    <tr>
+        <td >2024-08-09</td>
+        <td >7</td>
+        <td >劉佳慧</td>
+        <td >特約人員</td>
+        <td >2024-08-09</td>
+        <td >警告</td>
+        <td >Late</td>
+        <td >2024-08-09 18:05:00</td>
+        <td >2024-08-09 18:05:00</td>
+    </tr>
+    <tr>
+        <td >2024-08-09</td>
+        <td >7</td>
+        <td >劉佳慧</td>
+        <td >特約人員</td>
+        <td >2024-08-09</td>
+        <td >警告</td>
+        <td >Late</td>
+        <td >2024-08-09 18:05:00</td>
+        <td >2024-08-09 18:05:00</td>
+    </tr>
+    <tr>
+        <td >2024-08-09</td>
+        <td >7</td>
+        <td >劉佳慧</td>
+        <td >特約人員</td>
+        <td >2024-08-09</td>
+        <td >警告</td>
+        <td >Late</td>
+        <td >2024-08-09 18:05:00</td>
+        <td >2024-08-09 18:05:00</td>
+    </tr>
+    <tr>
+        <td >2024-08-09</td>
+        <td >7</td>
+        <td >劉佳慧</td>
+        <td >特約人員</td>
+        <td >2024-08-09</td>
+        <td >警告</td>
+        <td >Late</td>
+        <td >2024-08-09 18:05:00</td>
+        <td >2024-08-09 18:05:00</td>
+    </tr>
+    <tr>
+        <td >2024-08-09</td>
+        <td >7</td>
+        <td >劉佳慧</td>
+        <td >特約人員</td>
+        <td >2024-08-09</td>
+        <td >警告</td>
+        <td >Late</td>
+        <td >2024-08-09 18:05:00</td>
+        <td >2024-08-09 18:05:00</td>
+    </tr>
     
-    
-
-
-
-    <!-- 主頁面展示，誤動 -->
-    <table id="attendance_structure">
-        <tr>
-            <th width="80px">假別</th>
-            <th width="120px">天數</th>
-            <th width="240px">請假條件</th>
-            <th width="420px">增加假勤數量條件</th>
-        </tr>
-        <tr>
-            <td>特休假</td>
-            <td>依法律規定</td>
-            <td>無</td>
-            <td>未滿3年者，10日；未滿5年未滿者，每年14日；五年以上，每年增加1日</td>
-        </tr>
-        <tr>
-            <td>特休假</td>
-            <td>依法律規定</td>
-            <td>無</td>
-            <td>未滿3年者，10日；未滿5年未滿者，每年14日；五年以上，每年增加1日</td>
-        </tr>
-        <tr>
-            <td>特休假</td>
-            <td>依法律規定</td>
-            <td>無</td>
-            <td>未滿3年者，10日；未滿5年未滿者，每年14日；五年以上，每年增加1日</td>
-        </tr>
-        <tr>
-            <td>特休假</td>
-            <td>依法律規定</td>
-            <td>無</td>
-            <td>未滿3年者，10日；未滿5年未滿者，每年14日；五年以上，每年增加1日</td>
-        </tr>
-        <tr>
-            <td>特休假</td>
-            <td>依法律規定</td>
-            <td>無</td>
-            <td>未滿3年者，10日；未滿5年未滿者，每年14日；五年以上，每年增加1日</td>
-        </tr>
-        <tr>
-            <td>特休假</td>
-            <td>依法律規定</td>
-            <td>無</td>
-            <td>未滿3年者，10日；未滿5年未滿者，每年14日；五年以上，每年增加1日</td>
-        </tr>
-        <tr>
-            <td>特休假</td>
-            <td>依法律規定</td>
-            <td>無</td>
-            <td>未滿3年者，10日；未滿5年未滿者，每年14日；五年以上，每年增加1日</td>
-        </tr>
-        <tr>
-            <td>特休假</td>
-            <td>依法律規定</td>
-            <td>無</td>
-            <td>未滿3年者，10日；未滿5年未滿者，每年14日；五年以上，每年增加1日</td>
-        </tr>
     </table>
+</div>
+<div class="emp_bottom1">
+    <button class="btn_item1" id="next">下一頁</button>
+    <button class="btn_item1" id="last">上一頁</button>
 </div>
