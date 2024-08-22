@@ -1,0 +1,148 @@
+
+    <div class="pop_modify_atn_structure">
+        <div class="search">修改假勤參數</div>
+        <hr>
+        <label for="atn_name">假別</label><input type="text" id="atn_name" style="width: 325px;"><br>
+        <label for="atn_day">天數</label><input type="text" id="atn_day" style="width: 325px;"><br>
+        <label for="atn_rule">請假條件</label><input type="text" id="atn_rule" style="width: 325px;"><br>
+        <label for="mdfy_day" style="vertical-align: top;">假勤增加條件</label><textarea name="" id="mdfy_day"></textarea><br>
+        <div class="search_btn">
+            <button type="submit">查詢</button>
+            <button type="reset">清除</button>
+            <button type="button">取消</button>
+        </div>
+    </div>
+    <!-- <div class="pop_search_str_sry">
+        <div class="search">查詢薪資架構</div>
+        <button id="change_search_str_sry" onclick="">查詢員工薪資</button>
+        <hr>
+        <label for="emp_num">職位</label><input type="text" id="emp_num" style="width: 325px;"><br>
+        <label for="emp_name">年資範圍</label><input type="text" id="emp_name">至<input type="text" id="emp_name"><br>
+        <label for="emp_emply">院外年資</label><input type="text" id="emp_emply">至</label><input type="text" id="emp_emply"><br>
+        <div class="search_btn">
+            <button type="submit">查詢</button>
+            <button type="reset">清除</button>
+            <button type="button">取消</button>
+        </div>
+    </div> -->
+    <div class="atn_top">
+        <div class="emp_h">假勤管理</div>
+    </div>
+    <div class="atn_bottom2">
+        <button class="btn_item2" id="atn_list" onclick="loadPage('attendance')">查看假別天數條件</button>
+        <button class="btn_item2" id="modify_atn_list">修改假勤參數</button>
+        <button class="btn_item2" id="see_except_data" onclick="loadPage('attendance_except')">查看異常假別明細</button>
+        <button class="btn_item2" id="modify">查詢員工假勤</button>
+    </div>
+    <div class="wrap" id="atn_insert">
+    <table class="atn_except_table">
+        <tr>
+            <th width="105px">處理狀態</th>
+            <th width="110px">出勤日期</th>
+            <th width="65px">員工編號</th>
+            <th width="87px">員工姓名</th>
+            <th width="80px">假別選擇</th>
+            <th width="65px">異常時數</th>
+            <th width="110px">上班時間</th>
+            <th width="110px">打卡時間</th>
+            <th width="110px">下班時間</th>
+            <th width="110px">打卡時間</th>
+        </tr>
+        <tr>
+            <td >表單申請中</td>
+            <td >2024-08-07</td>
+            <td >7</td>
+            <td > </td>
+            <td >劉佳慧</td>
+            <td >3</td>
+            <td >2024-08-07 09:00:00</td>
+            <td >2024-08-07 09:49:00</td>
+            <td >2024-08-07 15:42:00</td>
+            <td >2024-08-07 18:00:00</td>
+        </tr>
+        <tr>
+            <td >表單申請中</td>
+            <td >2024-08-07</td>
+            <td >7</td>
+            <td > </td>
+            <td >劉佳慧</td>
+            <td >3</td>
+            <td >2024-08-07 09:00:00</td>
+            <td >2024-08-07 09:49:00</td>
+            <td >2024-08-07 15:42:00</td>
+            <td >2024-08-07 18:00:00</td>
+        </tr>
+        <tr>
+            <td >表單申請中</td>
+            <td >2024-08-07</td>
+            <td >7</td>
+            <td > </td>
+            <td >劉佳慧</td>
+            <td >3</td>
+            <td >2024-08-07 09:00:00</td>
+            <td >2024-08-07 09:49:00</td>
+            <td >2024-08-07 15:42:00</td>
+            <td >2024-08-07 18:00:00</td>
+        </tr>
+        <tr>
+            <td >表單申請中</td>
+            <td >2024-08-07</td>
+            <td >7</td>
+            <td > </td>
+            <td >劉佳慧</td>
+            <td >3</td>
+            <td >2024-08-07 09:00:00</td>
+            <td >2024-08-07 09:49:00</td>
+            <td >2024-08-07 15:42:00</td>
+            <td >2024-08-07 18:00:00</td>
+        </tr>
+        <tr>
+            <td >表單申請中</td>
+            <td >2024-08-07</td>
+            <td >7</td>
+            <td > </td>
+            <td >劉佳慧</td>
+            <td >3</td>
+            <td >2024-08-07 09:00:00</td>
+            <td >2024-08-07 09:49:00</td>
+            <td >2024-08-07 15:42:00</td>
+            <td >2024-08-07 18:00:00</td>
+        </tr>
+        <tr>
+            <td >表單申請中</td>
+            <td >2024-08-07</td>
+            <td >7</td>
+            <td > </td>
+            <td >劉佳慧</td>
+            <td >3</td>
+            <td >2024-08-07 09:00:00</td>
+            <td >2024-08-07 09:49:00</td>
+            <td >2024-08-07 15:42:00</td>
+            <td >2024-08-07 18:00:00</td>
+        </tr>
+        <tr>
+            <td >表單申請中</td>
+            <td >2024-08-07</td>
+            <td >7</td>
+            <td > </td>
+            <td >劉佳慧</td>
+            <td >3</td>
+            <td >2024-08-07 09:00:00</td>
+            <td >2024-08-07 09:49:00</td>
+            <td >2024-08-07 15:42:00</td>
+            <td >2024-08-07 18:00:00</td>
+        </tr>
+        
+        </table>
+        <div class="atn_bottom1">
+            <button class="atn_item1" id="next">下一頁</button>
+            <button class="atn_item1" id="last">上一頁</button>
+        </div>
+    </div>
+    
+
+
+
+    <!-- 主頁面展示，誤動 -->
+    
+</div>
