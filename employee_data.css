@@ -86,6 +86,63 @@
   z-index: 10;
   display: none;
 }
+/* 新增修改資料表 */
+.pop_search_create_emp{
+  width: 630px;
+  height: 480px;
+  background-color: #d8aeae;
+  border: #f3f3f3 10px solid;
+  border-radius: 20px;
+  position: absolute;
+  left: 180px;
+  top: 30px;
+  padding: 30px 10px 0px;
+  font-size: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+  z-index: 11;
+  display: none;
+}
+.flex{
+  margin-top: 10px;
+  display: flex;
+  height: 60px;
+}
+.create_emp{
+  line-height: 36px;
+  font-size: 36px;
+  padding-left: 30px;
+  margin-bottom: 3px;
+}
+.pop_search_create_emp hr{
+  border: 3px floralwhite solid;
+  margin-bottom: 15px;
+}
+.pop_search_create_emp input, select,option{
+  font-size: 20px;
+  width: 180px;
+  margin-bottom: 30px;
+}
+.pop_search_create_emp label{
+  display: inline-block;
+  width: 105px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.create_btn{
+  text-align: right;
+  margin-right: 30px;
+}
+.pop_search_create_emp button{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 66px;
+  border: #f3f3f3 2px solid;
+  background-color: #98958d93;
+  margin-left: 30px;
+  font-size: 21px;
+  border-radius: 10px;
+  cursor: pointer;
+}
 /* table */
 .wrap{
   overflow:auto;
