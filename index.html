@@ -33,28 +33,19 @@
         <div class="left_pannel">
             <div class="leftContain">
                 <div class="left_btn">
-                    <a href="">
-                        <span>修改員工資料</span>
+                    <a onclick="loadPage('employee_data')"><span>修改員工資料</span>
                     </a><br>
                     </div>
                 <div class="left_btn">
-                    <a href=""><span>考勤管理</span>
+                    <a onclick="loadPage('leave_except_detail')"><span>假勤處理狀態</span>
                     </a><br>
                 </div>
                 <div class="left_btn">
-                    <a href=""><span>表單處理</span>
+                    <a onclick="loadPage('salary')"><span>薪資架構</span>
                     </a><br>
                 </div>
                 <div class="left_btn">
-                    <a href=""><span>薪資架構</span>
-                    </a><br>
-                </div>
-                <div class="left_btn">
-                    <a href=""><span>報表產生</span>
-                    </a><br>
-                </div>
-                <div class="left_btn">
-                    <a href=""><span>公告管理</span>
+                    <a onclick="loadPage('announcement')"><span>公告管理</span>
                     </a><br>
                 </div>
             </div>
@@ -84,7 +75,7 @@
             })
             .catch(error => console.error('Error loading the page:', error));
     }
-    loadPage('employee_data')
+    loadPage('announcement')
     function changeSalaryTable(table){
         fetch(`${table}.html`)
         .then(response => response.text())

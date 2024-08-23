@@ -84,8 +84,21 @@
     padding-left: 35px;
   }
   .emp_h{
+
+    display: inline-block;
     line-height: 50px;
     font-size: 36px;
+  }
+  .new_anu{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0px 20px;
+    border: #f3f3f3 1px solid;
+    background-color: #dcd6c693;
+    font-size: 21px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 30px;
   }
   .announce{
     position: relative;
@@ -156,6 +169,7 @@ td span{
     position: relative;
 }
 .anu_date{
+  width: 80px;
     font-size: 15px;
     display: inline-block;
     position: relative; 
@@ -189,3 +203,4 @@ td span{
     border-radius: 10px;
     cursor: pointer;
   }
+  
