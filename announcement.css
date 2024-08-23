@@ -134,13 +134,13 @@ table{
     margin: 0px auto;
 }
 td{
-    width: 600px;
+    width: 630px;
     display: flex;
     vertical-align: middle;
     border-bottom: 1px solid #000;
     margin: 0px auto;
     position: relative;
-    left: -50px;
+    left: -30px;
 }
 td:hover{
     cursor: pointer;
@@ -186,13 +186,14 @@ td span{
     margin-right: 13px;
 }
 .emp_bottom1{
+    display: flex;
     position: fixed;
     left: 45vw;
     bottom: 10vh;
     margin: auto;
     text-align: center;
   }
-  .btn_item1{
+  #anu_last_page{
     box-sizing: border-box;
     display: inline-block;
     padding: 0px 20px;
@@ -202,5 +203,22 @@ td span{
     font-size: 21px;
     border-radius: 10px;
     cursor: pointer;
+    position: fixed;
+    left: 660px;
+    bottom: 75px;
+  }
+  #anu_next_page{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0px 20px;
+    border: #f3f3f3 1px solid;
+    background-color: #dcd6c693;
+    margin: 15px 24px 0px;
+    font-size: 21px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: fixed;
+    left: 870px;
+    bottom: 75px;
   }
   

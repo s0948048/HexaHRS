@@ -24,40 +24,35 @@ checkout_attendance.addEventListener('click',()=>loadPage('attendance'));
 
 //-----------------------------------------------------------------------
 //先做嵌入，再做公告彈出檢視，後續再做強處理。
+//有這東西好方便== 不用那邊fetch，真的是差點發瘋。
+var tbodyAnuShow = JSON.parse(localStorage.getItem('announcements'));
 
-fetch('announcement.html')
-.then(Response=>Response.text())
-//串接公告的資料
-.then(data=>{
-    
-    //這部分對串接的資料先轉文字！  再轉相對應的HTML形式！
-    const htmlParser = new DOMParser();
-    const insertAnuData = htmlParser.parseFromString(data,'text/html');
-    
-    //找到要插入的東西（外來物）嗷嗷嗷
-    const tbodyAnuShow = insertAnuData.querySelectorAll('tbody');
-    //這裡是插入點（這頁的內容）嗷嗷嗷
-    const anu_catch = document.getElementById('anu_catch');
-
-    //我最多一次只能接6ㄍ！啊我要先清除她不然會爆掉，這也是tmd一個大坑。
-    anu_catch.innerHTML = '';
-    const maxCatchAnnounce = 6;
-    tbodyAnuShow.forEach((item,index)=>{
-        if(index<maxCatchAnnounce){
-            const deletePart = item.querySelector('.anu_date');
-            if(deletePart)deletePart.remove();
-            anu_catch.innerHTML += item.outerHTML;
-        }
-    })
+const maxCatchAnnounce = 6;
+const tbodyAnuPaste = document.getElementById('anu_catch');
+tbodyAnuPaste.innerHTML="";
+tbodyAnuShow.forEach((item,index)=>{
+    if(index<maxCatchAnnounce){
+        
+        
+        const tbodyAnuNode = document.createElement('tbody');
+        tbodyAnuNode.id = item['id'];
+        tbodyAnuNode.innerHTML=`<td>
+            <img src="./src/icon.png" id="icon">
+            <span>${item['title']}</span>
+            </td>`;
+        tbodyAnuPaste.innerHTML += tbodyAnuNode.outerHTML;
+        
+        
+    }
 })
-//彈出公告
-const anu_catch = document.getElementById('anu_catch');
+//透過event事件取得ID！((ㄏㄏㄏㄏ ":D"))
 anu_catch.addEventListener('click',(event)=>{
     if(event.target.closest('tbody')){
-        const tbodyid = event.target.closest('tbody').id;
+        let tbodyid = event.target.closest('tbody').id;
+        showAnnounceDetail(tbodyid);
         const anuPopUp = document.getElementById('pop_search');
         anuPopUp.style.display='block';
-        showAnnounceDetail(tbodyid);
+        
     }
 })
 //關閉公告
@@ -66,38 +61,84 @@ anuPopUp_close.addEventListener('click',()=>document.getElementById('pop_search'
 
 //串接資料到彈出視窗
 function showAnnounceDetail(anu_id){
-    fetch('announce.html')
-    .then(Response=>Response.text())
-    .then(html=>{
-        //取得HTML內容，解析成可讀取html物件。
-        const htmlParser = new DOMParser();
-        const anuHtmlData = htmlParser.parseFromString(html,'text/html');
-
         //找到特殊的tbody元素
-        const tbodyAnuForeign = anuHtmlData.getElementById(anu_id);
-        const tbodyAnuForeignName = tbodyAnuForeign.getElementById('')
-        const tbodyAnuForeignDate = tbodyAnuForeign.getElementById('')
-        const tbodyAnuForeignContent = tbodyAnuForeign.getElementById('')
-        const AnuPopName = document.getElementById('anu_name');
-        const AnuPopDate = document.getElementById('anu_date');
-        const AnuPopContent = document.getElementById('announce_content');
+        tbodyAnuShow.forEach((item,index)=>{
+            if(item["id"]===anu_id){
+                const AnuPoptitleGet = item['title'];
+                const AnuPopDateGet = item['date'];
+                const AnuPopContentGet = item['content'];
+                const AnuPoptitleSet = document.getElementById('anu_name');
+                const AnuPopDateSet = document.getElementById('anu_date');
+                const AnuPopContentSet = document.getElementById('anu_content');
+                AnuPoptitleSet.value = AnuPoptitleGet;
+                AnuPopDateSet.value = AnuPopDateGet;
+                AnuPopContentSet.innerText = AnuPopContentGet;
+            }
+        })
+    }
 
+//下方資訊面板數值計算
+    //1.當月異動
 
+    //2.假勤處理
 
-        //找到插入點，這邊要找popUp的三個標籤。
-        
-        
-        console.log(html);
-        
-        //
-        
-    })
-};
+    //3.薪資計時器
 
+//取得當月計薪日，確認使否工作天
+const thisDay = new Date();
+const IstheSalaryDayWorkDay = new Date(thisDay.getFullYear(),thisDay.getMonth(),10);
+let thisMonthSalaryDay = returnWeekdaySalaryDate(IstheSalaryDayWorkDay);
+let thisMonthSalaryDate = new Date(thisDay.getFullYear(),thisDay.getMonth(),thisMonthSalaryDay);
 
-
-
-
-
+//若是已過本月計薪日，則以下月計薪日計算
+if(thisDay.getDate()<=thisMonthSalaryDay){
+    var salaryDate = thisMonthSalaryDate;
+}else{
+    let nextMonthSalaryDate = new Date(thisDay.getFullYear(),thisDay.getMonth()+1,10);
+    let nextMonthSalaryDay = returnWeekdaySalaryDate(nextMonthSalaryDate);
+    var salaryDate = new Date(thisDay.getFullYear(),thisDay.getMonth()+1,nextMonthSalaryDay);
 }
+
+//這個是在判斷是不是周末呦，可能要提前出帳！
+function returnWeekdaySalaryDate(date){
+    if(date.getDay() === 6){
+        return date.getDate()-1;
+    }else if(date.getDay() === 0){
+        return date.getDate()-2;
+    }else{
+        return date.getDate();
+    }
+}
+
+
+//發新日結果，並指派給HTML。
+let salary_date = document.getElementById('salary_date');
+salary_date.innerHTML = salaryDate.getDate();
+
+
+    //4.考勤管理
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+};
 initializeHomePage();

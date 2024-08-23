@@ -1,11 +1,72 @@
-const announcements = [
-    {id:'anu_2024_08_03', title:'豆腐切, 是不是!',date:' 2021-10-08',content:'山下的風景雖然迷人，但總覺得有股奇怪的味道。'},
-    {id:'anu_2024_08_04', title:'青蛙跳, 路邊水坑。',date:' 2021-10-09',content:'那隻青蛙看著天，似乎在思考宇宙的奧秘。'},
-    {id:'anu_2024_08_05', title:'沙灘腳印, 消失了。',date:' 2021-10-10',content:'海浪衝刷一切，留下的只有遠方的漁船影子。'},
-    {id:'anu_2024_08_06', title:'風中衣, 不見了。',date:' 2021-10-12',content:'那件衣服隨風飄走，竟飛到了隔壁阿伯家的屋頂。'},
-    {id:'anu_2024_08_09', title:'頭頂帽, 被風吹走。',date:' 2021-10-15',content:'帽子飛遠了，跟著它的還有一隻貓咪。'},
-    {id:'anu_2024_08_10', title:'燈下蟲, 迷路了。',date:' 2021-10-17',content:'在燈光下飛舞的蟲子，不知何時找到出口。'},
-    {id:'anu_2024_08_11', title:'電線桿, 畫了眼睛。',date:' 2021-10-20',content:'電線桿默默注視著路人，彷彿在說些什麼。'},
-    {id:'anu_2024_08_12', title:'水中月, 躲雲裡。',date:' 2021-10-25',content:'月亮躲進雲中，留下水波輕輕搖晃的倒影。'},
-    {id:'anu_2024_08_13', title:'車輪轉, 路跑了。',date:' 2021-10-29',content:'車輪不停地轉，路卻消失在地平線的盡頭。'}
-];
+function initializePage(){
+
+let announcements = JSON.parse(localStorage.getItem('announcements'));
+let page = 0;
+const pageNumbers = 9 ;
+var start;
+var end;
+
+function displayAnnouncement(page){
+    start = (page)*pageNumbers;
+    end = start + pageNumbers;
+    // console.log(end);
+    
+    let announcementToDisplay = announcements.slice(start,end);
+    // console.log(announcementToDisplay);
+
+    let announcementInSite = document.getElementById('announcement_list');
+    announcementInSite.innerHTML="";
+    announcementToDisplay.forEach(element => {
+        let announceItem = document.createElement('tbody');
+        announceItem.id = element['id'];
+        announceItem.innerHTML = `<td>
+                                <img src="./src/icon.png" id="icon">
+                                <span>${element['title']}</span>
+                                <span class="anu_date">${element['date']}</span>
+                                </td>`;
+        announcementInSite.innerHTML += announceItem.outerHTML;
+        
+        
+    });
+    console.log(announcements.length);
+    console.log(end);
+
+    //按鈕顯示與否
+    const lastPageButton = document.getElementById('anu_last_page');
+    if (page == 0) {
+        lastPageButton.style.display = 'none';
+    } else {
+        lastPageButton.style.display = 'block';
+    }
+    const nextPageButton = document.getElementById('anu_next_page');
+    if (announcements.length > end) {
+        nextPageButton.style.display = 'block';
+    } else {
+        nextPageButton.style.display = 'none';
+    }
+
+
+}
+displayAnnouncement(page);
+
+
+
+document.getElementById('anu_next_page').addEventListener('click', function() {
+    page++;
+    displayAnnouncement(page);
+    console.log(page);
+    
+});
+document.getElementById('anu_last_page').addEventListener('click', function() {
+    page--;
+    displayAnnouncement(page);
+    console.log(page);
+    
+});
+
+
+
+
+
+}
+initializePage();

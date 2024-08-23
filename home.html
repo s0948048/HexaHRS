@@ -1,9 +1,9 @@
 <div class="pop_search" id="pop_search">
     <div class="search">公告內容</div>
     <hr>
-    <label for="anu_name">標題名稱</label><input type="text" id="anu_name"><br>
-    <label for="anu_date" class="date">建立日期</label><input type="text" id="anu_date"><br>
-    <label for="announce_content" class="anu_cont">公告內容</label><textarea name="announce_content" id="announce_contain"></textarea><br>
+    <label for="anu_name">標題名稱</label><input type="text" id="anu_name" readonly><br>
+    <label for="anu_date" class="date">建立日期</label><input type="text" id="anu_date" readonly><br>
+    <label for="anu_content" class="anu_cont">公告內容</label><textarea name="anu_content" id="anu_content" readonly></textarea><br>
     <div class="search_btn">
         <button type="button" id="check">確認</button>
     </div>
@@ -59,9 +59,9 @@
     <div class="item_row_2">
         <p id="salary">薪資提醒<span id="left_">(餘<span id="_day">10</span>天)</span></p>
         <hr style="width: 210px;margin: 5px auto 9px;">
-        <div class="item_salary">出帳日期&nbsp;&nbsp;&nbsp;&nbsp;<p class="salary_day" style="color: rgb(83, 155, 100);">3</p>號</div>
+        <div class="item_salary">作業剩餘&nbsp;&nbsp;&nbsp;&nbsp;<p class="salary_day" style="color: rgb(83, 155, 100);">3</p>天</div>
         <hr style="width: 210px;margin: 2px auto 9px;background-color: #00000015;border: 0px;">
-        <div class="item_salary">當月發薪日<p class="salary_day" style="color: rgb(57, 119, 129);">6</p>天</div>
+        <div class="item_salary">下個發薪日<p class="salary_day" style="color: rgb(57, 119, 129);" id="salary_date">6</p>號</div>
         <hr style="width: 210px;margin: 2px auto 9px;background-color: #00000022;border: 0px;">
         <div id="checkout_salary"></div>
         <iframe src="calender.html" id="calender"></iframe>

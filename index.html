@@ -92,7 +92,7 @@
             })
             .catch(error => console.error('Error loading the page:', error));
     }
-    loadPage('home')
+    loadPage('announcement')
     function changeSalaryTable(table){
         fetch(`${table}.html`)
         .then(response => response.text())
@@ -101,8 +101,13 @@
             document.getElementById('salary_data').innerHTML = data;
         })
     }  
-  
-    
+    document.getElementById('dataJS').onload = ()=>{
+        if(typeof initializePage === 'function'){
+        initializePage();
+        }
+    }
+
     </script>
+    <script src="./script/data.js" id="dataJS"></script>
 </body>
 </html>
