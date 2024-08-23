@@ -1,0 +1,126 @@
+/* body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #DDDD;
+    overflow: hidden;
+} */
+.calender{
+    height: 500px;
+    width: 500px;
+    background-color: #e5cdcdcc;
+    border-radius: 30px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.calender_header{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(83, 95, 105);
+    padding: 10px;
+    font-weight: bold;
+}
+.month_picker{
+    border-radius: 10px;
+    cursor: pointer;
+}
+.year_picker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.year_change{
+    width: 200px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.calender_week_day{
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    font-weight: 600;
+}
+.calender_week_day div{
+    display: grid;
+    place-items: center;
+    color: rgb(151, 128, 128);
+}
+.calender_days{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 2px;
+    font-size: 25px;
+    color: rgb(97, 63, 63);
+}
+.calender_days div{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+    position: relative;
+    cursor: pointer;
+    animation: to_top 1s forwards;
+    border-radius: 50%;
+}
+.month_list {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.month_list.show {
+    display: grid;
+}
+
+.month_list div {
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #555;
+    border-radius: 5px;
+    color: white;
+}
+
+.current_date{
+    background-color: #deb0b0;
+    position: relative;
+    top: -3 px;
+    box-shadow: #333 1px 1px 3px ;
+}
+
+.special_date_pass{
+    background-color: rgb(162, 229, 114);
+    color: rgb(0, 204, 17);
+    font-weight: bold;
+    /* border: 2px solid rgb(233, 125, 125); */
+}
+.special_date_nopass{
+    background-color: rgb(229, 114, 114);
+    color: rgb(254, 0, 0);
+    font-weight: bold;
+    /* border: 2px solid rgb(233, 125, 125); */
+}
+
+#close{
+    margin-top: 10px;
+    width: 120px;
+    position: absolute;
+    height: 50px;
+    left: 210px;
+    border: #deb0b0;
+    background-color: #b6a1a1;
+    cursor: pointer;
+}

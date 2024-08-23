@@ -66,16 +66,33 @@
         fetch(`${page}.html`)
             .then(response => response.text())
             .then(data => {
+                //太好吃了，我又買給我家小孩吃css了
                 document.getElementById('css_link').setAttribute('href',`${page}.css`);
                 document.getElementById('insert_site').innerHTML = "";
                 document.getElementById('insert_site').innerHTML = data;
                 console.log('work');
-                // const script = document.getElementById('js_src');
-                // script.src = `${page}.js`;
+
+                //清除，這是個大坑，差點被坑慘: (
+                let scriptExist = document.getElementById('js_src');
+                if(scriptExist)scriptExist.remove();
+
+                //我的超強商業邏輯在這裡哇哈哈哈
+                const script = document.createElement('script');
+                script.id = 'js_src';
+                script.src = `./script/${page}.js`;
+                document.body.appendChild(script);
+
+                //聽大神說要重新載入...我的公告出不來==
+                script.onload = ()=>{
+                    if(typeof initializeHomePage === 'function'){
+                    initializeHomePage();
+                    }
+                }
+                
             })
             .catch(error => console.error('Error loading the page:', error));
     }
-    loadPage('announcement')
+    loadPage('home')
     function changeSalaryTable(table){
         fetch(`${table}.html`)
         .then(response => response.text())
@@ -87,6 +104,5 @@
   
     
     </script>
-    <script src="" id="js_src"></script>
 </body>
 </html>
