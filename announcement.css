@@ -76,6 +76,10 @@
     border-radius: 10px;
     cursor: pointer;
   }
+  #pop_anu_mdf{
+    width: auto;
+    padding: 0 10px;
+  }
   /* overLay */
   .overlay{
     width: 100%;
@@ -104,10 +108,13 @@
     padding: 0px 20px;
     border: #f3f3f3 1px solid;
     background-color: #dcd6c693;
-    font-size: 21px;
+    font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
-    margin-left: 30px;
+    /* margin-left: 30px; */
+    position: absolute;
+    left: 270px;
+    top: 27px;
   }
   .announce{
     position: relative;

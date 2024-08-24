@@ -26,7 +26,7 @@ checkout_attendance.addEventListener('click',()=>loadPage('attendance'));
 //先做嵌入，再做公告彈出檢視，後續再做強處理。
 //有這東西好方便== 不用那邊fetch，真的是差點發瘋。
 var tbodyAnuShow = JSON.parse(localStorage.getItem('announcements'));
-
+tbodyAnuShow.sort((a,b)=>new Date(b.date)-new Date(a.date));
 const maxCatchAnnounce = 6;
 const tbodyAnuPaste = document.getElementById('anu_catch');
 tbodyAnuPaste.innerHTML="";

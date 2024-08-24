@@ -7,11 +7,11 @@
     <p id="anu_id">anu_2024_08_22</p>
     <hr>
     <label for="anu_name">標題名稱</label><input type="text" id="anu_name" readonly><br>
-    <label for="anu_date" class="date">建立日期</label><input type="text" id="anu_date" readonly><br>
+    <label for="anu_date" class="date">建立日期</label><input type="date" min="2022-01-01" id="anu_date" readonly><br>
     <label for="anu_content" class="anu_cont">公告內容</label><textarea name="anu_content" id="anu_content" readonly></textarea><br>
     <div class="search_btn">
         <button type="button" id="pop_anu_add">新增</button>
-        <button type="button" id="pop_anu_mdf">修改</button>
+        <button type="button" id="pop_anu_mdf">點擊修改</button>
         <button type="button" id="pop_anu_del">刪除</button>
         <button type="button" id="pop_anu_cnl">取消</button>
     </div>
@@ -19,7 +19,7 @@
 <div class="contain">
 <div class="emp_top">
     <div class="emp_h">公告</div>
-    <div class="new_anu">新增</div>
+    <div class="new_anu" id="anu_add_btn">新增公告</div>
 </div>
 <hr>
 <div class="emp_bottom2">
