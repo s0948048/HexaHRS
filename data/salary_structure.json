@@ -1,3082 +1,3852 @@
 [
-    {
-      "Position": "經理",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 60000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 61000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 60000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 62000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 60000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 63000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 60000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 65000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 63000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 64000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 63000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 65000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 63000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 66000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 63000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 68000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 66000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 67000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 66000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 68000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 66000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 69000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 66000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 71000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 69000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 70000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 69000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 71000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 69000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 72000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 69000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 74000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 72000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 73000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 72000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 74000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 72000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 75000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 72000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 77000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 75000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 76000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 75000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 77000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 75000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 78000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 75000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 80000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 78000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 79000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 78000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 80000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 78000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 81000
-    },
-    {
-      "Position": "經理",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 78000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 83000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 50000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 51000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 50000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 52000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 50000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 53000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 50000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 55000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 53000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 54000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 53000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 55000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 53000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 56000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 53000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 58000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 56000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 57000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 56000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 58000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 56000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 59000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 56000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 61000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 59000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 60000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 59000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 61000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 59000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 62000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 59000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 64000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 62000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 63000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 62000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 64000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 62000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 65000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 62000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 67000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 65000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 66000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 65000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 67000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 65000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 68000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 65000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 70000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 68000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 69000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 68000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 70000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 68000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 71000
-    },
-    {
-      "Position": "主管",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 68000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 73000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 40000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 41000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 40000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 42000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 40000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 43000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 40000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 45000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 43000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 44000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 43000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 45000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 43000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 46000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 43000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 48000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 46000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 47000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 46000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 48000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 46000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 49000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 46000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 51000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 49000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 50000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 49000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 51000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 49000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 52000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 49000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 54000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 52000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 53000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 52000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 54000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 52000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 55000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 52000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 57000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 55000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 56000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 55000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 57000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 55000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 58000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 55000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 60000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 58000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 59000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 58000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 60000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 58000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 61000
-    },
-    {
-      "Position": "小組長",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 58000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 63000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 35000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 36000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 35000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 37000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 35000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 38000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 35000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 40000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 38000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 39000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 38000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 40000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 38000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 41000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 38000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 43000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 41000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 42000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 41000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 43000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 41000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 44000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 41000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 46000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 44000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 45000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 44000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 46000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 44000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 47000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 44000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 49000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 47000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 48000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 47000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 49000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 47000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 50000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 47000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 52000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 50000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 51000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 50000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 52000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 50000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 53000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 50000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 55000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 53000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 54000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 53000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 55000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 53000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 56000
-    },
-    {
-      "Position": "技術員",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 53000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 58000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 33000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 34000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 33000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 35000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 33000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 36000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 33000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 38000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 36000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 37000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 36000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 38000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 36000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 39000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 36000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 41000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 39000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 40000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 39000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 41000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 39000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 42000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 39000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 44000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 42000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 43000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 42000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 44000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 42000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 45000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 42000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 47000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 45000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 46000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 45000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 47000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 45000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 48000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 45000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 50000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 48000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 49000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 48000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 50000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 48000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 51000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 48000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 53000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 51000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 52000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 51000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 53000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 51000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 54000
-    },
-    {
-      "Position": "測試者",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 51000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 56000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 32000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 33000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 32000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 34000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 32000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 35000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 32000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 37000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 35000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 36000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 35000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 37000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 35000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 38000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 35000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 40000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 38000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 39000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 38000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 40000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 38000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 41000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 38000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 43000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 41000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 42000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 41000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 43000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 41000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 44000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 41000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 46000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 44000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 45000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 44000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 46000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 44000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 47000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 44000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 49000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 47000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 48000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 47000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 49000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 47000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 50000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 47000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 52000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 50000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 51000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 50000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 52000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 50000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 53000
-    },
-    {
-      "Position": "客服員",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 50000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 55000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 34000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 35000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 34000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 36000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 34000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 37000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 34000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 39000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 37000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 38000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 37000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 39000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 37000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 40000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 37000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 42000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 40000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 41000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 40000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 42000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 40000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 43000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 40000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 45000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 43000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 44000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 43000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 45000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 43000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 46000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 43000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 48000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 46000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 47000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 46000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 48000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 46000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 49000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 46000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 51000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 49000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 50000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 49000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 51000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 49000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 52000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 49000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 54000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 52000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 53000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 52000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 54000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 52000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 55000
-    },
-    {
-      "Position": "專案人員",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 52000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 57000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 31000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 32000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 31000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 33000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 31000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 34000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 31000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 36000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 34000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 35000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 34000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 36000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 34000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 37000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 34000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 39000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 37000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 38000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 37000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 39000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 37000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 40000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 37000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 42000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 40000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 41000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 40000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 42000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 40000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 43000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 40000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 45000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 43000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 44000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 43000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 45000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 43000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 46000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 43000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 48000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 46000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 47000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 46000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 48000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 46000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 49000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 46000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 51000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 49000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 50000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 49000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 51000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 49000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 52000
-    },
-    {
-      "Position": "特約人員",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 49000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 54000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 34000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 35000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 34000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 36000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 34000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 37000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 34000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 39000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 37000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 38000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 37000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 39000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 37000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 40000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 37000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 42000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 40000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 41000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 40000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 42000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 40000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 43000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 40000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 45000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 43000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 44000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 43000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 45000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 43000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 46000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 43000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 48000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 46000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 47000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 46000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 48000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 46000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 49000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 46000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 51000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 49000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 50000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 49000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 51000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 49000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 52000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 49000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 54000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 52000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 53000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 52000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 54000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 52000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 55000
-    },
-    {
-      "Position": "會計",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 52000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 57000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 30000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 31000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 30000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 32000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 30000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 33000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 30000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 35000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 33000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 34000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 33000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 35000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 33000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 36000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 33000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 38000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 36000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 37000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 36000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 38000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 36000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 39000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 36000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 41000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 39000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 40000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 39000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 41000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 39000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 42000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 39000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 44000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 42000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 43000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 42000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 44000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 42000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 45000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 42000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 47000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 45000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 46000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 45000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 47000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 45000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 48000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 45000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 50000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 48000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 49000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 48000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 50000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 48000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 51000
-    },
-    {
-      "Position": "行政助理",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 48000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 53000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 30000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 31000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 30000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 32000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 30000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 33000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 1,
-      "ExperienceRange": "1 year or less",
-      "TierSalary": 30000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 35000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 33000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 34000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 33000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 35000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 33000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 36000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 2,
-      "ExperienceRange": "1-2 years",
-      "TierSalary": 33000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 38000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 36000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 37000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 36000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 38000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 36000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 39000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 3,
-      "ExperienceRange": "2-3 years",
-      "TierSalary": 36000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 41000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 39000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 40000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 39000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 41000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 39000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 42000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 4,
-      "ExperienceRange": "3-5 years",
-      "TierSalary": 39000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 44000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 42000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 43000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 42000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 44000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 42000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 45000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 5,
-      "ExperienceRange": "5-10 years",
-      "TierSalary": 42000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 47000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 45000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 46000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 45000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 47000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 45000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 48000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 6,
-      "ExperienceRange": "10-15 years",
-      "TierSalary": 45000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 50000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 48000,
-      "ExternalExperienceTierLevel": 1,
-      "ExternalExperience": "1 year",
-      "ExternalExperienceBonus": 1000,
-      "TotalSalary": 49000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 48000,
-      "ExternalExperienceTierLevel": 2,
-      "ExternalExperience": "2-3 years",
-      "ExternalExperienceBonus": 2000,
-      "TotalSalary": 50000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 48000,
-      "ExternalExperienceTierLevel": 3,
-      "ExternalExperience": "4-5 years",
-      "ExternalExperienceBonus": 3000,
-      "TotalSalary": 51000
-    },
-    {
-      "Position": "其他",
-      "InternalTierLevel": 7,
-      "ExperienceRange": "15+ years",
-      "TierSalary": 48000,
-      "ExternalExperienceTierLevel": 4,
-      "ExternalExperience": "6-10 years",
-      "ExternalExperienceBonus": 5000,
-      "TotalSalary": 53000
-    }
-  ]
+  {
+    "Position": "經理",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 60000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 60000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 63000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 63000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 66000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 66000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 69000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 69000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 72000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 72000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 75000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 75000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 78000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 78000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 50000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 50000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 53000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 53000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 56000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 56000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 59000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 59000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 62000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 62000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 65000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 65000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 68000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 68000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 40000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 43000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 46000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 49000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 52000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 52000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 55000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 55000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 58000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 58000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 35000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 35000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 38000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 38000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 41000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 41000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 44000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 44000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 47000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 47000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 50000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 50000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 53000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 53000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 33000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 33000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 36000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 36000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 39000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 39000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 42000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 42000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 45000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 45000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 48000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 48000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 51000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 51000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 32000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 32000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 35000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 35000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 38000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 38000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 41000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 41000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 44000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 44000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 47000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 47000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 50000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 50000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 34000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 34000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 37000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 37000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 40000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 43000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 46000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 49000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 52000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 52000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 31000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 31000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 34000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 34000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 37000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 37000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 40000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 43000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 46000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 49000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 34000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 34000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 37000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 37000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 40000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 43000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 46000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 49000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 52000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 52000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 30000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 30000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 33000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 33000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 36000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 36000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 39000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 39000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 42000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 42000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 45000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 45000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 48000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 48000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 30000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 30000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 33000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 33000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 36000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 36000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 39000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 39000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 42000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 42000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 45000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 45000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 48000,
+    "ExternalExperienceTierLevel": 0,
+    "ExternalExperience": "less than 1",
+    "ExternalExperienceBonus": 0,
+    "TotalSalary": 48000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 60000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 61000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 60000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 62000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 60000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 63000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 60000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 65000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 63000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 64000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 63000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 65000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 63000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 66000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 63000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 68000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 66000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 67000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 66000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 68000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 66000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 69000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 66000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 71000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 69000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 70000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 69000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 71000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 69000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 72000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 69000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 74000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 72000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 73000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 72000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 74000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 72000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 75000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 72000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 77000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 75000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 76000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 75000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 77000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 75000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 78000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 75000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 80000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 78000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 79000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 78000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 80000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 78000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 81000
+  },
+  {
+    "Position": "經理",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 78000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 83000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 50000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 51000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 50000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 52000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 50000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 53000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 50000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 55000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 53000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 54000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 53000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 55000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 53000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 56000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 53000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 58000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 56000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 57000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 56000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 58000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 56000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 59000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 56000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 61000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 59000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 60000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 59000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 61000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 59000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 62000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 59000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 64000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 62000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 63000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 62000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 64000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 62000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 65000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 62000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 67000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 65000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 66000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 65000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 67000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 65000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 68000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 65000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 70000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 68000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 69000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 68000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 70000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 68000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 71000
+  },
+  {
+    "Position": "主管",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 68000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 73000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 41000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 42000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 43000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 45000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 44000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 45000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 46000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 48000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 47000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 48000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 49000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 51000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 50000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 51000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 52000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 54000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 52000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 53000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 52000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 54000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 52000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 55000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 52000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 57000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 55000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 56000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 55000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 57000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 55000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 58000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 55000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 60000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 58000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 59000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 58000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 60000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 58000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 61000
+  },
+  {
+    "Position": "小組長",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 58000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 63000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 35000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 36000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 35000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 37000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 35000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 38000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 35000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 40000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 38000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 39000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 38000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 40000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 38000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 41000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 38000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 43000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 41000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 42000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 41000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 43000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 41000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 44000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 41000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 46000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 44000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 45000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 44000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 46000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 44000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 47000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 44000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 49000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 47000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 48000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 47000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 49000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 47000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 50000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 47000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 52000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 50000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 51000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 50000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 52000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 50000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 53000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 50000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 55000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 53000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 54000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 53000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 55000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 53000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 56000
+  },
+  {
+    "Position": "技術員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 53000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 58000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 33000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 34000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 33000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 35000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 33000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 36000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 33000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 38000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 36000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 37000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 36000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 38000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 36000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 39000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 36000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 41000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 39000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 40000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 39000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 41000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 39000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 42000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 39000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 44000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 42000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 43000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 42000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 44000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 42000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 45000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 42000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 47000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 45000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 46000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 45000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 47000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 45000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 48000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 45000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 50000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 48000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 49000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 48000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 50000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 48000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 51000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 48000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 53000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 51000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 52000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 51000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 53000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 51000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 54000
+  },
+  {
+    "Position": "測試者",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 51000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 56000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 32000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 33000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 32000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 34000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 32000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 35000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 32000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 37000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 35000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 36000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 35000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 37000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 35000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 38000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 35000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 40000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 38000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 39000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 38000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 40000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 38000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 41000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 38000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 43000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 41000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 42000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 41000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 43000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 41000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 44000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 41000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 46000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 44000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 45000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 44000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 46000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 44000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 47000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 44000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 49000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 47000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 48000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 47000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 49000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 47000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 50000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 47000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 52000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 50000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 51000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 50000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 52000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 50000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 53000
+  },
+  {
+    "Position": "客服員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 50000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 55000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 34000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 35000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 34000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 36000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 34000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 37000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 34000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 39000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 37000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 38000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 37000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 39000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 37000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 40000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 37000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 42000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 41000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 42000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 43000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 45000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 44000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 45000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 46000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 48000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 47000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 48000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 49000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 51000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 50000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 51000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 52000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 54000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 52000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 53000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 52000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 54000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 52000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 55000
+  },
+  {
+    "Position": "專案人員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 52000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 57000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 31000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 32000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 31000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 33000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 31000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 34000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 31000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 36000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 34000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 35000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 34000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 36000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 34000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 37000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 34000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 39000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 37000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 38000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 37000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 39000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 37000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 40000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 37000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 42000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 41000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 42000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 43000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 45000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 44000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 45000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 46000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 48000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 47000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 48000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 49000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 51000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 50000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 51000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 52000
+  },
+  {
+    "Position": "特約人員",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 54000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 34000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 35000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 34000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 36000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 34000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 37000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 34000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 39000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 37000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 38000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 37000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 39000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 37000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 40000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 37000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 42000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 41000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 42000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 43000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 40000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 45000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 44000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 45000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 46000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 43000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 48000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 47000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 48000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 49000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 46000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 51000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 50000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 51000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 52000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 49000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 54000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 52000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 53000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 52000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 54000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 52000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 55000
+  },
+  {
+    "Position": "會計",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 52000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 57000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 30000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 31000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 30000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 32000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 30000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 33000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 30000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 35000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 33000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 34000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 33000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 35000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 33000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 36000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 33000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 38000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 36000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 37000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 36000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 38000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 36000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 39000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 36000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 41000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 39000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 40000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 39000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 41000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 39000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 42000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 39000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 44000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 42000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 43000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 42000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 44000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 42000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 45000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 42000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 47000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 45000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 46000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 45000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 47000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 45000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 48000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 45000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 50000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 48000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 49000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 48000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 50000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 48000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 51000
+  },
+  {
+    "Position": "行政助理",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 48000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 53000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 30000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 31000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 30000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 32000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 30000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 33000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 1,
+    "ExperienceRange": "1 year or less",
+    "TierSalary": 30000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 35000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 33000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 34000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 33000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 35000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 33000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 36000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 2,
+    "ExperienceRange": "1-2 years",
+    "TierSalary": 33000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 38000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 36000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 37000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 36000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 38000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 36000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 39000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 3,
+    "ExperienceRange": "2-3 years",
+    "TierSalary": 36000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 41000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 39000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 40000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 39000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 41000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 39000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 42000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 4,
+    "ExperienceRange": "3-5 years",
+    "TierSalary": 39000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 44000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 42000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 43000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 42000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 44000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 42000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 45000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 5,
+    "ExperienceRange": "5-10 years",
+    "TierSalary": 42000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 47000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 45000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 46000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 45000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 47000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 45000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 48000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 6,
+    "ExperienceRange": "10-15 years",
+    "TierSalary": 45000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 50000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 48000,
+    "ExternalExperienceTierLevel": 1,
+    "ExternalExperience": "1 year",
+    "ExternalExperienceBonus": 1000,
+    "TotalSalary": 49000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 48000,
+    "ExternalExperienceTierLevel": 2,
+    "ExternalExperience": "2-3 years",
+    "ExternalExperienceBonus": 2000,
+    "TotalSalary": 50000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 48000,
+    "ExternalExperienceTierLevel": 3,
+    "ExternalExperience": "4-5 years",
+    "ExternalExperienceBonus": 3000,
+    "TotalSalary": 51000
+  },
+  {
+    "Position": "其他",
+    "InternalTierLevel": 7,
+    "ExperienceRange": "15+ years",
+    "TierSalary": 48000,
+    "ExternalExperienceTierLevel": 4,
+    "ExternalExperience": "6-10 years",
+    "ExternalExperienceBonus": 5000,
+    "TotalSalary": 53000
+  }
+]

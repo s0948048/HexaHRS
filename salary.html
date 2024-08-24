@@ -1,40 +1,53 @@
-<div class="pop_search_emp_sry">
+<div class="pop_search_emp_sry" id="pop_search_emp_sry">
     <div class="search">查詢員工薪資</div>
     <button id="change_search_str_sry" onclick="">查詢薪資架構</button>
     <hr>
-    <label for="emp_status">員工編號</label><input type="text" id="emp_status" style="width: 325px;"><br>
-    <label for="emp_num">職位</label><input type="text" id="emp_num" style="width: 325px;"><br>
-    <label for="emp_name">員工姓名</label><input type="text" id="emp_name">至<input type="text" id="emp_name"><br>
-    <label for="emp_emply">到職日</label><input type="text" id="emp_emply">至</label><input type="text" id="emp_emply"><br>
-    <label for="emp_termin">離職日</label><input type="text" id="emp_termin">至</label><input type="text" id="emp_termin"><br>
-    <label for="emp_posit">員工職位</label><input type="text" id="emp_posit" style="width: 325px;"></label><br>
+    <label for="search_emp_num">員工編號</label><input type="text" id="search_emp_num" style="width: 325px;"><br>
+    <label for="search_emp_position">職位</label><select id="search_emp_position" style="width: 325px;">
+        <option value="" disabled selected></option>
+        <option value="經理">經理</option>
+        <option value="主管">主管</option>
+        <option value="小組長">小組長</option>
+        <option value="技術員">技術員</option>
+        <option value="測試者">測試者</option>
+        <option value="專案人員">專案人員</option>
+        <option value="客服員">客服員</option>
+        <option value="會計">會計</option>
+        <option value="行政助理">行政助理</option>
+        <option value="特約人員">特約人員</option>
+        <option value="其他">其他</option>
+    </select><br>
+    <label for="search_emp_name">員工姓名</label><input type="text" id="search_emp_name" style="width: 325px;"><br>
+    <label for="search_emp_emply_start">到職日</label><input type="date" id="search_emp_emply_start">至</label><input type="date" id="search_emp_emply_end"><br>
+    <label for="search_emp_termin_start">離職日</label><input type="date" id="search_emp_termin_start">至</label><input type="date" id="search_emp_termin_end"><br>
     <div class="search_btn">
-        <button type="submit">查詢</button>
-        <button type="reset">清除</button>
-        <button type="button">取消</button>
+        <button type="submit" id="submit_1">查詢</button>
+        <button type="reset" id="reset_1">清除</button>
+        <button type="button" id="button_1">取消</button>
     </div>
 </div>
-<div class="pop_search_str_sry">
+<div class="pop_search_str_sry" id="pop_search_str_sry">
     <div class="search">查詢薪資架構</div>
-    <button id="change_search_str_sry" onclick="">查詢員工薪資</button>
+    <button id="change_search_emp_sry" onclick="">查詢員工薪資</button>
     <hr>
-    <label for="emp_num">職位</label><input type="text" id="emp_num" style="width: 325px;"><br>
-    <label for="emp_name">年資範圍</label><input type="text" id="emp_name">至<input type="text" id="emp_name"><br>
-    <label for="emp_emply">院外年資</label><input type="text" id="emp_emply">至</label><input type="text" id="emp_emply"><br>
+    <label for="sry_position">職位</label><input type="text" id="sry_position" style="width: 325px;"><br>
+    <label for="sry_years_in_start">年資範圍</label><input type="text" id="sry_years_in_start">至<input type="text" id="sry_years_in_end"><br>
+    <label for="sry_years_out_start">院外年資</label><input type="text" id="sry_years_out_start">至<input type="text" id="sry_years_out_end"><br>
     <div class="search_btn">
-        <button type="submit">查詢</button>
-        <button type="reset">清除</button>
-        <button type="button">取消</button>
+        <button type="submit" id="submit_2">查詢</button>
+        <button type="reset" id="reset_2">清除</button>
+        <button type="button" id="button_2">取消</button>
     </div>
 </div>
 <div class="sry_top">
     <div class="emp_h">員工薪資架構表</div>
 </div>
 <div class="sry_bottom2">
-    <button class="btn_item2" id="see_detail" onclick="loadPage('salary');">查看員工薪資架構</button>
-    <button class="btn_item2" id="see_data" onclick="changeSalaryTable('salary_data');">查看員工薪資詳細資料</button>
-    <button class="btn_item2" id="modify">修改員工薪資架構</button>
-    <button class="btn_item2" id="modify">查詢</button>
+    <button class="btn_item2" id="see_detail">返回薪資架構</button>
+    <button class="btn_item2" id="see_data">個人薪資</button>
+    <button class="btn_item2" id="modify_sry_str" style="display: none;">修改員工薪資架構</button>
+    <button class="btn_item2" id="search_sry">查詢架構</button>
+    <button class="btn_item2" id="search_str">查詢員工薪資</button>
 </div>
 <div class="wrap">
     <table id="salary_data">
@@ -49,110 +62,110 @@
             <th width="70px">薪資</th>
         </tr>
         <tr>
-            <td>經理</td>
-            <td>1</td>
-            <td>1 year or less</td>
-            <td>60000</td>
-            <td>1</td>
-            <td>1 year</td>
-            <td>1000</td>
-            <td>61000</td>
+            <td id="row1-col1"></td>
+            <td id="row1-col2"></td>
+            <td id="row1-col3"></td>
+            <td id="row1-col4"></td>
+            <td id="row1-col5"></td>
+            <td id="row1-col6"></td>
+            <td id="row1-col7"></td>
+            <td id="row1-col8"></td>
         </tr>
         <tr>
-            <td>經理</td>
-            <td>1</td>
-            <td>1 year or less</td>
-            <td>60000</td>
-            <td>1</td>
-            <td>1 year</td>
-            <td>1000</td>
-            <td>61000</td>
+            <td id="row2-col1"></td>
+            <td id="row2-col2"></td>
+            <td id="row2-col3"></td>
+            <td id="row2-col4"></td>
+            <td id="row2-col5"></td>
+            <td id="row2-col6"></td>
+            <td id="row2-col7"></td>
+            <td id="row2-col8"></td>
         </tr>
         <tr>
-            <td>經理</td>
-            <td>1</td>
-            <td>1 year or less</td>
-            <td>60000</td>
-            <td>1</td>
-            <td>1 year</td>
-            <td>1000</td>
-            <td>61000</td>
+            <td id="row3-col1"></td>
+            <td id="row3-col2"></td>
+            <td id="row3-col3"></td>
+            <td id="row3-col4"></td>
+            <td id="row3-col5"></td>
+            <td id="row3-col6"></td>
+            <td id="row3-col7"></td>
+            <td id="row3-col8"></td>
         </tr>
         <tr>
-            <td>經理</td>
-            <td>1</td>
-            <td>1 year or less</td>
-            <td>60000</td>
-            <td>1</td>
-            <td>1 year</td>
-            <td>1000</td>
-            <td>61000</td>
+            <td id="row4-col1"></td>
+            <td id="row4-col2"></td>
+            <td id="row4-col3"></td>
+            <td id="row4-col4"></td>
+            <td id="row4-col5"></td>
+            <td id="row4-col6"></td>
+            <td id="row4-col7"></td>
+            <td id="row4-col8"></td>
         </tr>
         <tr>
-            <td>經理</td>
-            <td>1</td>
-            <td>1 year or less</td>
-            <td>60000</td>
-            <td>1</td>
-            <td>1 year</td>
-            <td>1000</td>
-            <td>61000</td>
+            <td id="row5-col1"></td>
+            <td id="row5-col2"></td>
+            <td id="row5-col3"></td>
+            <td id="row5-col4"></td>
+            <td id="row5-col5"></td>
+            <td id="row5-col6"></td>
+            <td id="row5-col7"></td>
+            <td id="row5-col8"></td>
         </tr>
         <tr>
-            <td>經理</td>
-            <td>1</td>
-            <td>1 year or less</td>
-            <td>60000</td>
-            <td>1</td>
-            <td>1 year</td>
-            <td>1000</td>
-            <td>61000</td>
+            <td id="row6-col1"></td>
+            <td id="row6-col2"></td>
+            <td id="row6-col3"></td>
+            <td id="row6-col4"></td>
+            <td id="row6-col5"></td>
+            <td id="row6-col6"></td>
+            <td id="row6-col7"></td>
+            <td id="row6-col8"></td>
         </tr>
         <tr>
-            <td>經理</td>
-            <td>1</td>
-            <td>1 year or less</td>
-            <td>60000</td>
-            <td>1</td>
-            <td>1 year</td>
-            <td>1000</td>
-            <td>61000</td>
+            <td id="row7-col1"></td>
+            <td id="row7-col2"></td>
+            <td id="row7-col3"></td>
+            <td id="row7-col4"></td>
+            <td id="row7-col5"></td>
+            <td id="row7-col6"></td>
+            <td id="row7-col7"></td>
+            <td id="row7-col8"></td>
         </tr>
         <tr>
-            <td>經理</td>
-            <td>1</td>
-            <td>1 year or less</td>
-            <td>60000</td>
-            <td>1</td>
-            <td>1 year</td>
-            <td>1000</td>
-            <td>61000</td>
+            <td id="row8-col1"></td>
+            <td id="row8-col2"></td>
+            <td id="row8-col3"></td>
+            <td id="row8-col4"></td>
+            <td id="row8-col5"></td>
+            <td id="row8-col6"></td>
+            <td id="row8-col7"></td>
+            <td id="row8-col8"></td>
         </tr>
         <tr>
-            <td>經理</td>
-            <td>1</td>
-            <td>1 year or less</td>
-            <td>60000</td>
-            <td>1</td>
-            <td>1 year</td>
-            <td>1000</td>
-            <td>61000</td>
+            <td id="row9-col1"></td>
+            <td id="row9-col2"></td>
+            <td id="row9-col3"></td>
+            <td id="row9-col4"></td>
+            <td id="row9-col5"></td>
+            <td id="row9-col6"></td>
+            <td id="row9-col7"></td>
+            <td id="row9-col8"></td>
         </tr>
         <tr>
-            <td>經理</td>
-            <td>1</td>
-            <td>1 year or less</td>
-            <td>60000</td>
-            <td>1</td>
-            <td>1 year</td>
-            <td>1000</td>
-            <td>61000</td>
+            <td id="row10-col1"></td>
+            <td id="row10-col2"></td>
+            <td id="row10-col3"></td>
+            <td id="row10-col4"></td>
+            <td id="row10-col5"></td>
+            <td id="row10-col6"></td>
+            <td id="row10-col7"></td>
+            <td id="row10-col8"></td>
         </tr>
     </table>
 </div>
 <div class="sry_bottom1">
-    <button class="btn_item1" id="next">下一頁</button>
     <button class="btn_item1" id="last">上一頁</button>
+    <button class="btn_item1" id="next">下一頁</button>
 </div>
 <hr id="line1">
 <div class="detail_data">
@@ -165,9 +178,9 @@
 </div>
 <div class="middle">
     <label for="sry_level">薪資級距</label><input type="text" id="sry_level">
-    <label for="sry_outer_years">院外年資</label><input type="text" id="sry_salary">
-    <label for="sry_outer_attach">院外加給</label><input type="text" id="sry_salary">
-    <label for="sry_salary">發給薪資</label><input type="text" id="sry_salary">
+    <label for="sry_outer_years">院外年資</label><input type="text" id="sry_outer_years">
+    <label for="sry_outer_attach">院外加給</label><input type="text" id="sry_outer_attach">
+    <label for="sry_total_salary">發給薪資</label><input type="text" id="sry_total_salary">
 </div>
 <div class="sry_bottom3">
     <button class="btn_item3" id="modify">修改</button>

@@ -9,9 +9,11 @@ let anu_id = document.getElementById('anu_id');
 let anu_name = document.getElementById('anu_name');
 let anu_date = document.getElementById('anu_date');
 let anu_content = document.getElementById('anu_content');
+
+
 //從資料庫拉資料映射到公告頁面上><
 function displayAnnouncement(page){
-    //每重新載入舊排序一次。
+    //每重新載入9排序一次。
     announcements.sort((a,b)=>new Date(b.date)-new Date(a.date));
     start = (page)*pageNumbers;
     end = start + pageNumbers;
@@ -50,6 +52,7 @@ function displayAnnouncement(page){
     }
 }
 displayAnnouncement(page);
+
 //翻頁邏輯
 document.getElementById('anu_next_page').addEventListener('click', function() {
     page++;
@@ -82,6 +85,7 @@ anuPopUp_cnl.addEventListener('click',()=>{
     anu_date.setAttribute('readonly',true);
     anu_content.setAttribute('readonly',true);
 });
+
 //2.新增
 anuPopUp_add.addEventListener('click',()=>{
     if(anu_name.value==''){
@@ -104,6 +108,7 @@ anuPopUp_add.addEventListener('click',()=>{
         anu_content.setAttribute('readonly',true);  
     }
 })
+
 //3.修改
 anuPopUp_mdf.addEventListener('click',()=>{
     if(anuPopUp_mdf.innerHTML =='點擊修改'){
@@ -143,7 +148,6 @@ anuPopUp_mdf.addEventListener('click',()=>{
 
 })
     
-
 //4.刪除
 anuPopUp_del.addEventListener('click',()=>{
     announcements.forEach((item,index)=>{
@@ -173,6 +177,7 @@ announcementInSite.addEventListener('click',(event)=>{
         showAnuDataToPop(tbodyid);
     }
 })
+
 //彈出視窗可能1：彈出視窗顯示的公告內容嗷嗷嗷
 function showAnuDataToPop(tbodyid){
     announcements.forEach((item)=>{
@@ -193,6 +198,7 @@ function showAnuDataToPop(tbodyid){
         }  
     })
 }
+
 //彈出視窗可能2：新增公告邏輯嗷嗷嗷
 const anu_add = document.getElementById('anu_add_btn');
 anu_add.addEventListener('click',()=>{
