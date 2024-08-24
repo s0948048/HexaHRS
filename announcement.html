@@ -1,17 +1,19 @@
 
 <!-- <link rel="stylesheet" href="announcement.css"> -->
 <!-- 彈出修改、新增 -->
-<div class="pop_search">
-    <div class="search">新增修改</div>
+
+<div class="pop_search" id="add_anu">
+    <div class="search">公告內容</div>
+    <p id="anu_id">anu_2024_08_22</p>
     <hr>
-    <label for="emp_status">標題名稱</label><input type="text" id="emp_status"><br>
-    <label for="emp_name" class="date">建立日期</label><input type="text" id="emp_name"><br>
-    <label for="announce_contain" class="anu_cont">公告內容</label><textarea name="announce_contain" id="announce_contain"></textarea><br>
+    <label for="anu_name">標題名稱</label><input type="text" id="anu_name" readonly><br>
+    <label for="anu_date" class="date">建立日期</label><input type="text" id="anu_date" readonly><br>
+    <label for="anu_content" class="anu_cont">公告內容</label><textarea name="anu_content" id="anu_content" readonly></textarea><br>
     <div class="search_btn">
-        <button type="submit" id="add">新增</button>
-        <button type="submit" id="modify">修改</button>
-        <button type="reset" id="clear">清除</button>
-        <button type="button" id="cancel">取消</button>
+        <button type="button" id="pop_anu_add">新增</button>
+        <button type="button" id="pop_anu_mdf">修改</button>
+        <button type="button" id="pop_anu_del">刪除</button>
+        <button type="button" id="pop_anu_cnl">取消</button>
     </div>
 </div>
 <div class="contain">

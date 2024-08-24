@@ -46,6 +46,7 @@ tbodyAnuShow.forEach((item,index)=>{
     }
 })
 //透過event事件取得ID！((ㄏㄏㄏㄏ ":D"))
+console.log('anu',anu_catch);
 anu_catch.addEventListener('click',(event)=>{
     if(event.target.closest('tbody')){
         let tbodyid = event.target.closest('tbody').id;

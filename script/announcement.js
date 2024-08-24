@@ -64,9 +64,41 @@ document.getElementById('anu_last_page').addEventListener('click', function() {
     
 });
 
+//彈出視窗
+const anuPopUp = document.getElementById('add_anu');
 
 
+const anuPopUp_close = document.getElementById('pop_anu_cnl');
+anuPopUp_close.addEventListener('click',()=>anuPopUp.style.display = 'none');
 
+let announcementInSite = document.getElementById('announcement_list');
+announcementInSite.addEventListener('click',(event)=>{
+    if(event.target.closest('tbody')){
+        let tbodyid = event.target.closest('tbody').id;
+        showAnuDataToPop(tbodyid);
+    }
+    
+})
+function showAnuDataToPop(tbodyid){
+    announcements.forEach((item)=>{
+        if(item['id'] == tbodyid){
+            let anu_id = document.getElementById('anu_id');
+            let anu_name = document.getElementById('anu_name');
+            let anu_date = document.getElementById('anu_date');
+            let anu_content = document.getElementById('anu_content');
+            anu_id.innerText = item['id'];
+            anu_name.value = item['title'];
+            anu_date.value = item['date'];
+            anu_content.innerText = item['content'];
+            anuPopUp.style.display = 'block';
+        }
+        
+    })
+    
+    
+
+
+}
 
 }
 initializePage();

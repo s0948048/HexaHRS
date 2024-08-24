@@ -22,6 +22,8 @@ const announcements = [
     {id:'anu_2024_08_23', title:'河中舟, 隨波行。',     date:'2021-11-20',  content: '小船不知何時靠岸，隨波逐流地遠去。'}
 
 ];
+announcements.sort((a,b)=>new Date(b.date)-new Date(a.date));
+
 // localStorage.removeItem('announcements');
 localStorage.setItem('announcements',JSON.stringify(announcements));
 // if(!localStorage.getItem('announcements')){
