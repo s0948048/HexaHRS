@@ -31,7 +31,7 @@ function initializePage(){
     localStorage.setItem('announcements',JSON.stringify(announcements));
 
 //薪資架構
-fetch('/data/salary_structure.json')
+fetch('./data/salary_structure.json')
 .then(Response=>Response.json())
 .then(data=>{
     localStorage.setItem('salaryStructure',JSON.stringify(data));
@@ -41,7 +41,7 @@ fetch('/data/salary_structure.json')
 
 //個人薪資...會從個人資料抓，所以是個人資料==
 //employeeData
-fetch('/data/employeeData.json')
+fetch('./data/employeeData.json')
 .then(Response=>Response.json())
 .then(data=>{
     localStorage.setItem('employeeData',JSON.stringify(data));
@@ -49,7 +49,7 @@ fetch('/data/employeeData.json')
 
 //考勤紀錄，最肥ㄉ><
 //attendance
-fetch('/data/attendance.json')
+fetch('./data/attendance.json')
 .then(Response=>Response.json())
 .then(data=>{
     localStorage.setItem('attendance',JSON.stringify(data));
@@ -57,7 +57,7 @@ fetch('/data/attendance.json')
 
 //假勤紀錄
 //leave_detail
-fetch('/data/leave_detail.json')
+fetch('./data/leave_detail.json')
 .then(Response=>Response.json())
 .then(data=>{
     localStorage.setItem('leaveDetail',JSON.stringify(data));
@@ -65,7 +65,7 @@ fetch('/data/leave_detail.json')
 
 //異常紀錄
 //leave_brief
-fetch('/data/leave_brief.json')
+fetch('./data/leave_brief.json')
 .then(Response=>Response.json())
 .then(data=>{
     localStorage.setItem('leaveBrief',JSON.stringify(data));
@@ -73,7 +73,7 @@ fetch('/data/leave_brief.json')
 
 //假勤架構
 //leave_structure
-fetch('/data/leave_structure.json')
+fetch('./data/leave_structure.json')
 .then(Response=>Response.json())
 .then(data=>{
     localStorage.setItem('leaveStructure',JSON.stringify(data));
