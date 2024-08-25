@@ -84,7 +84,7 @@ document.getElementById('sry_last').addEventListener('click', function() {
 let searchSryId = document.getElementById('sry_num');
 let searchSryStatus = document.getElementById('sry_status');
 let searchSryYearsIn = document.getElementById('sry_years_inner');
-let searchSrName = document.getElementById('sry_name');
+let searchSryName = document.getElementById('sry_name');
 let searchSryEmpDate = document.getElementById('sry_emp_date');
 let searchSryTerminDate = document.getElementById('sry_termin_date');
 let searchSryInLevel = document.getElementById('sry_level');
@@ -93,68 +93,114 @@ let searchSryOuterAttach = document.getElementById('sry_outer_attach');
 let searchSryTotalSalary = document.getElementById('sry_total_salary');
 let searchSaveBtn = document.getElementById('search_save');
 let searchClearBtn = document.getElementById('search_clear');
-const empSalarySave = [searchSryInLevel,searchSryOuterYears,
+const empSalaryModifyAble = [searchSryInLevel,searchSryOuterYears,
     searchSryOuterAttach,searchSryTotalSalary];
+const empSalaryModifyShow = [searchSryId,searchSryStatus,searchSryYearsIn,searchSryName,
+    searchSryEmpDate,searchSryTerminDate,searchSryInLevel,searchSryOuterYears,
+    searchSryOuterAttach,searchSryTotalSalary];
+const orderGetItem = ['id','EmploymentStatus','Tenure','name',
+    'DateEmployed','DateTerminated','InitialSalary','ExternalExperience',
+    'ExternalExperienceBonus','salary'];
 const empSalaryBtn=[searchSaveBtn,searchClearBtn];
+
+empSalaryModifyShow.forEach(item=>{
+    item.value = '';
+    item.setAttribute('readonly',true);
+    item.style.backgroundColor = '#d7d5d5';
+})
+
+
+//儲存按鈕。
+let isEditable = false;
+searchSaveBtn.addEventListener('click',()=>{
+    if(!searchSryId.value)return;
+    if(!isEditable){
+        ClickBtnChangeText();
+        OnModifyAble();
+        console.log(searchSaveBtn.innerHTML);
+        isEditable = true;
+    } else if(isEditable){
+        storeToEmployeeData();
+        BackBtnChangeText();
+        btnCanNotClick();
+        isEditable = false;
+    }
+});
+function storeToEmployeeData(){
+    if(!searchSryId.value)return;
+
+    getEmployeeData.forEach(item=>{
+        if(item.id == getEmpId){
+            empSalaryModifyShow.forEach((show,index)=>{
+                item[orderGetItem[index]] = show.value;
+            })
+        }
+    })
+    localStorage.setItem('employeeData',JSON.stringify(getEmployeeData));
+    OffModifyAble();
+}
+
+
+//點擊資料表取得資料。
+let salaryTable = document.getElementById('salary_data');
+let getEmpId;
+salaryTable.addEventListener('click',(event)=>{
+    if(event.target.closest('td')){
+        let tdId = event.target.closest('td').id;
+        getIdColumn = `${tdId.split('_')[0]}_col1`;
+        getEmpId = document.getElementById(getIdColumn).innerHTML;
+        // console.log(getEmpId);
+        
+        showSalaryDataToBtnSearch(getEmpId);
+    }
+});
+function showSalaryDataToBtnSearch(getEmpId){
     
+    getEmployeeData.forEach(item=>{
+        if(item.id == getEmpId){
+            empSalaryModifyShow.forEach((show,index)=>{
+               show.value = item[orderGetItem[index]];
+            })
+        }
+    })
+    OffModifyAble();
+    BackBtnChangeText();
+    btnCanClick();
+    isEditable = false;
+}   
+
+
+
+function OffModifyAble(){
+    empSalaryModifyAble.forEach(item=>{
+        item.setAttribute('readonly',true);
+        item.style.backgroundColor = '#d7d5d5';
+    })
+}
+function OnModifyAble(){
+    empSalaryModifyAble.forEach(item=>{
+        item.removeAttribute('readonly');
+        item.style.backgroundColor = '#ededed';
+    })
+}
+function ClickBtnChangeText(){
+        searchSaveBtn.innerHTML = '儲存';
+}
+function BackBtnChangeText(){
+        searchSaveBtn.innerHTML = '點擊修改';
+}
+function btnCanClick(){
     empSalaryBtn.forEach(item=>{
         item.style.color = 'black';
         item.style.setProperty('cursor', 'pointer', 'important');
     });
-
-//儲存按鈕。
-searchSaveBtn.addEventListener('click',()=>{
-    
-    if(searchSaveBtn.innerHTML == '點擊修改'){
-        // console.log(searchSaveBtn.innerHTML);
-        empSalarySave.forEach(item=>{
-            item.style.color = 'black';
-            item.style.backgroundColor = '#ededed';
-            item.removeAttribute('readonly');
-        });
-        searchSaveBtn.innerHTML = '儲存';
-    }else if(searchSaveBtn.innerHTML == '儲存'){
-        
-
-
-
-
-
-
-        storeToEmployeeData();
-    }
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-let salaryTable = document.getElementById('salary_data');
-let tbodyId;
-salaryTable.addEventListener('click',(event)=>{
-    if(event.target.closest('tbody')){
-        tbodyId = event.target.closest('tbody').id;
-        showAnuDataToPop(tbodyId);
-    }
-})
-
-
-
-
-
-
-
-
-
-
+}
+function btnCanNotClick(){
+    empSalaryBtn.forEach(item=>{
+        item.style.color = 'gray';
+        item.style.setProperty('cursor', 'auto', 'important');
+    });
+}
 
 
 
