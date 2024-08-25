@@ -49,7 +49,7 @@
     font-size: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
     z-index: 11;
-    /* display: none; */
+    display: none;
   }
   
   .search{
@@ -115,8 +115,6 @@
     background-color: #ece0dc;
   }
 /* 異常狀態talbe */
-
-  
   .atn_except_table{
     
     font-family: 'Oswald', sans-serif;
@@ -143,7 +141,6 @@
   }
   .atn_except_table tr:hover td{
     background-color:#f1e6e6c2;
-    cursor: pointer;
     border-top: 1px dotted #6b675d;
     border-left: 1px dotted #6b675d;
     

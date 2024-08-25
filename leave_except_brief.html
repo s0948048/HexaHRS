@@ -1,37 +1,19 @@
-<div class="pop_search_leave_data">
-    <div class="search">查詢員工假勤</div>
+<div class="pop_search_leave_data" id="pop_search_leave_data">
+    <div class="search">查詢假勤異常</div>
     <hr>
     <label for="leave_id">員工編號</label><input type="text" id="leave_id"><br>
-    <label for="leave_type">假別</label><select type="text" id="atn_day">
-        <option value="">假別</option>
-        <option value="事假">事假</option>
-        <option value="病假">病假</option>
-        <option value="特休假">特休假</option>
-        <option value="喪假">喪假</option>
-        <option value="婚假">婚假</option>
-        <option value="生理假">生理假</option>
-        <option value="育嬰假">育嬰假</option>
-        <option value="產假">產假</option>
-        <option value="忘記打卡">忘記打卡</option>
-    </select><br>
-    <label for="leave_noon">申請時間</label><select type="text" id="leave_noon">
-        <option value="">申請時間</option>
-        <option value="上午">上午</option>
-        <option value="下午">下午</option>
-    </select><br>
-    <label for="leave_handle_cdn">處理狀態</label><select type="text" id="leave_handle_cdn" style="width: 325px;">
+    <label for="leave_handle_cdn">出勤狀態</label><select type="text" id="leave_handle_cdn" style="width: 325px;">
         <option value="">處理狀態</option>
         <option value="處理完成">處理完成</option>
         <option value="表單申請中">表單申請中</option>
         <option value="尚未處理">尚未處理</option>
     </select><br>
-    <label for="leave_date_start">出勤日期</label><input type="time" id="leave_date_start" style="width: 145px;">至<input type="time" id="leave_date_end" style="width: 145px;"><br>
-    <label for="leave_ck_time_start">打卡時間</label><input type="time" id="leave_ck_time_start" style="width: 145px;">至<input type="time" id="leave_ck_time_end" style="width: 145px;"><br>
+    <label for="leave_date_start">出勤日期</label><input type="date" id="leave_date_start" style="width: 145px;">至<input type="date" id="leave_date_end" style="width: 145px;"><br>
     
     <div class="search_btn">
-        <button type="submit">查詢</button>
-        <button type="reset">清除</button>
-        <button type="button">取消</button>
+        <button type="submit" id="submit">查詢</button>
+        <button type="reset" id="reset">清除</button>
+        <button type="button" id="cancel">取消</button>
     </div>
 </div>
 
@@ -41,12 +23,13 @@
         <div class="emp_h">假勤管理</div>
     </div>
     <div class="atn_bottom2">
-        <button class="btn_item2" id="atn_list" onclick="loadPage('leave')">查看假別天數條件</button>
-        <button class="btn_item2" id="see_except_data" onclick="loadPage('leave_except_brief')">查看異常簡要</button>
-        <button class="btn_item2" id="modify" onclick="loadPage('leave_except_detail')">查詢員工假勤</button>
+        <button class="btn_item2" id="see_leave_str">查看假別天數條件</button>
+        <button class="btn_item2" id="see_except_brief">查看異常簡要</button>
+        <button class="btn_item2" id="search_leave" >查詢紀錄</button>
+        <button class="btn_item2" id="see_except_detail">查詢員工假勤</button>
     </div>
     <div class="wrap" id="atn_insert">
-    <table class="atn_except_table">
+    <table class="atn_except_table" id="atn_except_table">
         <tr>
             <th width="105px">出勤狀態</th>
             <th width="110px">出勤日期</th>

@@ -1,9 +1,9 @@
 
-<div class="pop_search_leave_data">
+<div class="pop_search_leave_data" id="pop_search_leave_data">
     <div class="search">查詢員工假勤</div>
     <hr>
     <label for="leave_id">員工編號</label><input type="text" id="leave_id"><br>
-    <label for="leave_type">假別</label><select type="text" id="atn_day">
+    <label for="leave_type">假別</label><select type="text" id="leave_type">
         <option value="">假別</option>
         <option value="事假">事假</option>
         <option value="病假">病假</option>
@@ -26,13 +26,13 @@
         <option value="表單申請中">表單申請中</option>
         <option value="尚未處理">尚未處理</option>
     </select><br>
-    <label for="leave_date_start">出勤日期</label><input type="time" id="leave_date_start" style="width: 145px;">至<input type="time" id="leave_date_end" style="width: 145px;"><br>
+    <label for="leave_date_start">出勤日期</label><input type="date" id="leave_date_start" style="width: 145px;">至<input type="date" id="leave_date_end" style="width: 145px;"><br>
     <label for="leave_ck_time_start">打卡時間</label><input type="time" id="leave_ck_time_start" style="width: 145px;">至<input type="time" id="leave_ck_time_end" style="width: 145px;"><br>
     
     <div class="search_btn">
-        <button type="submit">查詢</button>
-        <button type="reset">清除</button>
-        <button type="button">取消</button>
+        <button type="submit" id="submit">查詢</button>
+        <button type="reset" id="reset">清除</button>
+        <button type="button" id="cancel">取消</button>
     </div>
 </div>
 
@@ -40,12 +40,13 @@
     <div class="emp_h">假勤管理</div>
 </div>
 <div class="atn_bottom2">
-    <button class="btn_item2" id="atn_list" onclick="loadPage('leave')">查看假別天數條件</button>
-    <button class="btn_item2" id="see_except_data" onclick="loadPage('leave_except_brief')">查看異常簡要</button>
-    <button class="btn_item2" id="modify" onclick="loadPage('leave_except_detail')">查詢員工假勤</button>
+    <button class="btn_item2" id="see_leave_str">查看假別天數條件</button>
+    <button class="btn_item2" id="see_except_brief">查看異常簡要</button>
+    <button class="btn_item2" id="search_leave" >查詢紀錄</button>
+    <button class="btn_item2" id="see_except_detail">查詢員工假勤</button>
 </div>
 <div class="wrap" id="atn_insert">
-<table class="atn_except_table">
+<table class="atn_except_table" id="atn_except_table">
     <tr>
         <th width="105px">處理狀態</th>
         <th width="110px">出勤日期</th>
@@ -62,166 +63,157 @@
         <th width="110px">下班時間</th>
         <th width="110px">打卡時間</th>
     </tr>
+    <tr>
+        <td id="row1-col1"></td>
+        <td id="row1-col2"></td>
+        <td id="row1-col3"></td>
+        <td id="row1-col4"></td>
+        <td id="row1-col5"></td>
+        <td id="row1-col6"></td>
+        <td id="row1-col7"></td>
+        <td id="row1-col8"></td>
+        <td id="row1-col9"></td>
+        <td id="row1-col10"></td>
+        <td id="row1-col11"></td>
+        <td id="row1-col12"></td>
+        <td id="row1-col13"></td>
+        <td id="row1-col14"></td>
     </tr>
     <tr>
-        <td >尚未處理</td>
-        <td >2024-08-06</td>
-        <td >上午</td>
-        <td >7</td>
-        <td >劉佳慧</td>
-        <td ></td>
-        <td >0</td>
-        <td >0</td>
-        <td >4</td>
-        <td >0</td>
-        <td >2024-08-06 09:00:00</td>
-        <td >2024-08-06 08:48:00</td>
-        <td >2024-08-06 18:00:00</td>
-        <td >N/A</td>
-    </tr>
-    </tr>
-    <tr>
-        <td >尚未處理</td>
-        <td >2024-08-06</td>
-        <td >上午</td>
-        <td >7</td>
-        <td >劉佳慧</td>
-        <td ></td>
-        <td >0</td>
-        <td >0</td>
-        <td >4</td>
-        <td >0</td>
-        <td >2024-08-06 09:00:00</td>
-        <td >2024-08-06 08:48:00</td>
-        <td >2024-08-06 18:00:00</td>
-        <td >N/A</td>
-    </tr>
+        <td id="row2-col1"></td>
+        <td id="row2-col2"></td>
+        <td id="row2-col3"></td>
+        <td id="row2-col4"></td>
+        <td id="row2-col5"></td>
+        <td id="row2-col6"></td>
+        <td id="row2-col7"></td>
+        <td id="row2-col8"></td>
+        <td id="row2-col9"></td>
+        <td id="row2-col10"></td>
+        <td id="row2-col11"></td>
+        <td id="row2-col12"></td>
+        <td id="row2-col13"></td>
+        <td id="row2-col14"></td>
     </tr>
     <tr>
-        <td >尚未處理</td>
-        <td >2024-08-06</td>
-        <td >上午</td>
-        <td >7</td>
-        <td >劉佳慧</td>
-        <td ></td>
-        <td >0</td>
-        <td >0</td>
-        <td >4</td>
-        <td >0</td>
-        <td >2024-08-06 09:00:00</td>
-        <td >2024-08-06 08:48:00</td>
-        <td >2024-08-06 18:00:00</td>
-        <td >N/A</td>
-    </tr>
-    </tr>
-    <tr>
-        <td >尚未處理</td>
-        <td >2024-08-06</td>
-        <td >上午</td>
-        <td >7</td>
-        <td >劉佳慧</td>
-        <td ></td>
-        <td >0</td>
-        <td >0</td>
-        <td >4</td>
-        <td >0</td>
-        <td >2024-08-06 09:00:00</td>
-        <td >2024-08-06 08:48:00</td>
-        <td >2024-08-06 18:00:00</td>
-        <td >N/A</td>
-    </tr>
+        <td id="row3-col1"></td>
+        <td id="row3-col2"></td>
+        <td id="row3-col3"></td>
+        <td id="row3-col4"></td>
+        <td id="row3-col5"></td>
+        <td id="row3-col6"></td>
+        <td id="row3-col7"></td>
+        <td id="row3-col8"></td>
+        <td id="row3-col9"></td>
+        <td id="row3-col10"></td>
+        <td id="row3-col11"></td>
+        <td id="row3-col12"></td>
+        <td id="row3-col13"></td>
+        <td id="row3-col14"></td>
     </tr>
     <tr>
-        <td >尚未處理</td>
-        <td >2024-08-06</td>
-        <td >上午</td>
-        <td >7</td>
-        <td >劉佳慧</td>
-        <td ></td>
-        <td >0</td>
-        <td >0</td>
-        <td >4</td>
-        <td >0</td>
-        <td >2024-08-06 09:00:00</td>
-        <td >2024-08-06 08:48:00</td>
-        <td >2024-08-06 18:00:00</td>
-        <td >N/A</td>
-    </tr>
-    </tr>
-    <tr>
-        <td >尚未處理</td>
-        <td >2024-08-06</td>
-        <td >上午</td>
-        <td >7</td>
-        <td >劉佳慧</td>
-        <td ></td>
-        <td >0</td>
-        <td >0</td>
-        <td >4</td>
-        <td >0</td>
-        <td >2024-08-06 09:00:00</td>
-        <td >2024-08-06 08:48:00</td>
-        <td >2024-08-06 18:00:00</td>
-        <td >N/A</td>
-    </tr>
+        <td id="row4-col1"></td>
+        <td id="row4-col2"></td>
+        <td id="row4-col3"></td>
+        <td id="row4-col4"></td>
+        <td id="row4-col5"></td>
+        <td id="row4-col6"></td>
+        <td id="row4-col7"></td>
+        <td id="row4-col8"></td>
+        <td id="row4-col9"></td>
+        <td id="row4-col10"></td>
+        <td id="row4-col11"></td>
+        <td id="row4-col12"></td>
+        <td id="row4-col13"></td>
+        <td id="row4-col14"></td>
     </tr>
     <tr>
-        <td >尚未處理</td>
-        <td >2024-08-06</td>
-        <td >上午</td>
-        <td >7</td>
-        <td >劉佳慧</td>
-        <td ></td>
-        <td >0</td>
-        <td >0</td>
-        <td >4</td>
-        <td >0</td>
-        <td >2024-08-06 09:00:00</td>
-        <td >2024-08-06 08:48:00</td>
-        <td >2024-08-06 18:00:00</td>
-        <td >N/A</td>
-    </tr>
-    </tr>
-    <tr>
-        <td >尚未處理</td>
-        <td >2024-08-06</td>
-        <td >上午</td>
-        <td >7</td>
-        <td >劉佳慧</td>
-        <td ></td>
-        <td >0</td>
-        <td >0</td>
-        <td >4</td>
-        <td >0</td>
-        <td >2024-08-06 09:00:00</td>
-        <td >2024-08-06 08:48:00</td>
-        <td >2024-08-06 18:00:00</td>
-        <td >N/A</td>
-    </tr>
+        <td id="row5-col1"></td>
+        <td id="row5-col2"></td>
+        <td id="row5-col3"></td>
+        <td id="row5-col4"></td>
+        <td id="row5-col5"></td>
+        <td id="row5-col6"></td>
+        <td id="row5-col7"></td>
+        <td id="row5-col8"></td>
+        <td id="row5-col9"></td>
+        <td id="row5-col10"></td>
+        <td id="row5-col11"></td>
+        <td id="row5-col12"></td>
+        <td id="row5-col13"></td>
+        <td id="row5-col14"></td>
     </tr>
     <tr>
-        <td >尚未處理</td>
-        <td >2024-08-06</td>
-        <td >上午</td>
-        <td >7</td>
-        <td >劉佳慧</td>
-        <td ></td>
-        <td >0</td>
-        <td >0</td>
-        <td >4</td>
-        <td >0</td>
-        <td >2024-08-06 09:00:00</td>
-        <td >2024-08-06 08:48:00</td>
-        <td >2024-08-06 18:00:00</td>
-        <td >N/A</td>
+        <td id="row6-col1"></td>
+        <td id="row6-col2"></td>
+        <td id="row6-col3"></td>
+        <td id="row6-col4"></td>
+        <td id="row6-col5"></td>
+        <td id="row6-col6"></td>
+        <td id="row6-col7"></td>
+        <td id="row6-col8"></td>
+        <td id="row6-col9"></td>
+        <td id="row6-col10"></td>
+        <td id="row6-col11"></td>
+        <td id="row6-col12"></td>
+        <td id="row6-col13"></td>
+        <td id="row6-col14"></td>
+    </tr>
+    <tr>
+        <td id="row7-col1"></td>
+        <td id="row7-col2"></td>
+        <td id="row7-col3"></td>
+        <td id="row7-col4"></td>
+        <td id="row7-col5"></td>
+        <td id="row7-col6"></td>
+        <td id="row7-col7"></td>
+        <td id="row7-col8"></td>
+        <td id="row7-col9"></td>
+        <td id="row7-col10"></td>
+        <td id="row7-col11"></td>
+        <td id="row7-col12"></td>
+        <td id="row7-col13"></td>
+        <td id="row7-col14"></td>
+    </tr>
+    <tr>
+        <td id="row8-col1"></td>
+        <td id="row8-col2"></td>
+        <td id="row8-col3"></td>
+        <td id="row8-col4"></td>
+        <td id="row8-col5"></td>
+        <td id="row8-col6"></td>
+        <td id="row8-col7"></td>
+        <td id="row8-col8"></td>
+        <td id="row8-col9"></td>
+        <td id="row8-col10"></td>
+        <td id="row8-col11"></td>
+        <td id="row8-col12"></td>
+        <td id="row8-col13"></td>
+        <td id="row8-col14"></td>
+    </tr>
+    <tr>
+        <td id="row9-col1"></td>
+        <td id="row9-col2"></td>
+        <td id="row9-col3"></td>
+        <td id="row9-col4"></td>
+        <td id="row9-col5"></td>
+        <td id="row9-col6"></td>
+        <td id="row9-col7"></td>
+        <td id="row9-col8"></td>
+        <td id="row9-col9"></td>
+        <td id="row9-col10"></td>
+        <td id="row9-col11"></td>
+        <td id="row9-col12"></td>
+        <td id="row9-col13"></td>
+        <td id="row9-col14"></td>
     </tr>
     
     </table>
     
 </div>
 <div class="atn_bottom1">
-    <button class="atn_item1" id="next">下一頁</button>
     <button class="atn_item1" id="last">上一頁</button>
+    <button class="atn_item1" id="next">下一頁</button>
 </div>
 
 

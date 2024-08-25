@@ -38,13 +38,13 @@
   }
   .pop_search_leave_data{
     width: 480px;
-    height: 480px;
+    height: 300px;
     background-color: #d8aeae;
     border: #f3f3f3 10px solid;
     border-radius: 20px;
     position: absolute;
-    left: 300px;
-    top: 40px;
+    left: 210px;
+    top: 70px;
     padding: 30px 10px 0px;
     font-size: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);

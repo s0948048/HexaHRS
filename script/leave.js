@@ -23,6 +23,17 @@ displayLeaveStructure();
 
 
 
+let seeLeaveStrPage = document.getElementById('see_leave_str');
+let seeExceptBriefPage = document.getElementById('see_except_brief');
+let seeExceptDetailPage = document.getElementById('see_except_detail');
+seeLeaveStrPage.style.color = 'gray';
+seeExceptBriefPage.addEventListener('click',()=>{
+    loadPage('leave_except_brief');
+})
+seeExceptDetailPage.addEventListener('click',()=>{
+    loadPage('leave_except_detail');
+})
+
 
 
 
