@@ -7,7 +7,7 @@ const pageNumbers = 10 ;
 let colNumbers = 8;
 var start;
 var end;
-let columns=['Position','InternalTierLevel','ExperienceRange','TierSalary','ExternalExperienceTierLevel','ExternalExperience','ExternalExperienceBonus','TotalSalary']
+let str_columns=['Position','InternalTierLevel','ExperienceRange','TierSalary','ExternalExperienceTierLevel','ExternalExperience','ExternalExperienceBonus','TotalSalary']
 let sry_num = document.getElementById('sry_num');
 let sry_status = document.getElementById('sry_status');
 let sry_years_inner = document.getElementById('sry_years_inner');
@@ -20,7 +20,7 @@ let sry_outer_attach = document.getElementById('sry_outer_attach');
 let sry_salary = document.getElementById('sry_salary');
 
 
-
+//顯示資料
 function displaySalaryStructure(page){
     start = (page) * pageNumbers;
     end = start + pageNumbers;
@@ -35,18 +35,37 @@ function displaySalaryStructure(page){
 
     salaryStructureToDisplay.forEach((element,index) => {
         // console.log(element);
-        for(let j = 0;j<columns.length;j++){
-            document.getElementById(`row${index+1}-col${j+1}`).innerHTML = element[columns[j]];
+        for(let j = 0;j<str_columns.length;j++){
+            document.getElementById(`row${index+1}-col${j+1}`).innerHTML = element[str_columns[j]];
         }
     });
+    const lastPageButtonForStr = document.getElementById('last');
+    if (page == 0) {
+        lastPageButtonForStr.style.color = 'gray';
+        lastPageButtonForStr.style.setProperty('cursor', 'auto', 'important');
+    }else {
+        lastPageButtonForStr.style.color = 'black';
+        lastPageButtonForStr.style.setProperty('cursor', 'pointer', 'important');
+    }
+    
+    const nextPageButtonForStr = document.getElementById('next');
+    if (salaryStructures.length < end) {
+        nextPageButtonForStr.style.color = 'gray';
+        nextPageButtonForStr.style.setProperty('cursor', 'auto', 'important');
+    }else {
+        nextPageButtonForStr.style.color = 'black';
+        nextPageButtonForStr.style.setProperty('cursor', 'pointer', 'important');
+    }
 }displaySalaryStructure(page);
 
 //翻頁邏輯
 document.getElementById('next').addEventListener('click', function() {
+    if (salaryStructures.length < end)return;
     page++;
     displaySalaryStructure(page);
 });
 document.getElementById('last').addEventListener('click', function() {
+    if(page == 0){return};
     page--;
     displaySalaryStructure(page);
 });
@@ -106,8 +125,37 @@ PopReset2.addEventListener('click',()=>{
     sryYearsOutStart.value = '';
     sryYearsOutEnd.value = '';
 })
+
 //查詢功能
 //偏複雜
+
+//封鎖下方員工詳細功能
+let searchSryId = document.getElementById('sry_num');
+let searchSryStatus = document.getElementById('sry_status');
+let searchSryYearsIn = document.getElementById('sry_years_inner');
+let searchSrName = document.getElementById('sry_name');
+let searchSryEmpDate = document.getElementById('sry_emp_date');
+let searchSryTerminDate = document.getElementById('sry_termin_date');
+let searchSryInLevel = document.getElementById('sry_level');
+let searchSryOuterYears = document.getElementById('sry_outer_years');
+let searchSryOuterAttach = document.getElementById('sry_outer_attach');
+let searchSryTotalSalary = document.getElementById('sry_total_salary');
+let searchSaveBtn = document.getElementById('search_save');
+let searchClearBtn = document.getElementById('search_clear');
+const btnSearchBox = [searchSryId,searchSryStatus,searchSryYearsIn,searchSrName,
+    searchSryEmpDate,searchSryTerminDate,searchSryInLevel,searchSryOuterYears,
+    searchSryOuterAttach,searchSryTotalSalary];
+const btnSearch = [searchSaveBtn,searchClearBtn]
+    btnSearchBox.forEach(item=>{
+        item.value = '';
+        item.setAttribute('readonly',true);
+        item.style.backgroundColor = '#d7d5d5';
+    })
+    btnSearch.forEach(item=>{
+        item.style.color = 'gray';
+        item.style.setProperty('cursor', 'auto', 'important');
+    })
+
 
 
 
@@ -121,9 +169,19 @@ fetch(`${table}.html`)
 .then(response => response.text())
 .then(data => {
     // console.log(data);
-    document.getElementById('salary_data').innerHTML = data;
-})
+    document.getElementById('change_site').innerHTML = data;
 
+    const script = document.createElement('script');
+    script.id = 'salary_data';
+    script.src = `./script/salary_data.js`;
+    document.body.appendChild(script);
+
+    script.onload = ()=>{
+        if(typeof initializeSalaryDataPage === 'function'){
+            initializeSalaryDataPage();
+        }
+    }
+})
 }
 changeSalaryTable('salary_data');
 

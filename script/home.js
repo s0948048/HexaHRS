@@ -1,4 +1,4 @@
-function initializeHomePage(){
+function initializePage(){
 
 // 先做跳轉預備，強邏輯後續處理
 var next = document.getElementById('next_page');
@@ -142,4 +142,4 @@ salary_date.innerHTML = salaryDate.getDate();
 
 
 };
-initializeHomePage();
+initializePage();

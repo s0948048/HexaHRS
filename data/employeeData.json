@@ -13,7 +13,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 706,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 43000
   },
   {
     "id": 9,
@@ -29,7 +30,8 @@
     "PrimarySupervisor": 249,
     "SecondarySupervisor": 706,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 30000
   },
   {
     "id": 12,
@@ -45,7 +47,8 @@
     "PrimarySupervisor": 693,
     "SecondarySupervisor": 706,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 37000
   },
   {
     "id": 14,
@@ -61,7 +64,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 640,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 41000
   },
   {
     "id": 15,
@@ -77,7 +81,8 @@
     "PrimarySupervisor": 737,
     "SecondarySupervisor": 545,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 38000
   },
   {
     "id": 20,
@@ -93,7 +98,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 962,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 38000
   },
   {
     "id": 22,
@@ -109,7 +115,8 @@
     "PrimarySupervisor": 563,
     "SecondarySupervisor": 197,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 49000
   },
   {
     "id": 23,
@@ -125,7 +132,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 877,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 37000
   },
   {
     "id": 25,
@@ -141,7 +149,8 @@
     "PrimarySupervisor": 673,
     "SecondarySupervisor": 197,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 44000
   },
   {
     "id": 26,
@@ -157,7 +166,8 @@
     "PrimarySupervisor": 790,
     "SecondarySupervisor": 980,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 37000
   },
   {
     "id": 29,
@@ -173,7 +183,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 669,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 45000
   },
   {
     "id": 34,
@@ -189,7 +200,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 40000
   },
   {
     "id": 36,
@@ -205,7 +217,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 48,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 47000
   },
   {
     "id": 37,
@@ -221,7 +234,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 508,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 37000
   },
   {
     "id": 50,
@@ -237,7 +251,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 578,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 41000
   },
   {
     "id": 54,
@@ -253,7 +268,8 @@
     "PrimarySupervisor": 637,
     "SecondarySupervisor": 894,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 45000
   },
   {
     "id": 59,
@@ -269,7 +285,8 @@
     "PrimarySupervisor": 141,
     "SecondarySupervisor": 508,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 43000
   },
   {
     "id": 61,
@@ -285,7 +302,8 @@
     "PrimarySupervisor": 790,
     "SecondarySupervisor": 962,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 47000
   },
   {
     "id": 67,
@@ -301,7 +319,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 790,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 47000
   },
   {
     "id": 73,
@@ -317,7 +336,8 @@
     "PrimarySupervisor": 640,
     "SecondarySupervisor": 842,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 50000
   },
   {
     "id": 76,
@@ -333,7 +353,8 @@
     "PrimarySupervisor": 109,
     "SecondarySupervisor": 790,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 31000
   },
   {
     "id": 81,
@@ -349,7 +370,8 @@
     "PrimarySupervisor": 962,
     "SecondarySupervisor": 583,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 38000
   },
   {
     "id": 82,
@@ -365,7 +387,8 @@
     "PrimarySupervisor": 508,
     "SecondarySupervisor": 154,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 34000
   },
   {
     "id": 89,
@@ -381,7 +404,8 @@
     "PrimarySupervisor": 143,
     "SecondarySupervisor": 640,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 31000
   },
   {
     "id": 91,
@@ -397,7 +421,8 @@
     "PrimarySupervisor": 637,
     "SecondarySupervisor": 197,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 35000
   },
   {
     "id": 95,
@@ -413,7 +438,8 @@
     "PrimarySupervisor": 508,
     "SecondarySupervisor": 197,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 46000
   },
   {
     "id": 96,
@@ -429,7 +455,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 46000
   },
   {
     "id": 101,
@@ -445,7 +472,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 58000
   },
   {
     "id": 103,
@@ -461,7 +489,8 @@
     "PrimarySupervisor": 101,
     "SecondarySupervisor": 563,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 48000
   },
   {
     "id": 109,
@@ -477,7 +506,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 49000
   },
   {
     "id": 116,
@@ -493,7 +523,8 @@
     "PrimarySupervisor": 637,
     "SecondarySupervisor": 508,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 42000
   },
   {
     "id": 121,
@@ -509,7 +540,8 @@
     "PrimarySupervisor": 637,
     "SecondarySupervisor": 143,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 30000
   },
   {
     "id": 129,
@@ -525,7 +557,8 @@
     "PrimarySupervisor": 34,
     "SecondarySupervisor": 877,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 47000
   },
   {
     "id": 132,
@@ -541,7 +574,8 @@
     "PrimarySupervisor": 364,
     "SecondarySupervisor": 737,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 47000
   },
   {
     "id": 134,
@@ -557,7 +591,8 @@
     "PrimarySupervisor": 192,
     "SecondarySupervisor": 96,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 46000
   },
   {
     "id": 136,
@@ -573,7 +608,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 192,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 39000
   },
   {
     "id": 141,
@@ -589,7 +625,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 50000
   },
   {
     "id": 143,
@@ -605,7 +642,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 59000
   },
   {
     "id": 145,
@@ -621,7 +659,8 @@
     "PrimarySupervisor": 673,
     "SecondarySupervisor": 669,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 41000
   },
   {
     "id": 151,
@@ -637,7 +676,8 @@
     "PrimarySupervisor": 894,
     "SecondarySupervisor": 706,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 35000
   },
   {
     "id": 154,
@@ -653,7 +693,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 46000
   },
   {
     "id": 156,
@@ -669,7 +710,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 980,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 35000
   },
   {
     "id": 162,
@@ -685,7 +727,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 547,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 44000
   },
   {
     "id": 168,
@@ -701,7 +744,8 @@
     "PrimarySupervisor": 508,
     "SecondarySupervisor": 980,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 35000
   },
   {
     "id": 169,
@@ -717,7 +761,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 583,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 36000
   },
   {
     "id": 170,
@@ -733,7 +778,8 @@
     "PrimarySupervisor": 545,
     "SecondarySupervisor": 894,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 32000
   },
   {
     "id": 171,
@@ -749,7 +795,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 101,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 36000
   },
   {
     "id": 174,
@@ -765,7 +812,8 @@
     "PrimarySupervisor": 545,
     "SecondarySupervisor": 141,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 42000
   },
   {
     "id": 179,
@@ -781,7 +829,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 948,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 39000
   },
   {
     "id": 189,
@@ -797,7 +846,8 @@
     "PrimarySupervisor": 508,
     "SecondarySupervisor": 141,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 32000
   },
   {
     "id": 191,
@@ -813,7 +863,8 @@
     "PrimarySupervisor": 143,
     "SecondarySupervisor": 96,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 33000
   },
   {
     "id": 194,
@@ -829,7 +880,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 364,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 34000
   },
   {
     "id": 200,
@@ -845,7 +897,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 842,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 38000
   },
   {
     "id": 202,
@@ -861,7 +914,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 249,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 33000
   },
   {
     "id": 204,
@@ -877,7 +931,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 669,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 32000
   },
   {
     "id": 209,
@@ -893,7 +948,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 578,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 44000
   },
   {
     "id": 210,
@@ -909,7 +965,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 602,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 33000
   },
   {
     "id": 211,
@@ -925,7 +982,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 508,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 44000
   },
   {
     "id": 215,
@@ -941,7 +999,8 @@
     "PrimarySupervisor": 192,
     "SecondarySupervisor": 877,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 30000
   },
   {
     "id": 220,
@@ -957,7 +1016,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 669,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 38000
   },
   {
     "id": 225,
@@ -973,7 +1033,8 @@
     "PrimarySupervisor": 364,
     "SecondarySupervisor": 890,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 41000
   },
   {
     "id": 227,
@@ -989,7 +1050,8 @@
     "PrimarySupervisor": 894,
     "SecondarySupervisor": 508,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 32000
   },
   {
     "id": 229,
@@ -1005,7 +1067,8 @@
     "PrimarySupervisor": 877,
     "SecondarySupervisor": 602,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 34000
   },
   {
     "id": 234,
@@ -1021,7 +1084,8 @@
     "PrimarySupervisor": 877,
     "SecondarySupervisor": 637,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 43000
   },
   {
     "id": 239,
@@ -1037,7 +1101,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 249,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 36000
   },
   {
     "id": 247,
@@ -1053,7 +1118,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 602,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 35000
   },
   {
     "id": 249,
@@ -1069,7 +1135,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 53000
   },
   {
     "id": 250,
@@ -1085,7 +1152,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 877,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 43000
   },
   {
     "id": 253,
@@ -1101,7 +1169,8 @@
     "PrimarySupervisor": 877,
     "SecondarySupervisor": 790,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 34000
   },
   {
     "id": 259,
@@ -1117,7 +1186,8 @@
     "PrimarySupervisor": 673,
     "SecondarySupervisor": 792,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 42000
   },
   {
     "id": 261,
@@ -1133,7 +1203,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 673,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 41000
   },
   {
     "id": 262,
@@ -1149,7 +1220,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 154,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 39000
   },
   {
     "id": 274,
@@ -1165,7 +1237,8 @@
     "PrimarySupervisor": 503,
     "SecondarySupervisor": 792,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 47000
   },
   {
     "id": 276,
@@ -1181,7 +1254,8 @@
     "PrimarySupervisor": 962,
     "SecondarySupervisor": 792,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 38000
   },
   {
     "id": 284,
@@ -1197,7 +1271,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 980,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 52000
   },
   {
     "id": 286,
@@ -1213,7 +1288,8 @@
     "PrimarySupervisor": 143,
     "SecondarySupervisor": 48,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 37000
   },
   {
     "id": 287,
@@ -1229,7 +1305,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 249,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 53000
   },
   {
     "id": 288,
@@ -1245,7 +1322,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 669,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 35000
   },
   {
     "id": 289,
@@ -1261,7 +1339,8 @@
     "PrimarySupervisor": 877,
     "SecondarySupervisor": 96,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 35000
   },
   {
     "id": 303,
@@ -1277,7 +1356,8 @@
     "PrimarySupervisor": 141,
     "SecondarySupervisor": 737,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 37000
   },
   {
     "id": 307,
@@ -1293,7 +1373,8 @@
     "PrimarySupervisor": 693,
     "SecondarySupervisor": 503,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 30000
   },
   {
     "id": 308,
@@ -1309,7 +1390,8 @@
     "PrimarySupervisor": 192,
     "SecondarySupervisor": 737,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 30000
   },
   {
     "id": 309,
@@ -1325,7 +1407,8 @@
     "PrimarySupervisor": 545,
     "SecondarySupervisor": 141,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 40000
   },
   {
     "id": 310,
@@ -1341,7 +1424,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 578,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 32000
   },
   {
     "id": 323,
@@ -1357,7 +1441,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 669,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 38000
   },
   {
     "id": 330,
@@ -1373,7 +1458,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 737,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 39000
   },
   {
     "id": 334,
@@ -1389,7 +1475,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 192,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 37000
   },
   {
     "id": 335,
@@ -1405,7 +1492,8 @@
     "PrimarySupervisor": 673,
     "SecondarySupervisor": 578,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 49000
   },
   {
     "id": 341,
@@ -1421,7 +1509,8 @@
     "PrimarySupervisor": 563,
     "SecondarySupervisor": 669,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 43000
   },
   {
     "id": 343,
@@ -1437,7 +1526,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 602,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 42000
   },
   {
     "id": 345,
@@ -1453,7 +1543,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 34,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 40000
   },
   {
     "id": 347,
@@ -1469,7 +1560,8 @@
     "PrimarySupervisor": 877,
     "SecondarySupervisor": 101,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 36000
   },
   {
     "id": 348,
@@ -1485,7 +1577,8 @@
     "PrimarySupervisor": 701,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 40000
   },
   {
     "id": 350,
@@ -1501,7 +1594,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 545,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 44000
   },
   {
     "id": 364,
@@ -1517,7 +1611,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 52000
   },
   {
     "id": 366,
@@ -1533,7 +1628,8 @@
     "PrimarySupervisor": 798,
     "SecondarySupervisor": null,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 40000
   },
   {
     "id": 371,
@@ -1549,7 +1645,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 669,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 30000
   },
   {
     "id": 372,
@@ -1565,7 +1662,8 @@
     "PrimarySupervisor": 737,
     "SecondarySupervisor": 792,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 34000
   },
   {
     "id": 373,
@@ -1581,7 +1679,8 @@
     "PrimarySupervisor": 673,
     "SecondarySupervisor": 894,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 50000
   },
   {
     "id": 376,
@@ -1597,7 +1696,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 842,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 50000
   },
   {
     "id": 377,
@@ -1613,7 +1713,8 @@
     "PrimarySupervisor": 34,
     "SecondarySupervisor": 693,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 42000
   },
   {
     "id": 378,
@@ -1629,7 +1730,8 @@
     "PrimarySupervisor": 962,
     "SecondarySupervisor": 141,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 38000
   },
   {
     "id": 382,
@@ -1645,7 +1747,8 @@
     "PrimarySupervisor": 715,
     "SecondarySupervisor": 737,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 33000
   },
   {
     "id": 384,
@@ -1661,7 +1764,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 503,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 44000
   },
   {
     "id": 385,
@@ -1677,7 +1781,8 @@
     "PrimarySupervisor": 583,
     "SecondarySupervisor": 962,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 32000
   },
   {
     "id": 405,
@@ -1693,7 +1798,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 583,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 33000
   },
   {
     "id": 407,
@@ -1709,7 +1815,8 @@
     "PrimarySupervisor": 34,
     "SecondarySupervisor": 563,
     "ExternalExperience": 9,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 41000
   },
   {
     "id": 417,
@@ -1725,7 +1832,8 @@
     "PrimarySupervisor": 962,
     "SecondarySupervisor": 364,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 37000
   },
   {
     "id": 418,
@@ -1741,7 +1849,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 503,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 41000
   },
   {
     "id": 419,
@@ -1757,7 +1866,8 @@
     "PrimarySupervisor": 96,
     "SecondarySupervisor": 545,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 38000
   },
   {
     "id": 420,
@@ -1773,7 +1883,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 197,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 33000
   },
   {
     "id": 429,
@@ -1789,7 +1900,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 508,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 35000
   },
   {
     "id": 430,
@@ -1805,7 +1917,8 @@
     "PrimarySupervisor": 563,
     "SecondarySupervisor": 364,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 32000
   },
   {
     "id": 433,
@@ -1821,7 +1934,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 602,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 48000
   },
   {
     "id": 435,
@@ -1837,7 +1951,8 @@
     "PrimarySupervisor": 583,
     "SecondarySupervisor": 192,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 41000
   },
   {
     "id": 436,
@@ -1853,7 +1968,8 @@
     "PrimarySupervisor": 34,
     "SecondarySupervisor": 948,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 37000
   },
   {
     "id": 437,
@@ -1869,7 +1985,8 @@
     "PrimarySupervisor": 792,
     "SecondarySupervisor": 894,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 44000
   },
   {
     "id": 449,
@@ -1885,7 +2002,8 @@
     "PrimarySupervisor": 503,
     "SecondarySupervisor": 715,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 38000
   },
   {
     "id": 454,
@@ -1901,7 +2019,8 @@
     "PrimarySupervisor": 503,
     "SecondarySupervisor": 890,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 36000
   },
   {
     "id": 456,
@@ -1917,7 +2036,8 @@
     "PrimarySupervisor": 508,
     "SecondarySupervisor": 894,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 33000
   },
   {
     "id": 457,
@@ -1933,7 +2053,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 842,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 32000
   },
   {
     "id": 460,
@@ -1949,7 +2070,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 706,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 38000
   },
   {
     "id": 462,
@@ -1965,7 +2087,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 890,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 35000
   },
   {
     "id": 476,
@@ -1981,7 +2104,8 @@
     "PrimarySupervisor": 578,
     "SecondarySupervisor": 602,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 35000
   },
   {
     "id": 482,
@@ -1997,7 +2121,8 @@
     "PrimarySupervisor": 790,
     "SecondarySupervisor": 693,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 41000
   },
   {
     "id": 484,
@@ -2013,7 +2138,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 948,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 40000
   },
   {
     "id": 492,
@@ -2029,7 +2155,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 792,
     "ExternalExperience": 9,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 35000
   },
   {
     "id": 494,
@@ -2045,7 +2172,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 980,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 38000
   },
   {
     "id": 500,
@@ -2061,7 +2189,8 @@
     "PrimarySupervisor": 737,
     "SecondarySupervisor": 547,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 43000
   },
   {
     "id": 501,
@@ -2077,7 +2206,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 715,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 39000
   },
   {
     "id": 503,
@@ -2093,7 +2223,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 59000
   },
   {
     "id": 518,
@@ -2109,7 +2240,8 @@
     "PrimarySupervisor": 96,
     "SecondarySupervisor": 101,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 50000
   },
   {
     "id": 519,
@@ -2125,7 +2257,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 583,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 43000
   },
   {
     "id": 521,
@@ -2141,7 +2274,8 @@
     "PrimarySupervisor": 249,
     "SecondarySupervisor": 141,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 38000
   },
   {
     "id": 533,
@@ -2157,7 +2291,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 792,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 39000
   },
   {
     "id": 535,
@@ -2173,7 +2308,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 673,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 42000
   },
   {
     "id": 538,
@@ -2189,7 +2325,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 842,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 42000
   },
   {
     "id": 540,
@@ -2205,7 +2342,8 @@
     "PrimarySupervisor": 673,
     "SecondarySupervisor": 545,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 42000
   },
   {
     "id": 541,
@@ -2221,7 +2359,8 @@
     "PrimarySupervisor": 792,
     "SecondarySupervisor": 637,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 41000
   },
   {
     "id": 545,
@@ -2237,7 +2376,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 52000
   },
   {
     "id": 552,
@@ -2253,7 +2393,8 @@
     "PrimarySupervisor": 503,
     "SecondarySupervisor": 109,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 35000
   },
   {
     "id": 559,
@@ -2269,7 +2410,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 154,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 44000
   },
   {
     "id": 561,
@@ -2285,7 +2427,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 980,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 45000
   },
   {
     "id": 563,
@@ -2301,7 +2444,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 40000
   },
   {
     "id": 568,
@@ -2317,7 +2461,8 @@
     "PrimarySupervisor": 508,
     "SecondarySupervisor": 563,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 45000
   },
   {
     "id": 569,
@@ -2333,7 +2478,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 673,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 32000
   },
   {
     "id": 570,
@@ -2349,7 +2495,8 @@
     "PrimarySupervisor": 737,
     "SecondarySupervisor": 962,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 35000
   },
   {
     "id": 572,
@@ -2365,7 +2512,8 @@
     "PrimarySupervisor": 348,
     "SecondarySupervisor": 545,
     "ExternalExperience": 9,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 35000
   },
   {
     "id": 575,
@@ -2381,7 +2529,8 @@
     "PrimarySupervisor": 637,
     "SecondarySupervisor": 141,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 31000
   },
   {
     "id": 585,
@@ -2397,7 +2546,8 @@
     "PrimarySupervisor": 583,
     "SecondarySupervisor": 578,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 40000
   },
   {
     "id": 597,
@@ -2413,7 +2563,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 790,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 35000
   },
   {
     "id": 605,
@@ -2429,7 +2580,8 @@
     "PrimarySupervisor": 96,
     "SecondarySupervisor": 890,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 43000
   },
   {
     "id": 607,
@@ -2445,7 +2597,8 @@
     "PrimarySupervisor": 508,
     "SecondarySupervisor": 693,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 38000
   },
   {
     "id": 608,
@@ -2461,7 +2614,8 @@
     "PrimarySupervisor": 141,
     "SecondarySupervisor": 706,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 48000
   },
   {
     "id": 614,
@@ -2477,7 +2631,8 @@
     "PrimarySupervisor": 249,
     "SecondarySupervisor": 948,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 42000
   },
   {
     "id": 616,
@@ -2493,7 +2648,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 143,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 37000
   },
   {
     "id": 619,
@@ -2509,7 +2665,8 @@
     "PrimarySupervisor": 563,
     "SecondarySupervisor": 197,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 32000
   },
   {
     "id": 622,
@@ -2525,7 +2682,8 @@
     "PrimarySupervisor": 503,
     "SecondarySupervisor": 348,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 49000
   },
   {
     "id": 623,
@@ -2541,7 +2699,8 @@
     "PrimarySupervisor": 101,
     "SecondarySupervisor": 364,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 47000
   },
   {
     "id": 629,
@@ -2557,7 +2716,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 790,
     "ExternalExperience": 9,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 33000
   },
   {
     "id": 630,
@@ -2573,7 +2733,8 @@
     "PrimarySupervisor": 503,
     "SecondarySupervisor": 602,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 45000
   },
   {
     "id": 634,
@@ -2589,7 +2750,8 @@
     "PrimarySupervisor": 894,
     "SecondarySupervisor": 669,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 33000
   },
   {
     "id": 636,
@@ -2605,7 +2767,8 @@
     "PrimarySupervisor": 877,
     "SecondarySupervisor": 706,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 50000
   },
   {
     "id": 637,
@@ -2621,7 +2784,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 43000
   },
   {
     "id": 640,
@@ -2637,7 +2801,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 59000
   },
   {
     "id": 657,
@@ -2653,7 +2818,8 @@
     "PrimarySupervisor": 192,
     "SecondarySupervisor": 547,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 47000
   },
   {
     "id": 658,
@@ -2669,7 +2835,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 706,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 39000
   },
   {
     "id": 665,
@@ -2685,7 +2852,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 890,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 43000
   },
   {
     "id": 670,
@@ -2701,7 +2869,8 @@
     "PrimarySupervisor": 364,
     "SecondarySupervisor": 715,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 35000
   },
   {
     "id": 671,
@@ -2717,7 +2886,8 @@
     "PrimarySupervisor": 673,
     "SecondarySupervisor": 192,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 41000
   },
   {
     "id": 674,
@@ -2733,7 +2903,8 @@
     "PrimarySupervisor": 578,
     "SecondarySupervisor": 669,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 38000
   },
   {
     "id": 678,
@@ -2749,7 +2920,8 @@
     "PrimarySupervisor": 364,
     "SecondarySupervisor": 792,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 47000
   },
   {
     "id": 681,
@@ -2765,7 +2937,8 @@
     "PrimarySupervisor": 192,
     "SecondarySupervisor": 693,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 34000
   },
   {
     "id": 682,
@@ -2781,7 +2954,8 @@
     "PrimarySupervisor": 96,
     "SecondarySupervisor": 602,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 40000
   },
   {
     "id": 686,
@@ -2797,7 +2971,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 101,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 36000
   },
   {
     "id": 693,
@@ -2813,7 +2988,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 49000
   },
   {
     "id": 701,
@@ -2829,7 +3005,8 @@
     "PrimarySupervisor": null,
     "SecondarySupervisor": null,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 66000
   },
   {
     "id": 708,
@@ -2845,7 +3022,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 669,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 38000
   },
   {
     "id": 715,
@@ -2861,7 +3039,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 55000
   },
   {
     "id": 719,
@@ -2877,7 +3056,8 @@
     "PrimarySupervisor": 348,
     "SecondarySupervisor": 693,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 35000
   },
   {
     "id": 726,
@@ -2893,7 +3073,8 @@
     "PrimarySupervisor": 503,
     "SecondarySupervisor": 877,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 46000
   },
   {
     "id": 727,
@@ -2909,7 +3090,8 @@
     "PrimarySupervisor": 141,
     "SecondarySupervisor": 715,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 35000
   },
   {
     "id": 734,
@@ -2925,7 +3107,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 143,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 30000
   },
   {
     "id": 737,
@@ -2941,7 +3124,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 50000
   },
   {
     "id": 741,
@@ -2957,7 +3141,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 948,
     "ExternalExperience": 9,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 41000
   },
   {
     "id": 742,
@@ -2973,7 +3158,8 @@
     "PrimarySupervisor": 894,
     "SecondarySupervisor": 545,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 50000
   },
   {
     "id": 754,
@@ -2989,7 +3175,8 @@
     "PrimarySupervisor": 715,
     "SecondarySupervisor": 842,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 37000
   },
   {
     "id": 756,
@@ -3005,7 +3192,8 @@
     "PrimarySupervisor": 693,
     "SecondarySupervisor": 842,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 42000
   },
   {
     "id": 757,
@@ -3021,7 +3209,8 @@
     "PrimarySupervisor": 934,
     "SecondarySupervisor": 508,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 42000
   },
   {
     "id": 762,
@@ -3037,7 +3226,8 @@
     "PrimarySupervisor": 640,
     "SecondarySupervisor": 962,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 39000
   },
   {
     "id": 767,
@@ -3053,7 +3243,8 @@
     "PrimarySupervisor": 508,
     "SecondarySupervisor": 197,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 45000
   },
   {
     "id": 768,
@@ -3069,7 +3260,8 @@
     "PrimarySupervisor": 96,
     "SecondarySupervisor": 48,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 42000
   },
   {
     "id": 769,
@@ -3085,7 +3277,8 @@
     "PrimarySupervisor": 578,
     "SecondarySupervisor": 948,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 41000
   },
   {
     "id": 787,
@@ -3101,7 +3294,8 @@
     "PrimarySupervisor": 364,
     "SecondarySupervisor": 715,
     "ExternalExperience": 9,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 36000
   },
   {
     "id": 788,
@@ -3117,7 +3311,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 706,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 41000
   },
   {
     "id": 790,
@@ -3133,7 +3328,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 40000
   },
   {
     "id": 792,
@@ -3149,7 +3345,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 43000
   },
   {
     "id": 795,
@@ -3165,7 +3362,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 673,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 37000
   },
   {
     "id": 796,
@@ -3181,7 +3379,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 890,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 40000
   },
   {
     "id": 798,
@@ -3197,7 +3396,8 @@
     "PrimarySupervisor": null,
     "SecondarySupervisor": null,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 60000
   },
   {
     "id": 804,
@@ -3213,7 +3413,8 @@
     "PrimarySupervisor": 790,
     "SecondarySupervisor": 545,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 33000
   },
   {
     "id": 809,
@@ -3229,7 +3430,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 715,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 33000
   },
   {
     "id": 814,
@@ -3245,7 +3447,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 842,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 43000
   },
   {
     "id": 823,
@@ -3261,7 +3464,8 @@
     "PrimarySupervisor": 503,
     "SecondarySupervisor": 48,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 43000
   },
   {
     "id": 825,
@@ -3277,7 +3481,8 @@
     "PrimarySupervisor": 637,
     "SecondarySupervisor": 503,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 39000
   },
   {
     "id": 827,
@@ -3293,7 +3498,8 @@
     "PrimarySupervisor": 894,
     "SecondarySupervisor": 602,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 48000
   },
   {
     "id": 829,
@@ -3309,7 +3515,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 842,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 48000
   },
   {
     "id": 830,
@@ -3325,7 +3532,8 @@
     "PrimarySupervisor": 792,
     "SecondarySupervisor": 578,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 50000
   },
   {
     "id": 841,
@@ -3341,7 +3549,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 583,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 39000
   },
   {
     "id": 855,
@@ -3357,7 +3566,8 @@
     "PrimarySupervisor": 503,
     "SecondarySupervisor": 706,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 45000
   },
   {
     "id": 870,
@@ -3373,7 +3583,8 @@
     "PrimarySupervisor": 563,
     "SecondarySupervisor": 249,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 44000
   },
   {
     "id": 877,
@@ -3389,7 +3600,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 68000
   },
   {
     "id": 885,
@@ -3405,7 +3617,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 197,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 33000
   },
   {
     "id": 888,
@@ -3421,7 +3634,8 @@
     "PrimarySupervisor": 34,
     "SecondarySupervisor": 877,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 30000
   },
   {
     "id": 893,
@@ -3437,7 +3651,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 673,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 42000
   },
   {
     "id": 894,
@@ -3453,7 +3668,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 65000
   },
   {
     "id": 900,
@@ -3469,7 +3685,8 @@
     "PrimarySupervisor": 192,
     "SecondarySupervisor": 547,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 42000
   },
   {
     "id": 904,
@@ -3485,7 +3702,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 792,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 49000
   },
   {
     "id": 907,
@@ -3501,7 +3719,8 @@
     "PrimarySupervisor": 737,
     "SecondarySupervisor": 34,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 48000
   },
   {
     "id": 912,
@@ -3517,7 +3736,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 364,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 38000
   },
   {
     "id": 922,
@@ -3533,7 +3753,8 @@
     "PrimarySupervisor": 637,
     "SecondarySupervisor": 101,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 34000
   },
   {
     "id": 923,
@@ -3549,7 +3770,8 @@
     "PrimarySupervisor": 737,
     "SecondarySupervisor": 547,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 33000
   },
   {
     "id": 926,
@@ -3565,7 +3787,8 @@
     "PrimarySupervisor": 637,
     "SecondarySupervisor": 673,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 33000
   },
   {
     "id": 928,
@@ -3581,7 +3804,8 @@
     "PrimarySupervisor": 192,
     "SecondarySupervisor": 962,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 50000
   },
   {
     "id": 929,
@@ -3597,7 +3821,8 @@
     "PrimarySupervisor": null,
     "SecondarySupervisor": null,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 75000
   },
   {
     "id": 931,
@@ -3613,7 +3838,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 877,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 38000
   },
   {
     "id": 934,
@@ -3629,7 +3855,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 58000
   },
   {
     "id": 936,
@@ -3645,7 +3872,8 @@
     "PrimarySupervisor": 583,
     "SecondarySupervisor": 693,
     "ExternalExperience": 9,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 31000
   },
   {
     "id": 945,
@@ -3661,7 +3889,8 @@
     "PrimarySupervisor": 693,
     "SecondarySupervisor": 980,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 47000
   },
   {
     "id": 949,
@@ -3677,7 +3906,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 503,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 39000
   },
   {
     "id": 950,
@@ -3693,7 +3923,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 962,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 39000
   },
   {
     "id": 961,
@@ -3709,7 +3940,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 790,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 34000
   },
   {
     "id": 962,
@@ -3725,7 +3957,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 53000
   },
   {
     "id": 963,
@@ -3741,7 +3974,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 792,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 37000
   },
   {
     "id": 964,
@@ -3757,7 +3991,8 @@
     "PrimarySupervisor": 34,
     "SecondarySupervisor": 563,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 43000
   },
   {
     "id": 965,
@@ -3773,7 +4008,8 @@
     "PrimarySupervisor": 894,
     "SecondarySupervisor": 790,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 47000
   },
   {
     "id": 973,
@@ -3789,7 +4025,8 @@
     "PrimarySupervisor": 96,
     "SecondarySupervisor": 693,
     "ExternalExperience": 9,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 39000
   },
   {
     "id": 976,
@@ -3805,7 +4042,8 @@
     "PrimarySupervisor": 894,
     "SecondarySupervisor": 737,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 32000
   },
   {
     "id": 978,
@@ -3821,7 +4059,8 @@
     "PrimarySupervisor": 143,
     "SecondarySupervisor": 197,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 34000
   },
   {
     "id": 983,
@@ -3837,7 +4076,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 890,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 43000
   },
   {
     "id": 984,
@@ -3853,7 +4093,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 192,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 33000
   },
   {
     "id": 985,
@@ -3869,7 +4110,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 583,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 39000
   },
   {
     "id": 988,
@@ -3885,7 +4127,8 @@
     "PrimarySupervisor": 894,
     "SecondarySupervisor": 197,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 49000
   },
   {
     "id": 989,
@@ -3901,7 +4144,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 508,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 43000
   },
   {
     "id": 990,
@@ -3917,7 +4161,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 890,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 47000
   },
   {
     "id": 993,
@@ -3933,7 +4178,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 545,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 32000
   },
   {
     "id": 1000,
@@ -3949,7 +4195,8 @@
     "PrimarySupervisor": 249,
     "SecondarySupervisor": 737,
     "ExternalExperience": 9,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 33000
   },
   {
     "id": 1,
@@ -3965,7 +4212,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 547,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 30000
   },
   {
     "id": 16,
@@ -3981,7 +4229,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 948,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 43000
   },
   {
     "id": 19,
@@ -3997,7 +4246,8 @@
     "PrimarySupervisor": null,
     "SecondarySupervisor": null,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 60000
   },
   {
     "id": 24,
@@ -4013,7 +4263,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 706,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 37000
   },
   {
     "id": 27,
@@ -4029,7 +4280,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 48,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 34000
   },
   {
     "id": 48,
@@ -4045,7 +4297,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 52000
   },
   {
     "id": 75,
@@ -4061,7 +4314,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 192,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 48000
   },
   {
     "id": 79,
@@ -4077,7 +4331,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 583,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 48000
   },
   {
     "id": 85,
@@ -4093,7 +4348,8 @@
     "PrimarySupervisor": 673,
     "SecondarySupervisor": 197,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 33000
   },
   {
     "id": 93,
@@ -4109,7 +4365,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 547,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 50000
   },
   {
     "id": 104,
@@ -4125,7 +4382,8 @@
     "PrimarySupervisor": 578,
     "SecondarySupervisor": 980,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 47000
   },
   {
     "id": 105,
@@ -4141,7 +4399,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 583,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 49000
   },
   {
     "id": 106,
@@ -4157,7 +4416,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 706,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 44000
   },
   {
     "id": 111,
@@ -4173,7 +4433,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 547,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 49000
   },
   {
     "id": 117,
@@ -4189,7 +4450,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 583,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 49000
   },
   {
     "id": 119,
@@ -4205,7 +4467,8 @@
     "PrimarySupervisor": 673,
     "SecondarySupervisor": 197,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 35000
   },
   {
     "id": 123,
@@ -4221,7 +4484,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 673,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 41000
   },
   {
     "id": 128,
@@ -4237,7 +4501,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 842,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 35000
   },
   {
     "id": 160,
@@ -4253,7 +4518,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 48,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 34000
   },
   {
     "id": 175,
@@ -4269,7 +4535,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 583,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 37000
   },
   {
     "id": 182,
@@ -4285,7 +4552,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 192,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 33000
   },
   {
     "id": 192,
@@ -4301,7 +4569,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 53000
   },
   {
     "id": 196,
@@ -4317,7 +4586,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 980,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 50000
   },
   {
     "id": 197,
@@ -4333,7 +4603,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 46000
   },
   {
     "id": 208,
@@ -4349,7 +4620,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 842,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 44000
   },
   {
     "id": 219,
@@ -4365,7 +4637,8 @@
     "PrimarySupervisor": 508,
     "SecondarySupervisor": 48,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 30000
   },
   {
     "id": 224,
@@ -4381,7 +4654,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 602,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 30000
   },
   {
     "id": 230,
@@ -4397,7 +4671,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 890,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 41000
   },
   {
     "id": 231,
@@ -4413,7 +4688,8 @@
     "PrimarySupervisor": 578,
     "SecondarySupervisor": 583,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 43000
   },
   {
     "id": 240,
@@ -4429,7 +4705,8 @@
     "PrimarySupervisor": 578,
     "SecondarySupervisor": 547,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 39000
   },
   {
     "id": 264,
@@ -4445,7 +4722,8 @@
     "PrimarySupervisor": 673,
     "SecondarySupervisor": 669,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 39000
   },
   {
     "id": 265,
@@ -4461,7 +4739,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 890,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 46000
   },
   {
     "id": 266,
@@ -4477,7 +4756,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 669,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 31000
   },
   {
     "id": 268,
@@ -4493,7 +4773,8 @@
     "PrimarySupervisor": 192,
     "SecondarySupervisor": 890,
     "ExternalExperience": 9,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 36000
   },
   {
     "id": 281,
@@ -4509,7 +4790,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 673,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 38000
   },
   {
     "id": 291,
@@ -4525,7 +4807,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 980,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 38000
   },
   {
     "id": 293,
@@ -4541,7 +4824,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 547,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 46000
   },
   {
     "id": 296,
@@ -4557,7 +4841,8 @@
     "PrimarySupervisor": 192,
     "SecondarySupervisor": 842,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 44000
   },
   {
     "id": 297,
@@ -4573,7 +4858,8 @@
     "PrimarySupervisor": 192,
     "SecondarySupervisor": 980,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 43000
   },
   {
     "id": 302,
@@ -4589,7 +4875,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 578,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 40000
   },
   {
     "id": 313,
@@ -4605,7 +4892,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 48,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 50000
   },
   {
     "id": 318,
@@ -4621,7 +4909,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 669,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 36000
   },
   {
     "id": 321,
@@ -4637,7 +4926,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 547,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 39000
   },
   {
     "id": 322,
@@ -4653,7 +4943,8 @@
     "PrimarySupervisor": 673,
     "SecondarySupervisor": 842,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 31000
   },
   {
     "id": 338,
@@ -4669,7 +4960,8 @@
     "PrimarySupervisor": 578,
     "SecondarySupervisor": 508,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 53000
   },
   {
     "id": 354,
@@ -4685,7 +4977,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 673,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 43000
   },
   {
     "id": 355,
@@ -4701,7 +4994,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 48,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 40000
   },
   {
     "id": 356,
@@ -4717,7 +5011,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 578,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 39000
   },
   {
     "id": 357,
@@ -4733,7 +5028,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 508,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 48000
   },
   {
     "id": 363,
@@ -4749,7 +5045,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 673,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 37000
   },
   {
     "id": 365,
@@ -4765,7 +5062,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 197,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 38000
   },
   {
     "id": 408,
@@ -4781,7 +5079,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 192,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 39000
   },
   {
     "id": 422,
@@ -4797,7 +5096,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 48,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 47000
   },
   {
     "id": 424,
@@ -4813,7 +5113,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 706,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 38000
   },
   {
     "id": 426,
@@ -4829,7 +5130,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 508,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 36000
   },
   {
     "id": 440,
@@ -4845,7 +5147,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 706,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 36000
   },
   {
     "id": 445,
@@ -4861,7 +5164,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 583,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 37000
   },
   {
     "id": 465,
@@ -4877,7 +5181,8 @@
     "PrimarySupervisor": 192,
     "SecondarySupervisor": 508,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 42000
   },
   {
     "id": 468,
@@ -4893,7 +5198,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 842,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 30000
   },
   {
     "id": 470,
@@ -4909,7 +5215,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 673,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 52000
   },
   {
     "id": 478,
@@ -4925,7 +5232,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 508,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 47000
   },
   {
     "id": 483,
@@ -4941,7 +5249,8 @@
     "PrimarySupervisor": 508,
     "SecondarySupervisor": 669,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 45000
   },
   {
     "id": 486,
@@ -4957,7 +5266,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 547,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 47000
   },
   {
     "id": 487,
@@ -4973,7 +5283,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 197,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 44000
   },
   {
     "id": 489,
@@ -4989,7 +5300,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 842,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 50000
   },
   {
     "id": 495,
@@ -5005,7 +5317,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 948,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 34000
   },
   {
     "id": 507,
@@ -5021,7 +5334,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 197,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 35000
   },
   {
     "id": 508,
@@ -5037,7 +5351,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 46000
   },
   {
     "id": 509,
@@ -5053,7 +5368,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 583,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 47000
   },
   {
     "id": 510,
@@ -5069,7 +5385,8 @@
     "PrimarySupervisor": 578,
     "SecondarySupervisor": 890,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 39000
   },
   {
     "id": 512,
@@ -5085,7 +5402,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 197,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 36000
   },
   {
     "id": 517,
@@ -5101,7 +5419,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 948,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 42000
   },
   {
     "id": 524,
@@ -5117,7 +5436,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 583,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 52000
   },
   {
     "id": 527,
@@ -5133,7 +5453,8 @@
     "PrimarySupervisor": 578,
     "SecondarySupervisor": 508,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 43000
   },
   {
     "id": 528,
@@ -5149,7 +5470,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 706,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 47000
   },
   {
     "id": 534,
@@ -5165,7 +5487,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 669,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 38000
   },
   {
     "id": 547,
@@ -5181,7 +5504,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 43000
   },
   {
     "id": 551,
@@ -5197,7 +5521,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 669,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 48000
   },
   {
     "id": 557,
@@ -5213,7 +5538,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 602,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 37000
   },
   {
     "id": 565,
@@ -5229,7 +5555,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 48,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 33000
   },
   {
     "id": 571,
@@ -5245,7 +5572,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 602,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 49000
   },
   {
     "id": 578,
@@ -5261,7 +5589,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 58000
   },
   {
     "id": 583,
@@ -5277,7 +5606,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 46000
   },
   {
     "id": 602,
@@ -5293,7 +5623,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 40000
   },
   {
     "id": 604,
@@ -5309,7 +5640,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 890,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 50000
   },
   {
     "id": 620,
@@ -5325,7 +5657,8 @@
     "PrimarySupervisor": 508,
     "SecondarySupervisor": 706,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 38000
   },
   {
     "id": 626,
@@ -5341,7 +5674,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 578,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 43000
   },
   {
     "id": 628,
@@ -5357,7 +5691,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 578,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 32000
   },
   {
     "id": 642,
@@ -5373,7 +5708,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 547,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 39000
   },
   {
     "id": 645,
@@ -5389,7 +5725,8 @@
     "PrimarySupervisor": 673,
     "SecondarySupervisor": 602,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 47000
   },
   {
     "id": 648,
@@ -5405,7 +5742,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 980,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 43000
   },
   {
     "id": 654,
@@ -5421,7 +5759,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 980,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 32000
   },
   {
     "id": 662,
@@ -5437,7 +5776,8 @@
     "PrimarySupervisor": 192,
     "SecondarySupervisor": 706,
     "ExternalExperience": 9,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 48000
   },
   {
     "id": 664,
@@ -5453,7 +5793,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 197,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 41000
   },
   {
     "id": 667,
@@ -5469,7 +5810,8 @@
     "PrimarySupervisor": 890,
     "SecondarySupervisor": 948,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 44000
   },
   {
     "id": 668,
@@ -5485,7 +5827,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 673,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 34000
   },
   {
     "id": 669,
@@ -5501,7 +5844,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 55000
   },
   {
     "id": 672,
@@ -5517,7 +5861,8 @@
     "PrimarySupervisor": 508,
     "SecondarySupervisor": 192,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 43000
   },
   {
     "id": 673,
@@ -5533,7 +5878,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 40000
   },
   {
     "id": 675,
@@ -5549,7 +5895,8 @@
     "PrimarySupervisor": 578,
     "SecondarySupervisor": 192,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 41000
   },
   {
     "id": 676,
@@ -5565,7 +5912,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 980,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 35000
   },
   {
     "id": 680,
@@ -5581,7 +5929,8 @@
     "PrimarySupervisor": 673,
     "SecondarySupervisor": 980,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 48000
   },
   {
     "id": 685,
@@ -5597,7 +5946,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 547,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 35000
   },
   {
     "id": 689,
@@ -5613,7 +5963,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 669,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 41000
   },
   {
     "id": 690,
@@ -5629,7 +5980,8 @@
     "PrimarySupervisor": 508,
     "SecondarySupervisor": 197,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 40000
   },
   {
     "id": 695,
@@ -5645,7 +5997,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 508,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 52000
   },
   {
     "id": 700,
@@ -5661,7 +6014,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 890,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 35000
   },
   {
     "id": 706,
@@ -5677,7 +6031,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 43000
   },
   {
     "id": 709,
@@ -5693,7 +6048,8 @@
     "PrimarySupervisor": 192,
     "SecondarySupervisor": 669,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 33000
   },
   {
     "id": 712,
@@ -5709,7 +6065,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 980,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 35000
   },
   {
     "id": 728,
@@ -5725,7 +6082,8 @@
     "PrimarySupervisor": 980,
     "SecondarySupervisor": 602,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 33000
   },
   {
     "id": 746,
@@ -5741,7 +6099,8 @@
     "PrimarySupervisor": 192,
     "SecondarySupervisor": 706,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 50000
   },
   {
     "id": 748,
@@ -5757,7 +6116,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 192,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 44000
   },
   {
     "id": 755,
@@ -5773,7 +6133,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 192,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 33000
   },
   {
     "id": 758,
@@ -5789,7 +6150,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 890,
     "ExternalExperience": 8,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 37000
   },
   {
     "id": 765,
@@ -5805,7 +6167,8 @@
     "PrimarySupervisor": 583,
     "SecondarySupervisor": 197,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 43000
   },
   {
     "id": 770,
@@ -5821,7 +6184,8 @@
     "PrimarySupervisor": 583,
     "SecondarySupervisor": 706,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 47000
   },
   {
     "id": 784,
@@ -5837,7 +6201,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 578,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 48000
   },
   {
     "id": 785,
@@ -5853,7 +6218,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 602,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 41000
   },
   {
     "id": 803,
@@ -5869,7 +6235,8 @@
     "PrimarySupervisor": 842,
     "SecondarySupervisor": 673,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 36000
   },
   {
     "id": 805,
@@ -5885,7 +6252,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 508,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 38000
   },
   {
     "id": 811,
@@ -5901,7 +6269,8 @@
     "PrimarySupervisor": 583,
     "SecondarySupervisor": 948,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 51000
   },
   {
     "id": 812,
@@ -5917,7 +6286,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 980,
     "ExternalExperience": 2,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 44000
   },
   {
     "id": 817,
@@ -5933,7 +6303,8 @@
     "PrimarySupervisor": 192,
     "SecondarySupervisor": 980,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 35000
   },
   {
     "id": 834,
@@ -5949,7 +6320,8 @@
     "PrimarySupervisor": 578,
     "SecondarySupervisor": 980,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 47000
   },
   {
     "id": 835,
@@ -5965,7 +6337,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 980,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 39000
   },
   {
     "id": 840,
@@ -5981,7 +6354,8 @@
     "PrimarySupervisor": 669,
     "SecondarySupervisor": 197,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 43000
   },
   {
     "id": 842,
@@ -5997,7 +6371,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 49000
   },
   {
     "id": 846,
@@ -6013,7 +6388,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 673,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 44000
   },
   {
     "id": 852,
@@ -6029,7 +6405,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 842,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 41000
   },
   {
     "id": 853,
@@ -6045,7 +6422,8 @@
     "PrimarySupervisor": 508,
     "SecondarySupervisor": 197,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 35000
   },
   {
     "id": 856,
@@ -6061,7 +6439,8 @@
     "PrimarySupervisor": 508,
     "SecondarySupervisor": 578,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 47000
   },
   {
     "id": 865,
@@ -6077,7 +6456,8 @@
     "PrimarySupervisor": 578,
     "SecondarySupervisor": 197,
     "ExternalExperience": 1,
-    "ExternalExperienceBonus": 1000
+    "ExternalExperienceBonus": 1000,
+    "InitialSalary": 33000
   },
   {
     "id": 882,
@@ -6093,7 +6473,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 980,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 41000
   },
   {
     "id": 884,
@@ -6109,7 +6490,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 578,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 45000
   },
   {
     "id": 887,
@@ -6125,7 +6507,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 948,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 53000
   },
   {
     "id": 890,
@@ -6141,7 +6524,8 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 52000
   },
   {
     "id": 892,
@@ -6157,7 +6541,8 @@
     "PrimarySupervisor": 948,
     "SecondarySupervisor": 980,
     "ExternalExperience": 3,
-    "ExternalExperienceBonus": 2000
+    "ExternalExperienceBonus": 2000,
+    "InitialSalary": 45000
   },
   {
     "id": 903,
@@ -6173,7 +6558,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 673,
     "ExternalExperience": 7,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 38000
   },
   {
     "id": 915,
@@ -6189,7 +6575,8 @@
     "PrimarySupervisor": 192,
     "SecondarySupervisor": 547,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 50000
   },
   {
     "id": 927,
@@ -6205,7 +6592,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 578,
     "ExternalExperience": 10,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 42000
   },
   {
     "id": 942,
@@ -6221,7 +6609,8 @@
     "PrimarySupervisor": 602,
     "SecondarySupervisor": 583,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 42000
   },
   {
     "id": 947,
@@ -6237,7 +6626,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 948,
     "ExternalExperience": 6,
-    "ExternalExperienceBonus": 5000
+    "ExternalExperienceBonus": 5000,
+    "InitialSalary": 30000
   },
   {
     "id": 948,
@@ -6253,7 +6643,8 @@
     "PrimarySupervisor": 972,
     "SecondarySupervisor": null,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 43000
   },
   {
     "id": 951,
@@ -6269,7 +6660,8 @@
     "PrimarySupervisor": 508,
     "SecondarySupervisor": 547,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 35000
   },
   {
     "id": 954,
@@ -6285,7 +6677,8 @@
     "PrimarySupervisor": 197,
     "SecondarySupervisor": 842,
     "ExternalExperience": 4,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 41000
   },
   {
     "id": 955,
@@ -6301,7 +6694,8 @@
     "PrimarySupervisor": 673,
     "SecondarySupervisor": 547,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 53000
   },
   {
     "id": 957,
@@ -6317,7 +6711,8 @@
     "PrimarySupervisor": 48,
     "SecondarySupervisor": 583,
     "ExternalExperience": 5,
-    "ExternalExperienceBonus": 3000
+    "ExternalExperienceBonus": 3000,
+    "InitialSalary": 39000
   },
   {
     "id": 969,
@@ -6333,7 +6728,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 890,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 46000
   },
   {
     "id": 970,
@@ -6349,7 +6745,8 @@
     "PrimarySupervisor": 547,
     "SecondarySupervisor": 578,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 33000
   },
   {
     "id": 972,
@@ -6365,7 +6762,8 @@
     "PrimarySupervisor": null,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 60000
   },
   {
     "id": 977,
@@ -6381,7 +6779,8 @@
     "PrimarySupervisor": 706,
     "SecondarySupervisor": 508,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 35000
   },
   {
     "id": 980,
@@ -6397,6 +6796,7 @@
     "PrimarySupervisor": 19,
     "SecondarySupervisor": null,
     "ExternalExperience": 0,
-    "ExternalExperienceBonus": 0
+    "ExternalExperienceBonus": 0,
+    "InitialSalary": 40000
   }
 ]

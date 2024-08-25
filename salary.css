@@ -67,6 +67,9 @@
     width: 150px;
     margin-bottom: 30px;
   }
+  .pop_search_emp_sry option{
+    height: 30px;
+  }
   .pop_search_emp_sry label{
     display: inline-block;
     width: 120px;
