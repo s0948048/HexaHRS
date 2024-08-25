@@ -29,7 +29,7 @@
 /* pop_search_box */
 .pop_search{
   width: 480px;
-  height: 480px;
+  height: 525px;
   background-color: #d8aeae;
   border: #f3f3f3 10px solid;
   border-radius: 20px;
@@ -52,7 +52,7 @@
   border: 3px floralwhite solid;
   margin-bottom: 15px;
 }
-.pop_search input{
+.pop_search input,.pop_search select,.pop_search option{
   font-size: 20px;
   width: 150px;
   margin-bottom: 30px;

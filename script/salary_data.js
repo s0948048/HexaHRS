@@ -20,7 +20,6 @@ getEmployeeData.forEach(employee=>{
     employeeSalaryData.push(individualSalary);
 });
 
-// console.log(employeeSalaryData);
 
 
 //顯示資料
@@ -33,7 +32,7 @@ function displayEmployeeSalary(page){
     start = (page) * pageNumbers;
     end = start + pageNumbers;
     var employeeSalaryToDisplay = employeeSalaryData.slice(start, end);
-    console.log(employeeSalaryToDisplay);
+    // console.log(employeeSalaryToDisplay);
     
     for(let i = 0;i<pageNumbers;i++){
         for(let j = 0;j<colNumbers;j++){
@@ -110,38 +109,7 @@ empSalaryModifyShow.forEach(item=>{
 })
 
 
-//儲存按鈕。
-let isEditable = false;
-searchSaveBtn.addEventListener('click',()=>{
-    if(!searchSryId.value)return;
-    if(!isEditable){
-        ClickBtnChangeText();
-        OnModifyAble();
-        console.log(searchSaveBtn.innerHTML);
-        isEditable = true;
-    } else if(isEditable){
-        storeToEmployeeData();
-        BackBtnChangeText();
-        btnCanNotClick();
-        isEditable = false;
-    }
-});
-function storeToEmployeeData(){
-    if(!searchSryId.value)return;
-
-    getEmployeeData.forEach(item=>{
-        if(item.id == getEmpId){
-            empSalaryModifyShow.forEach((show,index)=>{
-                item[orderGetItem[index]] = show.value;
-            })
-        }
-    })
-    localStorage.setItem('employeeData',JSON.stringify(getEmployeeData));
-    OffModifyAble();
-}
-
-
-//點擊資料表取得資料。
+//點擊資料表取得資料。下方資料
 let salaryTable = document.getElementById('salary_data');
 let getEmpId;
 salaryTable.addEventListener('click',(event)=>{
@@ -168,6 +136,48 @@ function showSalaryDataToBtnSearch(getEmpId){
     btnCanClick();
     isEditable = false;
 }   
+
+//儲存按鈕。
+let isEditable = false;
+searchSaveBtn.addEventListener('click',()=>{
+    if(!searchSryId.value)return;
+    if(!isEditable){
+        ClickBtnChangeText();
+        OnModifyAble();
+        isEditable = true;
+    } else if(isEditable){
+        storeToEmployeeData();
+        BackBtnChangeText();
+        isEditable = false;
+    }
+});
+function storeToEmployeeData(){
+    if(!searchSryId.value)return;
+
+    getEmployeeData.forEach(item=>{
+        if(item.id == getEmpId){
+            empSalaryModifyShow.forEach((show,index)=>{
+                item[orderGetItem[index]] = show.value;
+            })
+        }
+    })
+    localStorage.setItem('employeeData',JSON.stringify(getEmployeeData));
+    OffModifyAble();
+}
+
+//清除按鈕
+searchClearBtn.addEventListener('click',()=>{
+    empSalaryModifyShow.forEach(item=>{
+        item.value = '';
+        item.setAttribute('readonly',true);
+        item.style.backgroundColor = '#d7d5d5';
+    })
+    
+    BackBtnChangeText();
+    btnCanNotClick();
+    isEditable = false;
+
+})
 
 
 

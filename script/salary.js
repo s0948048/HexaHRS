@@ -183,31 +183,7 @@ fetch(`${table}.html`)
     }
 })
 }
-changeSalaryTable('salary_data');
-
-//talbe2的功能
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// changeSalaryTable('salary_data');
 
 }
 initializePage()
