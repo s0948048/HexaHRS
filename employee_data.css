@@ -173,8 +173,8 @@ td{
   font-size: 15px;
 }
 tr:hover td{
-  background-color:#f1e6e6c2;
-  
+  background-color:#e9d6ccc2;
+  /* background-color:#d0b8b0c2; */
   border-top: 1px dotted #6b675d;
   border-left: 1px dotted #6b675d;
   
@@ -188,7 +188,9 @@ th{
 tr:last-of-type{
   border-bottom: 2px solid #6b675d;
 }
-
+/* tr{
+  background-color: #6e1919;
+} */
 /* buttom */
 .emp_bottom1{
   margin: auto;
