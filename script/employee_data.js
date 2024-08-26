@@ -1,5 +1,5 @@
 function initializePage(){
-let getEmployee = JSON.parse(localStorage.getItem('employeeData'));
+let employeeData = JSON.parse(localStorage.getItem('employeeData'));
 let employeeColumn = ['id','name','sex','birthday',
     'position','EmploymentStatus','DateEmployed',
     'DateTerminated','Tenure','PrimarySupervisor','SecondarySupervisor']
@@ -13,10 +13,10 @@ const nextPage = document.getElementById('next');
 let isSearch = false;
 let searchData = JSON.parse(localStorage.getItem('SearchEmployeeResultData'));
 //這裡是重要資料！
-let employeeData=getEmployee;
 
 
-getEmployee.sort((a,b)=>{
+
+employeeData.sort((a,b)=>{
     const cpm = a.EmploymentStatus.localeCompare(b.EmploymentStatus);
     if(!cpm == 0)return cpm;
     if(a.DateTerminated == 'none') return -1;
@@ -35,15 +35,13 @@ getEmployee.sort((a,b)=>{
 // 所有資料的變數 ==>  employeeData
 
 function displayEmployee(Object,page){
-    console.log(Object.length);
+    // console.log(Object.length);
     
     start = page*pageNumbers;
     end = start+pageNumbers;
-    if (Object.length<=pageNumbers) {
-        showEmployeeData = Object;
-    }else{
-        showEmployeeData = Object.slice(start,end);
-    }
+    
+    showEmployeeData = Object.slice(start,end);
+    
 
     showEmployeeData.forEach((employee,index)=>{
         for(let i = 0;i<colNumbers;i++){
@@ -73,10 +71,9 @@ function displayEmployee(Object,page){
 displayEmployee(employeeData,page);
 
 nextPage.addEventListener('click',()=>{
-    if(getEmployee.length <= end)return;
+    // if(getEmployee.length <= end)return;
     page++;
     let searchData = JSON.parse(localStorage.getItem('SearchEmployeeResultData'));
-    let employeeData = JSON.parse(localStorage.getItem('SearchEmployeeResultData'));
     if(isSearch){
         displayEmployee(searchData,page);
     }else if (!isSearch){
@@ -88,7 +85,6 @@ lastPage.addEventListener('click',()=>{
     if(page == 0)return;
     page--;
     let searchData = JSON.parse(localStorage.getItem('SearchEmployeeResultData'));
-    let employeeData = JSON.parse(localStorage.getItem('SearchEmployeeResultData'));
     if(isSearch){
         displayEmployee(searchData,page);
     }else if (!isSearch){

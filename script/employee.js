@@ -8,13 +8,15 @@ const position = [
 ];
 const postionNumbers = [0,0,0,0,0,0,0,0,0,0];
 let otherPosition=0;
+let left = 0;
 employeeData.forEach((employee,index) => {
     for(let i=0;i<position.length;i++){
-        if(employee.position == position[i]){
+        if(employee.position == position[i] && employee['EmploymentStatus'] != '離職'){
             postionNumbers[i]++;
         }
     }
     if(employee.position == '其他')otherPosition++;
+    if(employee['EmploymentStatus'] == '離職')left++;
 });
 console.log(otherPosition);
 
@@ -69,7 +71,7 @@ const DOMelementStyle = [
 //因為有省略其他的職位，因此要先把它扣掉
 //其他 otherPosition
 let total=0;
-const totalEmpNumbers = employeeData.length-otherPosition;
+const totalEmpNumbers = employeeData.length-otherPosition-left;
 postionNumbers.forEach((item,index)=>{
     DOMelement[index].innerHTML = item;
     // console.log(`${Math.round((item/totalEmpNumbers)*100)}%`);
