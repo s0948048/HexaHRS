@@ -46,7 +46,7 @@ tbodyAnuShow.forEach((item,index)=>{
     }
 })
 //透過event事件取得ID！((ㄏㄏㄏㄏ ":D"))
-console.log('anu',anu_catch);
+// console.log('anu',anu_catch);
 anu_catch.addEventListener('click',(event)=>{
     if(event.target.closest('tbody')){
         let tbodyid = event.target.closest('tbody').id;
@@ -80,8 +80,48 @@ function showAnnounceDetail(anu_id){
 
 //下方資訊面板數值計算
     //1.當月異動
+let employeeData = JSON.parse(localStorage.getItem('employeeData'));
+let currentDate = new Date();
+let thisMonth = currentDate.getMonth();
+let thisYear = currentDate.getFullYear();
+
+let emploeeNewThisMonth = 0;
+let terminNewThisMonth = 0;
+employeeData.forEach(item=>{
+    let itemEmply = new Date(item.DateEmployed);
+    
+    if(itemEmply.getMonth() === thisMonth && itemEmply.getFullYear() === thisYear){
+        emploeeNewThisMonth++;
+    }
+    let itemTermin = new Date(item.DateTerminated);
+    
+    if(itemTermin.getMonth() === thisMonth && itemTermin.getFullYear() === thisYear){
+        terminNewThisMonth++;
+    }
+})
+
 
     //2.假勤處理
+document.getElementById('emply_people').innerHTML = emploeeNewThisMonth;
+document.getElementById('termin_people').innerHTML = terminNewThisMonth;
+
+let leaveDetail = JSON.parse(localStorage.getItem('leaveDetail'));
+let Processing = '表單申請中';
+let notApply = '尚未處理';
+
+let ProcessingNumbers = 0;
+let notApplyNumbers = 0;
+leaveDetail.forEach(item=>{
+    if(item.ProcessedStatus === Processing){
+        ProcessingNumbers++;
+    }
+    if(item.ProcessedStatus === notApply){
+        notApplyNumbers++;
+    }
+})
+document.getElementById('leave_handling').innerHTML = ProcessingNumbers;
+document.getElementById('leave_not_do').innerHTML = notApplyNumbers;
+
 
     //3.薪資計時器
 
@@ -90,15 +130,18 @@ const thisDay = new Date();
 const IstheSalaryDayWorkDay = new Date(thisDay.getFullYear(),thisDay.getMonth(),10);
 let thisMonthSalaryDay = returnWeekdaySalaryDate(IstheSalaryDayWorkDay);
 let thisMonthSalaryDate = new Date(thisDay.getFullYear(),thisDay.getMonth(),thisMonthSalaryDay);
-
+let leftDay = 0;
 //若是已過本月計薪日，則以下月計薪日計算
 if(thisDay.getDate()<=thisMonthSalaryDay){
     var salaryDate = thisMonthSalaryDate;
+    leftDay = Math.ceil((salaryDate - thisDay)/(1000*60*60*24));
 }else{
     let nextMonthSalaryDate = new Date(thisDay.getFullYear(),thisDay.getMonth()+1,10);
     let nextMonthSalaryDay = returnWeekdaySalaryDate(nextMonthSalaryDate);
     var salaryDate = new Date(thisDay.getFullYear(),thisDay.getMonth()+1,nextMonthSalaryDay);
+    leftDay = Math.ceil((salaryDate - thisDay)/(1000*60*60*24));
 }
+document.getElementById('left_day').innerHTML = (leftDay);
 
 //這個是在判斷是不是周末呦，可能要提前出帳！
 function returnWeekdaySalaryDate(date){
@@ -110,20 +153,34 @@ function returnWeekdaySalaryDate(date){
         return date.getDate();
     }
 }
-
-
 //發新日結果，並指派給HTML。
 let salary_date = document.getElementById('salary_date');
 salary_date.innerHTML = salaryDate.getDate();
 
 
     //4.考勤管理
+//leaveDetail
 
+//LeaveType = '忘記打卡';
+let forGetCkNumbers = 0;
+leaveDetail.forEach(item=>{
+    if(item.LeaveType == '忘記打卡'){
+        forGetCkNumbers++;
+    }
+});
 
+//leaveBrief
+let leaveBrief = JSON.parse(localStorage.getItem('leaveBrief'));
+let atn_errorNumbers = 0;
+//出勤狀態 = 有異常;
+leaveBrief.forEach(item=>{
+    if(item['出勤狀態'] == '有異常'){
+        atn_errorNumbers++;
+    }
+});
 
-
-
-
+document.getElementById('atn_error').innerHTML = atn_errorNumbers;
+document.getElementById('mth_forget_ck').innerHTML = forGetCkNumbers;
 
 
 

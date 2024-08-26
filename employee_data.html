@@ -1,12 +1,29 @@
 <div class="pop_search" id="pop_search">
     <div class="search">查詢視窗</div>
     <hr>
-    <label for="srch_emp_status">在職狀態</label><select id="srch_emp_status" style="width: 325px;"><option>在職</option><option>離職</option></select><br>
+    <label for="srch_emp_status">在職狀態</label><select id="srch_emp_status" style="width: 325px;">
+        <option value=""></option>
+        <option value="在職">在職</option>
+        <option value="離職">離職</option>
+    </select><br>
     <label for="srch_emp_num_start">員工編號</label><input type="text" id="srch_emp_num_start">至<input type="text" id="srch_emp_num_end"><br>
     <label for="srch_emp_name">員工姓名</label><input type="text" id="srch_emp_name" style="width: 325px;"><br>
     <label for="srch_emp_emply_start">到職日</label><input type="date" id="srch_emp_emply_start">至</label><input type="date" id="srch_emp_emply_end"><br>
     <label for="srch_emp_termin_start">離職日</label><input type="date" id="srch_emp_termin_start">至</label><input type="date" id="srch_emp_termin_end"><br>
-    <label for="srch_emp_posit">員工職位</label><input type="text" id="srch_emp_posit" style="width: 325px;"></label><br>
+    <label for="srch_emp_posit">員工職位</label></label><select  id="srch_emp_posit" style="width: 325px;">
+        <option value=""  selected>請選擇</option>
+        <option value="經理">經理</option>
+        <option value="主管">主管</option>
+        <option value="小組長">小組長</option>
+        <option value="技術員">技術員</option>
+        <option value="測試者">測試者</option>
+        <option value="專案人員">專案人員</option>
+        <option value="客服員">客服員</option>
+        <option value="會計">會計</option>
+        <option value="行政助理">行政助理</option>
+        <option value="特約人員">特約人員</option>
+        <option value="其他">其他</option>
+    </select><br><br>
     <div class="search_btn">
         <button type="srch_submit" id="srch_submit">查詢</button>
         <button type="srch_reset" id="srch_reset">清除</button>

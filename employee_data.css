@@ -207,3 +207,6 @@ tr:last-of-type{
   border-radius: 10px;
   cursor: pointer;
 }
+.selection{
+  background-color: #E6CACFc2 !important;
+}

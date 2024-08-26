@@ -18,13 +18,14 @@ let sry_level = document.getElementById('sry_level');
 let sry_outer_years = document.getElementById('sry_outer_years');
 let sry_outer_attach = document.getElementById('sry_outer_attach');
 let sry_salary = document.getElementById('sry_salary');
+let searchData = JSON.parse(localStorage.getItem('SearchResultData'));
+let isSearch = false;
 
-
-//顯示資料
-function displaySalaryStructure(page){
+//顯示資料 salaryStructures
+function displaySalaryStructure(object,page){
     start = (page) * pageNumbers;
     end = start + pageNumbers;
-    var salaryStructureToDisplay = salaryStructures.slice(start, end);
+    var salaryStructureToDisplay = object.slice(start, end);
     // console.log(salaryStructureToDisplay);
     
     for(let i = 0;i<pageNumbers;i++){
@@ -56,7 +57,11 @@ function displaySalaryStructure(page){
         nextPageButtonForStr.style.color = 'black';
         nextPageButtonForStr.style.setProperty('cursor', 'pointer', 'important');
     }
-}displaySalaryStructure(page);
+
+}
+if(isSearch)displaySalaryStructure(salaryStructures,page)
+else if (!isSearch)displaySalaryStructure(searchData,page);
+
 
 //翻頁邏輯
 document.getElementById('next').addEventListener('click', function() {
@@ -90,14 +95,19 @@ changeSearchEmpSry.addEventListener('click',()=>{
 })
 //關閉：關閉視窗按鈕
 let PopUpClose1 = document.getElementById('button_1');
-let PopUpClose2 = document.getElementById('button_2');
+let PopUpClose2 = document.getElementById('src_str_cancel');
 PopUpClose1.addEventListener('click',()=>searchEmpSry.style.display = 'none');
 PopUpClose2.addEventListener('click',()=>searchStrSry.style.display = 'none');
 
 //彈出視窗的清除
 let PopReset1 = document.getElementById('reset_1');
-let PopReset2 = document.getElementById('reset_2');
+//清除
 PopReset1.addEventListener('click',()=>{
+    popUpclear1();
+})
+
+
+function popUpclear1(){
     let searchEmpNum = document.getElementById('search_emp_num');
     let searchEmpPosition = document.getElementById('search_emp_position');
     let searchEmpName = document.getElementById('search_emp_name');
@@ -112,22 +122,103 @@ PopReset1.addEventListener('click',()=>{
     searchEmpTerminStart.value = '';
     searchEmpEmplyEnd.value = '';
     searchEmpTerminEnd.value = '';
-})
-PopReset2.addEventListener('click',()=>{
+}
+function popUpclear2(){
     let sryPosition = document.getElementById('sry_position');
-    let sryYearsInStart = document.getElementById('sry_years_in_start');
-    let sryYearsInEnd = document.getElementById('sry_years_in_end');
-    let sryYearsOutStart = document.getElementById('sry_years_out_start');
-    let sryYearsOutEnd = document.getElementById('sry_years_out_end');
     sryPosition.value = '';
-    sryYearsInStart.value = '';
-    sryYearsInEnd.value = '';
-    sryYearsOutStart.value = '';
-    sryYearsOutEnd.value = '';
+}
+
+//點擊查詢
+let srcStrSubmit = document.getElementById('src_str_submit'); 
+srcStrSubmit.addEventListener('click',()=>{
+    searchFunction();
+    searchStrSry.style.display = 'none'
 })
+
 
 //查詢功能
 //偏複雜
+let sryPosition = document.getElementById('sry_position');
+function searchFunction(){
+    new Promise((resolve,reject)=>{
+        var filterData = salaryStructures;
+        resolve(filterData);
+    })
+    .then(data=>{
+        let searchStrResult=[];
+        data.forEach(item=>{
+            if(item['Position'] === sryPosition.value){
+                searchStrResult.push(item);
+            }
+        })
+        // console.log(searchStrResult);
+        return Promise.resolve(searchStrResult);
+    })
+    .then(data=>{
+        clearTable();
+        return Promise.resolve(data);
+    })
+    .then(finalData=>{
+        a = finalData;
+        displaySearchResult(finalData);
+        localStorage.setItem('SearchResultData',JSON.stringify(finalData));
+    })
+    .finally(()=>popUpclear2());
+}
+
+console.log(JSON.parse(localStorage.getItem('SearchResultData')));
+
+
+
+function displaySearchResult(dataObject,page){
+    // console.log(dataObject);
+    
+    start = page*pageNumbers;
+    end = start + pageNumbers;
+    let getStrTable = dataObject.slice(start,end);
+    getStrTable.forEach((item,index)=>{
+        for(let i = 0;i<colNumbers;i++){
+            document.getElementById(`row${index+1}-col${i+1}`).innerHTML = '';
+            document.getElementById(`row${index+1}-col${i+1}`).innerHTML = item[str_columns[i]];
+        }
+    })
+    // if(dataObject.length <= end){
+    //     nextPageButtonForStr.style.color = 'gray';
+    //     nextPageButtonForStr.style.setProperty('cursor','auto','important');
+    // }else{
+    //     nextPageButtonForStr.style.color = 'black';
+    //     nextPageButtonForStr.style.setProperty('cursor','pointer','important');
+    // }
+    // if(page == 0){
+    //     lastPageButtonForStr.style.color = 'gray';
+    //     lastPageButtonForStr.style.setProperty('cursor','auto','important');
+    // }else{
+    //     lastPageButtonForStr.style.color = 'black';
+    //     lastPageButtonForStr.style.setProperty('cursor','pointer','important');
+    // }
+
+}
+function clearTable(){
+    for(let j = 0;j<pageNumbers;j++){
+        for(let i = 0;i<colNumbers;i++){
+            document.getElementById(`row${j+1}-col${i+1}`).innerHTML = '';
+        }
+    }
+}
+
+
+
+
+
+/////查詢布林直要做，禁止跳回原本結果。
+
+
+
+
+
+
+
+
 
 //封鎖下方員工詳細功能
 let searchSryId = document.getElementById('sry_num');
@@ -155,9 +246,6 @@ const btnSearch = [searchSaveBtn,searchClearBtn]
         item.style.color = 'gray';
         item.style.setProperty('cursor', 'auto', 'important');
     })
-
-
-
 
 
 //切換table

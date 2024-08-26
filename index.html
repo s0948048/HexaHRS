@@ -62,7 +62,6 @@
 
     <script>
         function loadPage(page) {
-        // 動態載入指定的HTML頁面
         fetch(`${page}.html`)
             .then(response => response.text())
             .then(data => {
@@ -70,7 +69,6 @@
                 document.getElementById('css_link').setAttribute('href',`${page}.css`);
                 document.getElementById('insert_site').innerHTML = "";
                 document.getElementById('insert_site').innerHTML = data;
-                // console.log('work');
 
                 //清除，這是個大坑，差點被坑慘: (
                 let scriptExist = document.getElementById('js_src');
@@ -96,8 +94,7 @@
             })
             .catch(error => console.error('Error loading the page:', error));
     }
-    // loadPage('leave_except_detail');
-    loadPage('employee_data');
+    loadPage('salary');
       
     document.getElementById('dataJS').onload = ()=>{
         if(typeof initializePage === 'function'){

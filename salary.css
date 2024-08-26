@@ -102,7 +102,7 @@
   /* pop_search_box_structure */
   .pop_search_str_sry{
     width: 480px;
-    height: 330px;
+    height: 180px;
     background-color: #d8aeae;
     border: #f3f3f3 10px solid;
     border-radius: 20px;
@@ -147,7 +147,7 @@
     border: 3px floralwhite solid;
     margin-bottom: 15px;
   }
-  .pop_search_str_sry input{
+  .pop_search_str_sry input,.pop_search_str_sry select,.pop_search_str_sry option{
     font-size: 20px;
     padding-left: 10px;
     width: 150px;

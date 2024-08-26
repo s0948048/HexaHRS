@@ -1,15 +1,6 @@
 function initializePage(){
 let getEmployee = JSON.parse(localStorage.getItem('employeeData'));
-getEmployee.sort((a,b)=>{
-    // if (a.EmploymentStatus-b.EmploymentStatus) return -1;
-    // if (b.EmploymentStatus-a.EmploymentStatus) return 1;
-  
-    const cpm = a.EmploymentStatus.localeCompare(b.EmploymentStatus);
-    if(!cpm == 0)return cpm;
-    if(a.DateTerminated == 'none') return -1;
-    return new Date(a.DateTerminated)- new Date(b.DateTerminated);
-    // return Number(a.id) - Number(b.id);
-})
+
 let employeeColumn = ['id','name','sex','birthday',
     'position','EmploymentStatus','DateEmployed',
     'DateTerminated','Tenure','PrimarySupervisor','SecondarySupervisor']
@@ -24,6 +15,14 @@ const nextPage = document.getElementById('next');
 
 //這裡是重要資料！
 let employeeData=[];
+
+
+getEmployee.sort((a,b)=>{
+    const cpm = a.EmploymentStatus.localeCompare(b.EmploymentStatus);
+    if(!cpm == 0)return cpm;
+    if(a.DateTerminated == 'none') return -1;
+    return Number(b.id)-Number(a.id);
+})
 //因為薪資資料都在員工資料表裡所以設定欄位取值！
 getEmployee.forEach(data=>{
     let individualEmployee = {};
@@ -34,10 +33,10 @@ getEmployee.forEach(data=>{
 });
 // console.log(employeeData);
 
-// 所有出勤資料的變數 ==>  employeeData
+// 所有資料的變數 ==>  employeeData
 
 function displayEmployee(page){
-
+    
     start = page*pageNumbers;
     end = start+pageNumbers;
     let showEmployeeData = employeeData.slice(start,end);
@@ -62,6 +61,10 @@ function displayEmployee(page){
         lastPage.style.color = 'black';
         lastPage.style.setProperty('cursor','pointer','important');
     }
+    if(localStorage.getItem('rowNumberSelect')){
+        clearSelectionStyle();
+        localStorage.removeItem('rowNumberSelect');
+    }
 }
 displayEmployee(page);
 
@@ -77,7 +80,50 @@ lastPage.addEventListener('click',()=>{
 })
 
 
+//點擊變換顏色陣容組合拳
+const employeeTable = document.getElementById('emp_table');
+let getId;
+employeeTable.addEventListener('click',(event)=>{
+    if(event.target.closest('td')){
+        let rowId = event.target.closest('td').id;
+        getId = document.getElementById(`${rowId.split('-')[0]}-col1`).innerHTML;
 
+
+        let rowNumber = `${rowId.split('-')[0]}`;
+        if(localStorage.getItem('rowNumberSelect') == rowNumber){
+            console.log('same');
+            
+            clearSelectionStyle();
+            localStorage.removeItem('rowNumberSelect');
+            getId = '';
+        }else if(localStorage.getItem('rowNumberSelect') != rowNumber){
+            console.log('diff');
+            if(localStorage.getItem('rowNumberSelect')){
+                clearSelectionStyle();
+                localStorage.setItem('rowNumberSelect',rowNumber);
+            }else{
+                localStorage.setItem('rowNumberSelect',rowNumber);
+            }
+            rowsSelection();    
+        }
+    // console.log(getId);
+    }
+})
+function rowsSelection(){
+
+    let rowNumber = localStorage.getItem('rowNumberSelect');
+    for(let i =0;i<colNumbers;i++){
+        document.getElementById(`${rowNumber}-col${i+1}`).classList.add('selection');
+    }
+}
+function clearSelectionStyle(){
+    if(!localStorage.getItem('rowNumberSelect'))return;
+    let rowNumber = localStorage.getItem('rowNumberSelect');
+    for(let i =0;i<colNumbers;i++){
+        document.getElementById(`${rowNumber}-col${i+1}`).classList.remove('selection');
+    }
+    localStorage.removeItem('rowNumberSelect');
+}
 
 
 
@@ -89,12 +135,47 @@ let btnPopModifySave = document.getElementById('ctr_modify_pop');
 let btnPopSearch = document.getElementById('srch_pop');
 let popSearch = document.getElementById('pop_search');
 let popModifySave = document.getElementById('new_emp');
+let newId = getNewId();
 btnPopModifySave.addEventListener('click',()=>{
+    if(getId){
+        showToPopUp(getId);
+    }else{
+        newEmp(newId);
+    }
     popModifySave.style.display = 'block';
 })
 btnPopSearch.addEventListener('click',()=>{
     popSearch.style.display = 'block';
 })
+//選了之後點修改會抓資料上去。
+function showToPopUp(getId){
+    employeeData.forEach(employee=>{
+        
+        // console.log(getId);
+        if(Number(employee.id) === Number(getId)){
+            employeeColumn.forEach((item,index)=>{
+                popModifySaveValue[index].value = employee[item];
+            });
+        }
+    })
+
+}
+
+function newEmp(Id){
+    let currentDate = new Date();
+    let setDate = currentDate.toISOString().split('T')[0];
+    ctrEmpId.value = Id;
+    ctrEmpEmply.value = setDate;
+    ctrEmpYears = 0;
+}
+
+function getNewId(){
+    let idMax = [];
+    employeeData.forEach((item)=>idMax.push(Number(item.id)));
+    let max = idMax.reduce((a,b)=>Math.max(a,b),0);
+    let newId = max+1;
+    return newId;
+}
 
 
 //彈出視窗內容控制
@@ -120,8 +201,8 @@ let srchEmpTerminEnd = document.getElementById('srch_emp_termin_end');
 let srchEmpPosit = document.getElementById('srch_emp_posit');
 const popModifySaveValue = [
     ctrEmpId,
-    ctrEmpSex,
     ctrEmpName,
+    ctrEmpSex,
     ctrEmpBirth,
     ctrEmpPosit,
     ctrEmpStatus,
@@ -143,30 +224,229 @@ const popSearchValue = [
     srchEmpPosit
 ];
 
-
-
-
-
-
-
-
-
-//點擊變換顏色陣容組合拳
-const employeeTable = document.getElementById('emp_table');
-let getId;
-employeeTable.addEventListener('click',(event)=>{
-    if(event.target.closest('td')){
-        let rowId = event.target.closest('td').id;
-        getId = document.getElementById(`${rowId.split('-')[0]}-col1`).innerHTML;
-        console.log(getId);
-        for(let i =0;i<colNumbers;i++){
-            // console.log(document.getElementById(`${rowId.split('-')[0]}-col${i+1}`));
-            document.getElementById(`${rowId.split('-')[0]}-col${i+1}`).style.backgroundColor = '#E6CACFc2';
-        }
-    }
-    
+let popSearchSubmit = document.getElementById('srch_submit');
+popSearchSubmit.addEventListener('click',()=>{
+    searchFunction();
+    //handle
+    //清除在非同步裡面了
+    popSearch.style.display = 'none';
 })
 
+
+function submitModifyData(){
+    employeeData.forEach(employee=>{
+        if(employee.id == getId){
+            popModifySaveValue.forEach((item,index)=>{
+                employee[employeeColumn[index]] = item.value;
+            })
+        }
+    })
+    localStorage.setItem('employeeData',JSON.stringify(employeeData));
+}
+function submitNewData(){
+    let employee={};
+    popModifySaveValue.forEach((item,index)=>{
+        employee[employeeColumn[index]] = item.value;
+    })
+    employeeData.push(employee);
+    employeeData.sort((a,b)=>{
+        return Number(b.id)-Number(a.id);
+    })
+    localStorage.setItem('employeeData',JSON.stringify(employeeData));
+}
+
+
+
+
+function searchFunction(){
+    new Promise((resolve,reject)=>{
+        var filterData = employeeData;
+        resolve(filterData);
+    })
+    .then(data=>{
+        console.log('123',data);
+        console.log(srchEmpStatus.value);
+        
+        if(srchEmpStatus.value){
+            console.log('2');
+            
+            let searchResult = [];
+            data.forEach(item=>{
+                console.log(item['EmploymentStatus']);
+                
+                if(item['EmploymentStatus'] === srchEmpStatus.value){
+                    searchResult.push(item);
+                }
+            })
+            console.log(searchResult);
+            return Promise.resolve(searchResult);
+        }else return data; 
+    })
+    .then(data=>{
+        let searchResult = [];
+        if(srchEmpNumStart.value && !srchEmpNumEnd.value){
+            data.forEach(item=>{
+                if(item['id'] == srchEmpNumStart.value){
+                    searchResult.push(item);
+                }
+            })
+            console.log(searchResult);
+            return Promise.resolve(searchResult);
+        }else if(srchEmpNumStart.value){
+            data.forEach(item=>{
+                if(item['id'] > srchEmpNumStart.value){
+                    searchResult.push(item);
+                }
+            })
+            console.log(searchResult);
+            return Promise.resolve(searchResult);
+        }else return data; 
+    })
+    .then(data=>{
+        if(srchEmpNumEnd.value){
+            let searchResult = [];
+            data.forEach(item=>{
+                if(item['id'] <= srchEmpNumEnd.value){
+                    searchResult.push(item);
+                }
+            })
+            console.log(searchResult);
+            return Promise.resolve(searchResult);
+        }else return data; 
+    })
+    .then(data=>{
+        if(srchEmpName.value){
+            let searchResult = [];
+            const regex = new RegExp(srchEmpName.value);
+            data.forEach(item=>{
+                if(regex.test(item['name'])){
+                    searchResult.push(item);
+                }
+            })
+            console.log(searchResult);
+            return Promise.resolve(searchResult);
+        }else return data; 
+    })
+    .then(data=>{
+        if(srchEmpEmplyStart.value){
+            let searchResult = [];
+            let cmpDate = new Date(srchEmpEmplyStart.value);
+            data.forEach(item=>{
+                let itemDate = new Date(item['DateEmployed']);
+                if(itemDate >= cmpDate){
+                    searchResult.push(item);
+                }
+            })
+            console.log(searchResult);
+            return Promise.resolve(searchResult);
+        }else return data; 
+    })
+    .then(data=>{
+        if(srchEmpEmplyEnd.value){
+            let searchResult = [];
+            let cmpDate = new Date(srchEmpEmplyEnd.value);
+            data.forEach(item=>{
+                let itemDate = new Date(item['DateEmployed']);
+                if(itemDate <= cmpDate){
+                    searchResult.push(item);
+                }
+            })
+            console.log(searchResult);
+            return Promise.resolve(searchResult);
+        }else return data; 
+    })
+    .then(data=>{
+        if(srchEmpTerminStart.value){
+            let searchResult = [];
+            let cmpDate = new Date(srchEmpTerminStart.value);
+            data.forEach(item=>{
+                let itemDate = new Date(item['DateTerminated']);
+                if(itemDate >= cmpDate){
+                    searchResult.push(item);
+                }
+            })
+            console.log(searchResult);
+            return Promise.resolve(searchResult);
+        }else return data; 
+    })
+    .then(data=>{
+        if(srchEmpTerminEnd.value){
+            let searchResult = [];
+            let cmpDate = new Date(srchEmpTerminEnd.value);
+            data.forEach(item=>{
+                let itemDate = new Date(item['DateTerminated']);
+                if(itemDate <= cmpDate){
+                    searchResult.push(item);
+                }
+            })
+            console.log(searchResult);
+            return Promise.resolve(searchResult);
+        }else return data; 
+    })
+    .then(data=>{
+        if(srchEmpPosit.value){
+            let searchResult = [];
+            data.forEach(item=>{
+                if(item['position'] == srchEmpPosit.value){
+                    searchResult.push(item);
+                }
+            })
+            console.log(searchResult);
+            return Promise.resolve(searchResult);
+        }else return data; 
+    })
+    .then(data=>{
+        console.log(data);
+        //就是這個data  最終結果!
+        
+        clearTable();
+        return Promise.resolve(data);
+    })
+    .then(finalData=>{
+        page = 0;
+        displaySearchResult(finalData,page);
+    })
+    .finally(()=>popSearchClear());
+}
+
+function displaySearchResult(dataObject,page){
+    console.log(dataObject);
+    
+    start = page*pageNumbers;
+    end = start + pageNumbers;
+    let howEmployeeData = dataObject.slice(start,end);
+    howEmployeeData.forEach((item,index)=>{
+        for(let i = 0;i<colNumbers;i++){
+            document.getElementById(`row${index+1}-col${i+1}`).innerHTML = '';
+            document.getElementById(`row${index+1}-col${i+1}`).innerHTML = item[employeeColumn[i]];
+        }
+    })
+    if(dataObject.length <= end){
+        nextPage.style.color = 'gray';
+        nextPage.style.setProperty('cursor','auto','important');
+    }else{
+        nextPage.style.color = 'black';
+        nextPage.style.setProperty('cursor','pointer','important');
+    }
+    if(page == 0){
+        lastPage.style.color = 'gray';
+        lastPage.style.setProperty('cursor','auto','important');
+    }else{
+        lastPage.style.color = 'black';
+        lastPage.style.setProperty('cursor','pointer','important');
+    }
+    if(localStorage.getItem('rowNumberSelect')){
+        clearSelectionStyle();
+        localStorage.removeItem('rowNumberSelect');
+    }
+}
+function clearTable(){
+    for(let j = 0;j<pageNumbers;j++){
+        for(let i = 0;i<colNumbers;i++){
+            document.getElementById(`row${j+1}-col${i+1}`).innerHTML = '';
+        }
+    }
+}
 
 
 //彈出視窗按鈕
@@ -176,37 +456,40 @@ let popModifySaveGoCancel = document.getElementById('ctr_cancel');
 let popModifySaveGoReset = document.getElementById('ctr_reset');
 
 popModifySaveGoSave.addEventListener('click',()=>{
+    if(!ctrEmpName.value){
+        alert('name! a name!!');
+    }else{
+        //handle
+        if(ctrEmpId.value < newId){
+            console.log('old');
+            
+            submitModifyData();
+        }else{
+            submitNewData();
+            console.log('new');
+            
+        }
+        popModifySaveClear();
+        popModifySave.style.display = 'none';
+        loadPage('employee_data');
+    }
 
-
-
-
-
-
-    //handle
-    popModifySaveClear();
-    popModifySave.style.display = 'none';
 })
 popModifySaveGoReset.addEventListener('click',()=>{
     popModifySaveClear();
+    newEmp();
 })
 popModifySaveGoCancel.addEventListener('click',()=>{
     popModifySaveClear();
     popModifySave.style.display = 'none';
 })
+
 //popSearch
-let popSearchSubmit = document.getElementById('srch_submit');
+
 let popSearchReset = document.getElementById('srch_reset');
 let popSearchCancel = document.getElementById('srch_cancel');
 
-popSearchSubmit.addEventListener('click',()=>{
 
-
-
-
-    //handle
-    popSearchClear();
-    popSearch.style.display = 'none';
-})
 popSearchReset.addEventListener('click',()=>{
     popSearchClear();
 })
@@ -214,6 +497,10 @@ popSearchCancel.addEventListener('click',()=>{
     popSearchClear();
     popSearch.style.display = 'none';
 })
+
+
+
+
 
 
 
