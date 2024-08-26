@@ -148,3 +148,9 @@ tr:last-of-type{
   border-radius: 10px;
   cursor: pointer;
 }
+#search_atn_ck_in,#search_atn_ck_out{
+  height: 21px;
+  width: 21px;
+  margin: 0px 30px;
+  margin-bottom: 30px;
+}

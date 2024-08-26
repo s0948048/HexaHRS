@@ -284,12 +284,7 @@ function searchFunction(){
         resolve(filterData);
     })
     .then(data=>{
-        console.log('123',data);
-        console.log(srchEmpStatus.value);
-        
         if(srchEmpStatus.value){
-            console.log('2');
-            
             let searchResult = [];
             data.forEach(item=>{
                 console.log(item['EmploymentStatus']);

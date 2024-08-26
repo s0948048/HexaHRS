@@ -94,8 +94,8 @@
             })
             .catch(error => console.error('Error loading the page:', error));
     }
-    loadPage('employee_data');
-      
+    loadPage('home');
+    
     document.getElementById('dataJS').onload = ()=>{
         if(typeof initializePage === 'function'){
         initializePage();

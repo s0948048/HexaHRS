@@ -8,22 +8,12 @@ const colNumbers = 8;
 var start;
 var end;
 let str_columns=['Position','InternalTierLevel','ExperienceRange','TierSalary','ExternalExperienceTierLevel','ExternalExperience','ExternalExperienceBonus','TotalSalary']
-let sry_num = document.getElementById('sry_num');
-let sry_status = document.getElementById('sry_status');
-let sry_years_inner = document.getElementById('sry_years_inner');
-let sry_name = document.getElementById('sry_name');
-let sry_emp_date = document.getElementById('sry_emp_date');
-let sry_years_outer = document.getElementById('sry_years_outer');
-let sry_level = document.getElementById('sry_level');
-let sry_outer_years = document.getElementById('sry_outer_years');
-let sry_outer_attach = document.getElementById('sry_outer_attach');
-let sry_salary = document.getElementById('sry_salary');
-let searchData = JSON.parse(localStorage.getItem('SearchSalaryStructureResultData'));
+
 let isSearch = false;
 
 //顯示資料 salaryStructures
 function displaySalaryStructure(object,page){
-    console.log('get',JSON.parse(localStorage.getItem('SearchSalaryStructureResultData')));
+    // console.log('get',JSON.parse(localStorage.getItem('SearchSalaryStructureResultData')));
 
     start = (page) * pageNumbers;
     end = start + pageNumbers;
@@ -62,8 +52,11 @@ function displaySalaryStructure(object,page){
     
 }
 
-displaySalaryStructure(salaryStructures,page);
-
+if(isSearch){
+    displaySalaryStructure(searchData,page);
+}else if (!isSearch){
+    displaySalaryStructure(salaryStructures,page);
+}
 
 //翻頁邏輯
 document.getElementById('next').addEventListener('click', function() {
@@ -72,10 +65,8 @@ document.getElementById('next').addEventListener('click', function() {
     page++;
     if(isSearch){
         displaySalaryStructure(searchData,page);
-        console.log('display3',searchData);
     }else if (!isSearch){
         displaySalaryStructure(salaryStructures,page);
-        
     }
 });
 document.getElementById('last').addEventListener('click', function() {
@@ -84,7 +75,6 @@ document.getElementById('last').addEventListener('click', function() {
     page--;
     if(isSearch){
         displaySalaryStructure(searchData,page);
-        console.log('display4',searchData);
     }else if (!isSearch){
         displaySalaryStructure(salaryStructures,page);
     }
@@ -96,52 +86,31 @@ let searchStrPopUp = document.getElementById('search_str');
 let searchSryPopUp = document.getElementById('search_sry');
 let searchEmpSry = document.getElementById('pop_search_emp_sry');
 let searchStrSry = document.getElementById('pop_search_str_sry');
-let changeSearchStrSry = document.getElementById('change_search_str_sry');
-let changeSearchEmpSry = document.getElementById('change_search_emp_sry');
+
+searchStrPopUp.style.display = 'inline-block';
 searchStrPopUp.addEventListener('click',()=>{
     searchStrSry.style.display = 'block';
     localStorage.removeItem('SearchSalaryStructureResultData');
 })
 searchSryPopUp.style.display = 'none';
-searchSryPopUp.addEventListener('click',()=>searchEmpSry.style.display = 'block');
-changeSearchStrSry.addEventListener('click',()=>{
-    searchEmpSry.style.display = 'none';
-    searchStrSry.style.display = 'block';
-});
-changeSearchEmpSry.addEventListener('click',()=>{
+searchSryPopUp.addEventListener('click',()=>{
     searchEmpSry.style.display = 'block';
-    searchStrSry.style.display = 'none';
+    localStorage.removeItem('searchEmpSalary');
 })
+
+
 //關閉：關閉視窗按鈕
-let PopUpClose1 = document.getElementById('button_1');
-let PopUpClose2 = document.getElementById('src_str_cancel');
-PopUpClose1.addEventListener('click',()=>searchEmpSry.style.display = 'none');
-PopUpClose2.addEventListener('click',()=>searchStrSry.style.display = 'none');
 
-//彈出視窗的清除
-let PopReset1 = document.getElementById('reset_1');
-//清除
-PopReset1.addEventListener('click',()=>{
-    popUpclear1();
+let PopUpClose2 = document.getElementById('src_str_cancel');
+PopUpClose2.addEventListener('click',()=>{
+    searchStrSry.style.display = 'none';
+    popUpclear2();
 })
 
 
-function popUpclear1(){
-    let searchEmpNum = document.getElementById('search_emp_num');
-    let searchEmpPosition = document.getElementById('search_emp_position');
-    let searchEmpName = document.getElementById('search_emp_name');
-    let searchEmpEmplyStart = document.getElementById('search_emp_emply_start');
-    let searchEmpTerminStart = document.getElementById('search_emp_termin_start');
-    let searchEmpEmplyEnd = document.getElementById('search_emp_emply_end');
-    let searchEmpTerminEnd = document.getElementById('search_emp_termin_end');
-    searchEmpNum.value = '';
-    searchEmpPosition.value = '';
-    searchEmpName.value = '';
-    searchEmpEmplyStart.value = '';
-    searchEmpTerminStart.value = '';
-    searchEmpEmplyEnd.value = '';
-    searchEmpTerminEnd.value = '';
-}
+
+
+
 function popUpclear2(){
     let sryPosition = document.getElementById('sry_position');
     sryPosition.value = '';
@@ -150,8 +119,6 @@ function popUpclear2(){
 //點擊查詢
 let srcStrSubmit = document.getElementById('src_str_submit'); 
 srcStrSubmit.addEventListener('click',()=>{
-    
-    
     searchFunction();
     searchStrSry.style.display = 'none';
 })
@@ -205,7 +172,6 @@ function clearTable(){
         }
     }
 }
-
 
 
 
@@ -265,12 +231,9 @@ fetch(`${table}.html`)
     document.body.appendChild(script);
 
     searchSryPopUp.style.display = 'inline-block';
+    searchStrPopUp.style.display = 'none';
 
-    script.onload = ()=>{
-        if(typeof initializeSalaryDataPage === 'function'){
-            initializeSalaryDataPage();
-        }
-    }
+ 
 })
 }
 // changeSalaryTable('salary_data');

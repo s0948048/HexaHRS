@@ -12,14 +12,14 @@ const rowNumbers = 10;
 let page=0;
 let start;
 let end;
+let isSearch = false;
 
-
-function displayLeaveBrief(page){
+function displayLeaveBrief(object,page){
     start = page*rowNumbers;
     end = start + rowNumbers;
     
 
-    showLeaveBriefData = sortLeaveBriefData.slice(start,end);
+    showLeaveBriefData = object.slice(start,end);
     showLeaveBriefData.forEach((element,index) => {
         for(let i = 0;i<columnNumbers;i++){
             document.getElementById(`row${index+1}-col${i+1}`).innerHTML = element[columnNames[i]];
@@ -44,14 +44,27 @@ function displayLeaveBrief(page){
             nextPageButton.style.setProperty('cursor', 'pointer', 'important');
         }
 }
+
+
+displayLeaveBrief(sortLeaveBriefData,page);
 //跳轉查看詳細的邏輯
 if(localStorage.getItem('storePages')){
     page = localStorage.getItem('storePages');
-    displayLeaveBrief(page);
+    let searchData = JSON.parse(sessionStorage.getItem('searchLeaveBrief'));
+    if(isSearch){
+        displayLeaveBrief(searchData,page);
+    }else if (!isSearch){
+        displayLeaveBrief(sortLeaveBriefData,page);
+    }
     localStorage.setItem('storePages',0);
 }else{
     page = 0;
-    displayLeaveBrief(page);
+    let searchData = JSON.parse(sessionStorage.getItem('searchLeaveBrief'));
+    if(isSearch){
+        displayLeaveBrief(searchData,page);
+    }else if (!isSearch){
+        displayLeaveBrief(sortLeaveBriefData,page);
+    }
 }
 
 let nextPage = document.getElementById('next');
@@ -59,25 +72,39 @@ let lastPage = document.getElementById('last');
 nextPage.addEventListener('click',()=>{
     if(leaveBriefData.length<=end)return;
     page++;
-    displayLeaveBrief(page);
+    let searchData = JSON.parse(sessionStorage.getItem('searchLeaveBrief'));
+    if(isSearch){
+        displayLeaveBrief(searchData,page);
+    }else if (!isSearch){
+        displayLeaveBrief(sortLeaveBriefData,page);
+    }
 })
 lastPage.addEventListener('click',()=>{
     if(page==0)return;
     page--;
-    displayLeaveBrief(page);
+    let searchData = JSON.parse(sessionStorage.getItem('searchLeaveBrief'));
+    if(isSearch){
+        displayLeaveBrief(searchData,page);
+    }else if (!isSearch){
+        displayLeaveBrief(sortLeaveBriefData,page);
+    }
 })
 
 //點擊table 查看詳細資料
 let leaveBriefTable = document.getElementById('atn_except_table');
 let getEmpId;
+let getDate;
 leaveBriefTable.addEventListener('click',(event)=>{
     if(event.target.closest('td')){
         let tdId = event.target.closest('td').id;
         getIdColumn = `${tdId.split('-')[0]}-col3`;
+        getDateColumn = `${tdId.split('-')[0]}-col2`;
         getEmpId = document.getElementById(getIdColumn).innerHTML;
-        console.log(getEmpId);
+        getDate = document.getElementById(getDateColumn).innerHTML;
         localStorage.setItem('storePages',page);
         localStorage.setItem('searchLeaveId',getEmpId);
+        localStorage.setItem('searchLeaveDate',getDate);
+
         loadPage('leave_except_detail');
     }
 });
@@ -112,25 +139,113 @@ let cancelBtn = document.getElementById('cancel');
 
 resetBtn.addEventListener('click',()=>{
     clearPopUp();
-})
+});
 
 cancelBtn.addEventListener('click',()=>{
     clearPopUp();
     popUpSearch.style.display = 'none';
+});
 
-})
+submitBtn.addEventListener('click',()=>{
+    sessionStorage.removeItem('searchLeaveBrief');
+    searchLeaveBrief();
+    popUpSearch.style.display = 'none';
+});
 
 
 
 
 
+
+function searchLeaveBrief(){
+    new Promise((resolve,reject)=>{
+        let filter = leaveBriefData;
+        resolve(filter);
+    })
+    .then(data=>{
+        if(leaveId.value){
+            let filterResult =[];
+            data.forEach(leave=>{
+                if(Number(leave['員工編號']) === Number(leaveId.value)){
+                    filterResult.push(leave);
+                }
+            })
+            console.log(filterResult);
+            return Promise.resolve(filterResult);
+        }else return data;
+    })
+    .then(data=>{
+        if(leaveHandleCdn.value){
+            let filterResult =[];
+            data.forEach(leave=>{
+                if(leave['出勤狀態'] === leaveHandleCdn.value){
+                    filterResult.push(leave);
+                }
+            })
+            console.log(filterResult);
+            return Promise.resolve(filterResult);
+        }else return data;
+    })
+    .then(data=>{
+        if(leaveDateStart.value){
+            let cmpDate = new Date(leaveDateStart.value);
+            let filterResult =[];
+            data.forEach(leave=>{
+                let leaveDate = new Date(leave['出勤日期']);
+                if(leaveDate >= cmpDate){
+                    filterResult.push(leave);
+                }
+            })
+            console.log(filterResult);
+            return Promise.resolve(filterResult);
+        }else return data;
+    })
+    .then(data=>{
+        if(leaveDateEnd.value){
+            let cmpDate = new Date(leaveDateEnd.value);
+            let filterResult =[];
+            data.forEach(leave=>{
+                let leaveDate = new Date(leave['出勤日期']);
+                if(leaveDate <= cmpDate){
+                    filterResult.push(leave);
+                }
+            })
+            console.log(filterResult);
+            return Promise.resolve(filterResult);
+        }else return data;
+    })
+    .then((data)=>{
+        page = 0;
+        isSearch = true;
+        sessionStorage.setItem('searchLeaveBrief',JSON.stringify(data));
+        tableClear();
+        return data;
+    })
+    .then(finalData=>{
+        let searchData = JSON.parse(sessionStorage.getItem('searchLeaveBrief'));
+        displayLeaveBrief(searchData,page);
+    })
+    .finally(()=>clearPopUp());
+}
+
+
+
+
+
+
+
+function tableClear(){
+    for(let j = 0;j<rowNumbers;j++){
+        for(let i = 0;i<columnNumbers;i++){
+            document.getElementById(`row${j+1}-col${i+1}`).innerHTML = '';
+        }
+    }
+}
 
 
 
 function clearPopUp(){
     popUpInput.forEach(item=>{
-        console.log(item);
-        
         item.value='';
     })
 }

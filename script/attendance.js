@@ -1,5 +1,5 @@
 function initializePage(){
-let getAttendance = JSON.parse(localStorage.getItem('attendance'));
+let getAttendance = JSON.parse(sessionStorage.getItem('attendance'));
 let AttendanceColumn = ['Date','EmployeeID','Name','Position',
     'AttendanceDate','AttendanceStatus','AttendanceCondition',
     'ClockInTime','ClockOutTime']
@@ -10,7 +10,7 @@ var start;
 var end;
 const lastPage = document.getElementById('last');
 const nextPage = document.getElementById('next');
-
+let isSearch = false;
 
 //這裡是重要資料！
 let attendanceData=[];
@@ -26,8 +26,8 @@ getAttendance.forEach(data=>{
 
 //所有出勤資料的變數 ==>  attendanceData
 
-function displayAttendance(page){
-    attendanceData.sort((a,b)=>{
+function displayAttendance(object,page){
+    object.sort((a,b)=>{
         if (new Date(a.Date) > new Date(b.Date)) return -1;
         if (new Date(a.Date) < new Date(b.Date)) return 1;
         const statusCmp = a.AttendanceStatus.localeCompare(b.AttendanceStatus);
@@ -38,12 +38,9 @@ function displayAttendance(page){
     })
     start = page*pageNumbers;
     end = start + pageNumbers;
-    let thisPageAttendance = attendanceData.slice(start,end);
-
+    let thisPageAttendance = object.slice(start,end);
+    tableClear();
     thisPageAttendance.forEach((item,index)=>{
-        for(let i = 0;i<colNumbers;i++){
-            document.getElementById(`row${index+1}_col${i+1}`).innerHTML = "";
-        }
         for(let i = 0;i<colNumbers;i++){
             document.getElementById(`row${index+1}_col${i+1}`).innerHTML = item[AttendanceColumn[i]];
         }
@@ -65,50 +62,156 @@ function displayAttendance(page){
         nextPage.style.color = 'black';
         nextPage.style.setProperty('cursor', 'pointer', 'important');
     }
-
-
-
-
-
-
-
 }
-displayAttendance(page);
-
+displayAttendance(attendanceData,page);
 
 lastPage.addEventListener('click',()=>{
+    let searchData = JSON.parse(sessionStorage.getItem('SearchAttendanceResultData'));
+    let attendanceData = JSON.parse(sessionStorage.getItem('attendance'));
     if(page == 0){return};
     page--;
-    displayAttendance(page);
+    if(isSearch){
+        displayAttendance(searchData,page);
+    }else if (!isSearch){
+        displayAttendance(attendanceData,page);
+    }
 })
 nextPage.addEventListener('click',()=>{
+    let attendanceData = JSON.parse(sessionStorage.getItem('attendance'));
     if(attendanceData.length <= end){return};
+    let searchData = JSON.parse(sessionStorage.getItem('SearchAttendanceResultData'));
     page++;
-    displayAttendance(page);
+    if(isSearch){
+        displayAttendance(searchData,page);
+    }else if (!isSearch){
+        displayAttendance(attendanceData,page);
+    }
 })
 
 
 
 
-let searchAtnNum = document.getElementById('search_atn_num');
+let searchAtnId = document.getElementById('search_atn_num');
 let searchAtnName = document.getElementById('search_atn_name');
 let searchAtnDate = document.getElementById('search_atn_date');
 let searchAtnStatus = document.getElementById('search_atn_status');
 let searchAtnCdn = document.getElementById('search_atn_cdn');
-let searchAtnCkInStart = document.getElementById('search_atn_ck_in_start');
-let searchAtnCkInEnd = document.getElementById('search_atn_ck_in_end');
-let searchAtnCkOutStart = document.getElementById('search_atn_ck_out_start');
-let searchAtnCkOutEnd = document.getElementById('search_atn_ck_out_end');
+let searchAtnCkIn = document.getElementById('search_atn_ck_in');
+let searchAtnCkOut = document.getElementById('search_atn_ck_out');
 
 const popInput = [
-    searchAtnNum,searchAtnName,searchAtnDate,searchAtnStatus,
-    searchAtnCdn,searchAtnCkInStart,searchAtnCkInEnd,
-    searchAtnCkOutStart, searchAtnCkOutEnd
+    searchAtnId,searchAtnName,searchAtnDate,searchAtnStatus,
+    searchAtnCdn,searchAtnCkIn,searchAtnCkOut
 ];
 
+let checkNA = searchAtnCkIn.value;
 
+function searchAttendace(){
+    new Promise((resolve,reject)=>{
+        let filterData = attendanceData;
+        resolve(filterData);
+    })
+    .then(data=>{
+        if(searchAtnId.value){
+            let filterResult = [];
+            data.forEach(atnRecord=>{
+                if(Number(atnRecord['EmployeeID']) === Number(searchAtnId.value)){
+                    filterResult.push(atnRecord);
+                }
+            })
+            console.log(filterResult)
+            return Promise.resolve(filterResult);
+        }else return data;
+    })
+    .then(data=>{
+        if(searchAtnName.value){
+            let filterResult = [];
+            let regex = new RegExp(searchAtnName.value);
+            data.forEach(atnRecord=>{
+                if(regex.test(atnRecord['Name'])){
+                    filterResult.push(atnRecord);
+                }
+            })
+            console.log(filterResult)
+            return Promise.resolve(filterResult);
+        }else return data;
+    })
+    .then(data=>{
+        if(searchAtnDate.value){
+            let filterResult = [];
+            let cmpDate = new Date(searchAtnDate.value);
+            data.forEach(atnRecord=>{
+                let atnDate = new Date(atnRecord['Date']);
+                if(atnDate.getMonth() === cmpDate.getMonth() && atnDate.getDate() === cmpDate.getDate()){
+                    filterResult.push(atnRecord);
+                }
+            })
+            console.log(filterResult);
+            return Promise.resolve(filterResult);
+        }else return data;
+    })
+    .then(data=>{
+        if(searchAtnStatus.value){
+            let filterResult = [];
+            data.forEach(atnRecord=>{
+                if(atnRecord['AttendanceStatus'] === searchAtnStatus.value){
+                    filterResult.push(atnRecord);
+                }
+            })
+            console.log(filterResult);
+            return Promise.resolve(filterResult);
+        }else return data;
+    })
+    .then(data=>{
+        if(searchAtnCdn.value){
+            let filterResult=[];
+            data.forEach(atnRecord=>{
+                if(atnRecord['AttendanceCondition'] === searchAtnCdn.value){
+                    filterResult.push(atnRecord);
+                }
+            })
+            console.log(filterResult);
+            return Promise.resolve(filterResult);
+        }else return data;
+    })
+    .then(data=>{
+        if(searchAtnCkIn.checked){
+            let filterResult=[];
+            data.forEach(atnRecord=>{
+                if(atnRecord['ClockInTime'] === checkNA){
+                    filterResult.push(atnRecord);
+                }
+            })
+            console.log(filterResult);
+            return Promise.resolve(filterResult);
+        }else return data;
+    })
+    .then(data=>{
+        if(searchAtnCkOut.checked){
+            let filterResult=[];
+            data.forEach(atnRecord=>{
+                if(atnRecord['ClockOutTime'] === checkNA){
+                    filterResult.push(atnRecord);
+                }
+            })
+            console.log(filterResult);
+            return Promise.resolve(filterResult);
+        }else return data;
+    })
+    .then(data=>{
+        page = 0;
+        isSearch = true;
+        sessionStorage.setItem('SearchAttendanceResultData',JSON.stringify(data));
+        return data;
+    })
+    .then(filterOut=>{
+        let searchData = JSON.parse(sessionStorage.getItem('SearchAttendanceResultData'));
+        console.log('sess',searchData);
+        displayAttendance(searchData,page);
+    })
+    .finally(()=>popUpClear());
 
-
+}
 //彈出視窗物件
 const showPopUp = document.getElementById('atn_search_btn');
 const popUpBox = document.getElementById('search_atn_popUp');
@@ -123,7 +226,11 @@ showPopUp.addEventListener('click',()=>{
     popUpBox.style.display = 'block';
 })
 //submit
-
+submitForPop.addEventListener('click',()=>{
+    sessionStorage.removeItem('SearchAttendanceResultData');
+    searchAttendace();
+    popUpBox.style.display = 'none';
+})
 //reset
 resetForPop.addEventListener('click',()=>{
     popUpClear();
@@ -138,20 +245,13 @@ cancelForPop.addEventListener('click',()=>{
 function popUpClear(){
     popInput.forEach(item=>{item.value = '';})
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function tableClear(){
+    for(let i = 0;i<colNumbers;i++){
+        for(let j=0;j<pageNumbers;j++){
+            document.getElementById(`row${j+1}_col${i+1}`).innerHTML = "";
+        }
+    }
+}
 
 }
 initializePage();

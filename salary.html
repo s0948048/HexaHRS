@@ -1,6 +1,5 @@
 <div class="pop_search_emp_sry" id="pop_search_emp_sry">
     <div class="search">查詢員工薪資</div>
-    <button id="change_search_str_sry" onclick="">查詢薪資架構</button>
     <hr>
     <label for="search_emp_num">員工編號</label><input type="text" id="search_emp_num" style="width: 325px;"><br>
     <label for="search_emp_position">職位</label><select id="search_emp_position" style="width: 325px;">
@@ -21,17 +20,16 @@
     <label for="search_emp_emply_start">到職日</label><input type="date" id="search_emp_emply_start">至</label><input type="date" id="search_emp_emply_end"><br>
     <label for="search_emp_termin_start">離職日</label><input type="date" id="search_emp_termin_start">至</label><input type="date" id="search_emp_termin_end"><br>
     <div class="search_btn">
-        <button type="submit" id="submit_1">查詢</button>
-        <button type="reset" id="reset_1">清除</button>
-        <button type="button" id="button_1">取消</button>
+        <button type="submit" id="src_sry_submit">查詢</button>
+        <button type="reset" id="src_sry_reset">清除</button>
+        <button type="button" id="src_sry_cancel">取消</button>
     </div>
 </div>
 <div class="pop_search_str_sry" id="pop_search_str_sry">
     <div class="search">查詢薪資架構</div>
-    <button id="change_search_emp_sry" onclick="">查詢員工薪資</button>
     <hr>
     <label for="sry_position">職位</label><select id="sry_position" style="width: 325px;">
-        <option value="" disabled selected></option>
+        <option value=""></option>
         <option value="經理">經理</option>
         <option value="主管">主管</option>
         <option value="小組長">小組長</option>

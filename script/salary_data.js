@@ -1,18 +1,17 @@
-
-function initializeSalaryDataPage(){
-let getEmployeeData = JSON.parse(localStorage.getItem('employeeData'));
+function restart(){
+let getEmployeeSalaryData = JSON.parse(localStorage.getItem('employeeData'));
 let salaryColumn = ['id','name','position','EmploymentStatus','DateEmployed','DateTerminated','Tenure','salary']
 let page = 0;
 const pageNumbers = 10 ;
 let colNumbers = 8;
 var start;
 var end;
-
+let isSearch = false;
 
 //這裡是重要資料！
 let employeeSalaryData=[];
 //因為薪資資料都在員工資料表裡所以設定欄位取值！
-getEmployeeData.forEach(employee=>{
+getEmployeeSalaryData.forEach(employee=>{
     let individualSalary = {};
     salaryColumn.forEach(column=>{
         individualSalary[column] = employee[column] || "none";
@@ -23,22 +22,18 @@ getEmployeeData.forEach(employee=>{
 
 
 //顯示資料
-function displayEmployeeSalary(page){
-    employeeSalaryData.sort((a,b)=>{
+function displayEmployeeSalary(Object,page){
+    Object.sort((a,b)=>{
         if (a.EmploymentStatus === "在職" && b.EmploymentStatus !== "在職") return -1;
         if (a.EmploymentStatus !== "在職" && b.EmploymentStatus === "在職") return 1;
         return a.id-b.id;
     });
     start = (page) * pageNumbers;
     end = start + pageNumbers;
-    var employeeSalaryToDisplay = employeeSalaryData.slice(start, end);
+    var employeeSalaryToDisplay = Object.slice(start, end);
     // console.log(employeeSalaryToDisplay);
     
-    for(let i = 0;i<pageNumbers;i++){
-        for(let j = 0;j<colNumbers;j++){
-            document.getElementById(`row${i+1}_col${j+1}`).innerHTML = "";
-        }
-    }
+    tableClear();
 
     employeeSalaryToDisplay.forEach((element,index) => {
         // console.log(element);
@@ -64,21 +59,187 @@ function displayEmployeeSalary(page){
         nextPageButton.style.color = 'black';
         nextPageButton.style.setProperty('cursor', 'pointer', 'important');
     }
-}displayEmployeeSalary(page);
+}
+displayEmployeeSalary(employeeSalaryData,page);
 
 //翻頁邏輯
+
+
+
+
 document.getElementById('sry_next').addEventListener('click', function() {
+    let searchSalary = JSON.parse(localStorage.getItem('searchEmpSalary'));
+    let getEmployeeSalaryData = JSON.parse(localStorage.getItem('employeeData'));
     if (employeeSalaryData.length <= end)return;
     page++;
-    displayEmployeeSalary(page);
+    if(isSearch){
+        displayEmployeeSalary(searchSalary,page);
+    }else if (!isSearch){
+        displayEmployeeSalary(getEmployeeSalaryData,page);
+    }
 });
 document.getElementById('sry_last').addEventListener('click', function() {
+    let searchSalary = JSON.parse(localStorage.getItem('searchEmpSalary'));
+    let getEmployeeSalaryData = JSON.parse(localStorage.getItem('employeeData'));
     if(page == 0){return};
     page--;
-    displayEmployeeSalary(page);
+    if(isSearch){
+        displayEmployeeSalary(searchSalary,page);
+    }else if (!isSearch){
+        displayEmployeeSalary(getEmployeeSalaryData,page);
+    }
 });
 
 
+let searchEmpSry = document.getElementById('pop_search_emp_sry');
+
+let searchEmpId = document.getElementById('search_emp_num');
+let searchEmpName = document.getElementById('search_emp_name');
+let searchEmpPosition = document.getElementById('search_emp_position');
+let searchEmpEmplyStart = document.getElementById('search_emp_emply_start');
+let searchEmpEmplyEnd = document.getElementById('search_emp_emply_end');
+let searchEmpTerminStart = document.getElementById('search_emp_termin_start');
+let searchEmpTerminEnd = document.getElementById('search_emp_termin_end');
+
+//['id','name','position','EmploymentStatus','DateEmployed','DateTerminated','Tenure','salary']
+let srcSrySubmit = document.getElementById('src_sry_submit');
+let srcSryReset = document.getElementById('src_sry_reset');
+let srcSryCancel = document.getElementById('src_sry_cancel');
+
+function searchEmpSalary(){
+    new Promise((resolve,reject)=>{
+        var filterData = getEmployeeSalaryData;
+        resolve(filterData);
+    })
+    .then(data=>{
+        let filterPassData=[];
+        if(searchEmpId.value){
+            data.forEach(salaryItem=>{
+                if(Number(salaryItem['id']) === Number(searchEmpId.value)){
+                    filterPassData.push(salaryItem);
+                }
+            })
+            console.log(filterPassData);
+            return Promise.resolve(filterPassData);
+        }else return data;
+    })
+    .then(data=>{
+        if(searchEmpName.value){
+            let filterPassData=[];
+            const regex = new RegExp(searchEmpName.value);
+            data.forEach(item=>{
+                if(regex.test(item['name'])){
+                    filterPassData.push(item);
+                }
+            })
+            console.log(filterPassData);
+            return Promise.resolve(filterPassData);
+        }else return data;
+    })
+    .then(data=>{
+        if(searchEmpPosition.value){
+            let filterPassData=[];
+            data.forEach(item=>{
+                if(item['position'] === searchEmpPosition.value){
+                    filterPassData.push(item);
+                }
+            })
+            console.log(filterPassData);
+            return Promise.resolve(filterPassData);
+        }else return data;
+    })
+    .then(data=>{
+        if(searchEmpEmplyStart.value){
+            let filterPassData=[];
+            let cmpDate = new Date(searchEmpEmplyStart.value);
+            data.forEach(item=>{
+                let emplyDate = new Date(item['DateEmployed']);
+                if(emplyDate >= cmpDate){
+                    filterPassData.push(item);
+                }
+            })
+            console.log(filterPassData);
+            return Promise.resolve(filterPassData);
+        }else return data;
+    })
+    .then(data=>{
+        if(searchEmpEmplyEnd.value){
+            let filterPassData=[];
+            let cmpDate = new Date(searchEmpEmplyEnd.value);
+            data.forEach(item=>{
+                let emplyDate = new Date(item['DateEmployed']);
+                if(emplyDate <= cmpDate){
+                    filterPassData.push(item);
+                }
+            })
+            console.log(filterPassData);
+            return Promise.resolve(filterPassData);
+        }else return data;
+    })
+    .then(data=>{
+        if(searchEmpTerminStart.value){
+            let filterPassData=[];
+            let cmpDate = new Date(searchEmpTerminStart.value);
+            data.forEach(item=>{
+                let emplyDate = new Date(item['DateTerminated']);
+                if(emplyDate >= cmpDate){
+                    filterPassData.push(item);
+                }
+            })
+            console.log(filterPassData);
+            return Promise.resolve(filterPassData);
+        }else return data;
+    })
+    .then(data=>{
+        if(searchEmpTerminEnd.value){
+            let filterPassData=[];
+            let cmpDate = new Date(searchEmpTerminEnd.value);
+            data.forEach(item=>{
+                let emplyDate = new Date(item['DateTerminated']);
+                if(emplyDate <= cmpDate){
+                    filterPassData.push(item);
+                }
+            })
+            console.log(filterPassData);
+            return Promise.resolve(filterPassData);
+        }else return data;
+    })
+    .then(data=>{
+        tableClear();
+        return Promise.resolve(data);
+    })
+    .then(data=>{
+        isSearch = true;
+        page = 0;
+        localStorage.setItem('searchEmpSalary',JSON.stringify(data));
+        return Promise.resolve(data);
+    })
+    .then(data=>{
+        displayEmployeeSalary(data,page);
+    })
+    .finally(()=>popUpclear1());
+}
+
+srcSrySubmit.addEventListener('click',()=>{
+    
+    searchEmpSalary();
+    searchEmpSry.style.display = 'none';
+})
+
+// tableClear();
+
+//清除
+srcSryReset.addEventListener('click',()=>{
+    popUpclear1();
+})
+
+
+
+
+srcSryCancel.addEventListener('click',()=>{
+    searchEmpSry.style.display = 'none';
+    popUpclear1();
+})
 
 
 
@@ -89,29 +250,34 @@ document.getElementById('sry_last').addEventListener('click', function() {
 
 
 
+function tableClear(){
+    for(let i = 0;i<pageNumbers;i++){
+        for(let j = 0;j<colNumbers;j++){
+            document.getElementById(`row${i+1}_col${j+1}`).innerHTML = "";
+        }
+    }
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function popUpclear1(){
+    let searchEmpNum = document.getElementById('search_emp_num');
+    let searchEmpPosition = document.getElementById('search_emp_position');
+    let searchEmpName = document.getElementById('search_emp_name');
+    let searchEmpEmplyStart = document.getElementById('search_emp_emply_start');
+    let searchEmpTerminStart = document.getElementById('search_emp_termin_start');
+    let searchEmpEmplyEnd = document.getElementById('search_emp_emply_end');
+    let searchEmpTerminEnd = document.getElementById('search_emp_termin_end');
+    searchEmpNum.value = '';
+    searchEmpPosition.value = '';
+    searchEmpName.value = '';
+    searchEmpEmplyStart.value = '';
+    searchEmpTerminStart.value = '';
+    searchEmpEmplyEnd.value = '';
+    searchEmpTerminEnd.value = '';
+}
 
 
 
@@ -161,7 +327,7 @@ salaryTable.addEventListener('click',(event)=>{
 });
 function showSalaryDataToBtnSearch(getEmpId){
     
-    getEmployeeData.forEach(item=>{
+    getEmployeeSalaryData.forEach(item=>{
         if(item.id == getEmpId){
             empSalaryModifyShow.forEach((show,index)=>{
                show.value = item[orderGetItem[index]];
@@ -183,6 +349,7 @@ searchSaveBtn.addEventListener('click',()=>{
         OnModifyAble();
         isEditable = true;
     } else if(isEditable){
+        searchSryTotalSalary.value = Number(searchSryOuterAttach.value) + Number(searchSryInLevel.value);
         storeToEmployeeData();
         BackBtnChangeText();
         isEditable = false;
@@ -191,15 +358,16 @@ searchSaveBtn.addEventListener('click',()=>{
 function storeToEmployeeData(){
     if(!searchSryId.value)return;
 
-    getEmployeeData.forEach(item=>{
+    getEmployeeSalaryData.forEach(item=>{
         if(item.id == getEmpId){
             empSalaryModifyShow.forEach((show,index)=>{
                 item[orderGetItem[index]] = show.value;
             })
         }
     })
-    localStorage.setItem('employeeData',JSON.stringify(getEmployeeData));
+    localStorage.setItem('employeeData',JSON.stringify(getEmployeeSalaryData));
     OffModifyAble();
+    displayEmployeeSalary(getEmployeeSalaryData,page);
 }
 
 //清除按鈕
@@ -252,6 +420,5 @@ function btnCanNotClick(){
 
 
 
-
 }
-initializeSalaryDataPage();
+restart();
