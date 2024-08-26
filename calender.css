@@ -119,7 +119,8 @@
     width: 120px;
     position: absolute;
     height: 50px;
-    left: 210px;
+    left: 420px;
+    top: 1px;
     border: #deb0b0;
     background-color: #b6a1a1;
     cursor: pointer;

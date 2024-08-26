@@ -1,6 +1,5 @@
 function initializePage(){
 let getEmployee = JSON.parse(localStorage.getItem('employeeData'));
-
 let employeeColumn = ['id','name','sex','birthday',
     'position','EmploymentStatus','DateEmployed',
     'DateTerminated','Tenure','PrimarySupervisor','SecondarySupervisor']
@@ -11,10 +10,10 @@ var start;
 var end;
 const lastPage = document.getElementById('last');
 const nextPage = document.getElementById('next');
-
-
+let isSearch = false;
+let searchData = JSON.parse(localStorage.getItem('SearchEmployeeResultData'));
 //這裡是重要資料！
-let employeeData=[];
+let employeeData=getEmployee;
 
 
 getEmployee.sort((a,b)=>{
@@ -24,22 +23,27 @@ getEmployee.sort((a,b)=>{
     return Number(b.id)-Number(a.id);
 })
 //因為薪資資料都在員工資料表裡所以設定欄位取值！
-getEmployee.forEach(data=>{
-    let individualEmployee = {};
-    employeeColumn.forEach(column=>{
-        individualEmployee[column] = data[column] || "none";
-    });
-    employeeData.push(individualEmployee);
-});
+// getEmployee.forEach(data=>{
+//     let individualEmployee = {};
+//     employeeColumn.forEach(column=>{
+//         individualEmployee[column] = data[column] || "none";
+//     });
+//     employeeData.push(individualEmployee);
+// });
 // console.log(employeeData);
 
 // 所有資料的變數 ==>  employeeData
 
-function displayEmployee(page){
+function displayEmployee(Object,page){
+    console.log(Object.length);
     
     start = page*pageNumbers;
     end = start+pageNumbers;
-    let showEmployeeData = employeeData.slice(start,end);
+    if (Object.length<=pageNumbers) {
+        showEmployeeData = Object;
+    }else{
+        showEmployeeData = Object.slice(start,end);
+    }
 
     showEmployeeData.forEach((employee,index)=>{
         for(let i = 0;i<colNumbers;i++){
@@ -47,7 +51,7 @@ function displayEmployee(page){
         }
     })
     //頁面按鈕
-    if(getEmployee.length <= end){
+    if(Object.length <= end){
         nextPage.style.color = 'gray';
         nextPage.style.setProperty('cursor','auto','important');
     }else{
@@ -66,17 +70,30 @@ function displayEmployee(page){
         localStorage.removeItem('rowNumberSelect');
     }
 }
-displayEmployee(page);
+displayEmployee(employeeData,page);
 
 nextPage.addEventListener('click',()=>{
     if(getEmployee.length <= end)return;
     page++;
-    displayEmployee(page);
+    let searchData = JSON.parse(localStorage.getItem('SearchEmployeeResultData'));
+    let employeeData = JSON.parse(localStorage.getItem('SearchEmployeeResultData'));
+    if(isSearch){
+        displayEmployee(searchData,page);
+    }else if (!isSearch){
+        displayEmployee(employeeData,page);
+    }
+    
 })
 lastPage.addEventListener('click',()=>{
     if(page == 0)return;
     page--;
-    displayEmployee(page);
+    let searchData = JSON.parse(localStorage.getItem('SearchEmployeeResultData'));
+    let employeeData = JSON.parse(localStorage.getItem('SearchEmployeeResultData'));
+    if(isSearch){
+        displayEmployee(searchData,page);
+    }else if (!isSearch){
+        displayEmployee(employeeData,page);
+    }
 })
 
 
@@ -239,8 +256,11 @@ function submitModifyData(){
             popModifySaveValue.forEach((item,index)=>{
                 employee[employeeColumn[index]] = item.value;
             })
+            console.log(employee);
         }
     })
+    
+    
     localStorage.setItem('employeeData',JSON.stringify(employeeData));
 }
 function submitNewData(){
@@ -298,7 +318,6 @@ function searchFunction(){
                     searchResult.push(item);
                 }
             })
-            console.log(searchResult);
             return Promise.resolve(searchResult);
         }else return data; 
     })
@@ -402,44 +421,19 @@ function searchFunction(){
         clearTable();
         return Promise.resolve(data);
     })
-    .then(finalData=>{
+    .then((data)=>{
         page = 0;
-        displaySearchResult(finalData,page);
+        isSearch = true;
+        localStorage.setItem('SearchEmployeeResultData',JSON.stringify(data));
+    })
+    .then(finalData=>{
+        let searchData = JSON.parse(localStorage.getItem('SearchEmployeeResultData'));
+        displayEmployee(searchData,page);
     })
     .finally(()=>popSearchClear());
 }
 
-function displaySearchResult(dataObject,page){
-    console.log(dataObject);
-    
-    start = page*pageNumbers;
-    end = start + pageNumbers;
-    let howEmployeeData = dataObject.slice(start,end);
-    howEmployeeData.forEach((item,index)=>{
-        for(let i = 0;i<colNumbers;i++){
-            document.getElementById(`row${index+1}-col${i+1}`).innerHTML = '';
-            document.getElementById(`row${index+1}-col${i+1}`).innerHTML = item[employeeColumn[i]];
-        }
-    })
-    if(dataObject.length <= end){
-        nextPage.style.color = 'gray';
-        nextPage.style.setProperty('cursor','auto','important');
-    }else{
-        nextPage.style.color = 'black';
-        nextPage.style.setProperty('cursor','pointer','important');
-    }
-    if(page == 0){
-        lastPage.style.color = 'gray';
-        lastPage.style.setProperty('cursor','auto','important');
-    }else{
-        lastPage.style.color = 'black';
-        lastPage.style.setProperty('cursor','pointer','important');
-    }
-    if(localStorage.getItem('rowNumberSelect')){
-        clearSelectionStyle();
-        localStorage.removeItem('rowNumberSelect');
-    }
-}
+
 function clearTable(){
     for(let j = 0;j<pageNumbers;j++){
         for(let i = 0;i<colNumbers;i++){
@@ -477,7 +471,7 @@ popModifySaveGoSave.addEventListener('click',()=>{
 })
 popModifySaveGoReset.addEventListener('click',()=>{
     popModifySaveClear();
-    newEmp();
+    newEmp(newId);
 })
 popModifySaveGoCancel.addEventListener('click',()=>{
     popModifySaveClear();

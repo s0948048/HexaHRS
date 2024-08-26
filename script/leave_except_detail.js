@@ -1,6 +1,6 @@
 function initializePage(){
 
-let leaveDetailData = JSON.parse(localStorage.getItem('leaveDetail'));
+let leaveDetailData = JSON.parse(sessionStorage.getItem('leaveDetail'));
 let sortLeaveDetailData = leaveDetailData.sort((a,b)=>{
     if (a['ProcessedStatus'] < b['ProcessedStatus']) return -1;
     if (a['ProcessedStatus'] > b['ProcessedStatus']) return 1;

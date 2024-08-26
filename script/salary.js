@@ -4,7 +4,7 @@ salaryStructures.sort((a,b)=>a.InternalTierLevel-b.InternalTierLevel);
 salaryStructures.sort((a,b)=>b.Position.localeCompare(a.Position));
 let page = 0;
 const pageNumbers = 10 ;
-let colNumbers = 8;
+const colNumbers = 8;
 var start;
 var end;
 let str_columns=['Position','InternalTierLevel','ExperienceRange','TierSalary','ExternalExperienceTierLevel','ExternalExperience','ExternalExperienceBonus','TotalSalary']
@@ -18,11 +18,13 @@ let sry_level = document.getElementById('sry_level');
 let sry_outer_years = document.getElementById('sry_outer_years');
 let sry_outer_attach = document.getElementById('sry_outer_attach');
 let sry_salary = document.getElementById('sry_salary');
-let searchData = JSON.parse(localStorage.getItem('SearchResultData'));
+let searchData = JSON.parse(localStorage.getItem('SearchSalaryStructureResultData'));
 let isSearch = false;
 
 //顯示資料 salaryStructures
 function displaySalaryStructure(object,page){
+    console.log('get',JSON.parse(localStorage.getItem('SearchSalaryStructureResultData')));
+
     start = (page) * pageNumbers;
     end = start + pageNumbers;
     var salaryStructureToDisplay = object.slice(start, end);
@@ -33,7 +35,7 @@ function displaySalaryStructure(object,page){
             document.getElementById(`row${i+1}-col${j+1}`).innerHTML = "";
         }
     }
-
+    
     salaryStructureToDisplay.forEach((element,index) => {
         // console.log(element);
         for(let j = 0;j<str_columns.length;j++){
@@ -50,29 +52,42 @@ function displaySalaryStructure(object,page){
     }
     
     const nextPageButtonForStr = document.getElementById('next');
-    if (salaryStructures.length < end) {
+    if (object.length <= end) {
         nextPageButtonForStr.style.color = 'gray';
         nextPageButtonForStr.style.setProperty('cursor', 'auto', 'important');
     }else {
         nextPageButtonForStr.style.color = 'black';
         nextPageButtonForStr.style.setProperty('cursor', 'pointer', 'important');
     }
-
+    
 }
-if(isSearch)displaySalaryStructure(salaryStructures,page)
-else if (!isSearch)displaySalaryStructure(searchData,page);
+
+displaySalaryStructure(salaryStructures,page);
 
 
 //翻頁邏輯
 document.getElementById('next').addEventListener('click', function() {
+    let searchData = JSON.parse(localStorage.getItem('SearchSalaryStructureResultData'));
     if (salaryStructures.length < end)return;
     page++;
-    displaySalaryStructure(page);
+    if(isSearch){
+        displaySalaryStructure(searchData,page);
+        console.log('display3',searchData);
+    }else if (!isSearch){
+        displaySalaryStructure(salaryStructures,page);
+        
+    }
 });
 document.getElementById('last').addEventListener('click', function() {
     if(page == 0){return};
+    let searchData = JSON.parse(localStorage.getItem('SearchSalaryStructureResultData'));
     page--;
-    displaySalaryStructure(page);
+    if(isSearch){
+        displaySalaryStructure(searchData,page);
+        console.log('display4',searchData);
+    }else if (!isSearch){
+        displaySalaryStructure(salaryStructures,page);
+    }
 });
 
 //彈出視窗的控制!!!
@@ -83,8 +98,12 @@ let searchEmpSry = document.getElementById('pop_search_emp_sry');
 let searchStrSry = document.getElementById('pop_search_str_sry');
 let changeSearchStrSry = document.getElementById('change_search_str_sry');
 let changeSearchEmpSry = document.getElementById('change_search_emp_sry');
-searchStrPopUp.addEventListener('click',()=>searchEmpSry.style.display = 'block');
-searchSryPopUp.addEventListener('click',()=>searchStrSry.style.display = 'block');
+searchStrPopUp.addEventListener('click',()=>{
+    searchStrSry.style.display = 'block';
+    localStorage.removeItem('SearchSalaryStructureResultData');
+})
+searchSryPopUp.style.display = 'none';
+searchSryPopUp.addEventListener('click',()=>searchEmpSry.style.display = 'block');
 changeSearchStrSry.addEventListener('click',()=>{
     searchEmpSry.style.display = 'none';
     searchStrSry.style.display = 'block';
@@ -131,8 +150,10 @@ function popUpclear2(){
 //點擊查詢
 let srcStrSubmit = document.getElementById('src_str_submit'); 
 srcStrSubmit.addEventListener('click',()=>{
+    
+    
     searchFunction();
-    searchStrSry.style.display = 'none'
+    searchStrSry.style.display = 'none';
 })
 
 
@@ -158,46 +179,25 @@ function searchFunction(){
         clearTable();
         return Promise.resolve(data);
     })
+    .then(data=>{
+        isSearch = true;
+        page = 0;
+        localStorage.setItem('SearchSalaryStructureResultData',JSON.stringify(data));
+        return Promise.resolve(data);
+    })
     .then(finalData=>{
-        a = finalData;
-        displaySearchResult(finalData);
-        localStorage.setItem('SearchResultData',JSON.stringify(finalData));
+        displaySalaryStructure(finalData,page);
+        console.log('set',JSON.parse(localStorage.getItem('SearchSalaryStructureResultData')));
+        
+        
     })
     .finally(()=>popUpclear2());
 }
 
-console.log(JSON.parse(localStorage.getItem('SearchResultData')));
+// console.log(JSON.parse(localStorage.getItem('SearchSalaryStructureResultData')));
 
 
 
-function displaySearchResult(dataObject,page){
-    // console.log(dataObject);
-    
-    start = page*pageNumbers;
-    end = start + pageNumbers;
-    let getStrTable = dataObject.slice(start,end);
-    getStrTable.forEach((item,index)=>{
-        for(let i = 0;i<colNumbers;i++){
-            document.getElementById(`row${index+1}-col${i+1}`).innerHTML = '';
-            document.getElementById(`row${index+1}-col${i+1}`).innerHTML = item[str_columns[i]];
-        }
-    })
-    // if(dataObject.length <= end){
-    //     nextPageButtonForStr.style.color = 'gray';
-    //     nextPageButtonForStr.style.setProperty('cursor','auto','important');
-    // }else{
-    //     nextPageButtonForStr.style.color = 'black';
-    //     nextPageButtonForStr.style.setProperty('cursor','pointer','important');
-    // }
-    // if(page == 0){
-    //     lastPageButtonForStr.style.color = 'gray';
-    //     lastPageButtonForStr.style.setProperty('cursor','auto','important');
-    // }else{
-    //     lastPageButtonForStr.style.color = 'black';
-    //     lastPageButtonForStr.style.setProperty('cursor','pointer','important');
-    // }
-
-}
 function clearTable(){
     for(let j = 0;j<pageNumbers;j++){
         for(let i = 0;i<colNumbers;i++){
@@ -264,6 +264,8 @@ fetch(`${table}.html`)
     script.src = `./script/salary_data.js`;
     document.body.appendChild(script);
 
+    searchSryPopUp.style.display = 'inline-block';
+
     script.onload = ()=>{
         if(typeof initializeSalaryDataPage === 'function'){
             initializeSalaryDataPage();
@@ -274,4 +276,4 @@ fetch(`${table}.html`)
 // changeSalaryTable('salary_data');
 
 }
-initializePage()
+initializePage();

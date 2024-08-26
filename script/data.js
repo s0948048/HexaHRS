@@ -2,7 +2,7 @@ function initializePage(){
 
     //專案部屬時要執行這行，把所有先清空再接續作業！
 // localStorage.clear();
-
+// sessionStorage.clear();
 //公告存放
     const announcements = [
         {id:'anu_2024_08_03', title:'豆腐切, 是不是!',      date:'2021-10-08',  content:'山下的風景雖然迷人，但總覺得有股奇怪的味道。'},
@@ -52,7 +52,7 @@ fetch('./data/employeeData.json')
 fetch('./data/attendance.json')
 .then(Response=>Response.json())
 .then(data=>{
-    localStorage.setItem('attendance',JSON.stringify(data));
+    sessionStorage.setItem('attendance',JSON.stringify(data));
 })
 
 //假勤紀錄
@@ -60,7 +60,7 @@ fetch('./data/attendance.json')
 fetch('./data/leave_detail.json')
 .then(Response=>Response.json())
 .then(data=>{
-    localStorage.setItem('leaveDetail',JSON.stringify(data));
+    sessionStorage.setItem('leaveDetail',JSON.stringify(data));
 })
 
 //異常紀錄
@@ -68,7 +68,7 @@ fetch('./data/leave_detail.json')
 fetch('./data/leave_brief.json')
 .then(Response=>Response.json())
 .then(data=>{
-    localStorage.setItem('leaveBrief',JSON.stringify(data));
+    sessionStorage.setItem('leaveBrief',JSON.stringify(data));
 })
 
 //假勤架構
@@ -76,7 +76,7 @@ fetch('./data/leave_brief.json')
 fetch('./data/leave_structure.json')
 .then(Response=>Response.json())
 .then(data=>{
-    localStorage.setItem('leaveStructure',JSON.stringify(data));
+    sessionStorage.setItem('leaveStructure',JSON.stringify(data));
 })
 
 

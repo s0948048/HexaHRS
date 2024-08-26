@@ -105,7 +105,7 @@ employeeData.forEach(item=>{
 document.getElementById('emply_people').innerHTML = emploeeNewThisMonth;
 document.getElementById('termin_people').innerHTML = terminNewThisMonth;
 
-let leaveDetail = JSON.parse(localStorage.getItem('leaveDetail'));
+let leaveDetail = JSON.parse(sessionStorage.getItem('leaveDetail'));
 let Processing = '表單申請中';
 let notApply = '尚未處理';
 
@@ -170,7 +170,7 @@ leaveDetail.forEach(item=>{
 });
 
 //leaveBrief
-let leaveBrief = JSON.parse(localStorage.getItem('leaveBrief'));
+let leaveBrief = JSON.parse(sessionStorage.getItem('leaveBrief'));
 let atn_errorNumbers = 0;
 //出勤狀態 = 有異常;
 leaveBrief.forEach(item=>{

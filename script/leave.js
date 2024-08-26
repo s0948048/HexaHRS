@@ -1,5 +1,5 @@
 function initializePage(){
-let leaveStructure = JSON.parse(localStorage.getItem('leaveStructure'));
+let leaveStructure = JSON.parse(sessionStorage.getItem('leaveStructure'));
 const columnNames = ['假別','天數','請假條件','增加假勤數量條件']
 const columnNumbers = 4 ;
 

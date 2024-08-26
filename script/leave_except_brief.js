@@ -1,6 +1,6 @@
 function initializePage(){
 
-let leaveBriefData = JSON.parse(localStorage.getItem('leaveBrief'));
+let leaveBriefData = JSON.parse(sessionStorage.getItem('leaveBrief'));
 let sortLeaveBriefData = leaveBriefData.sort((a,b)=>{
     // if (a['出勤狀態'] < b['出勤狀態']) return -1;
     // if (a['出勤狀態'] > b['出勤狀態']) return 1;
