@@ -8,9 +8,12 @@ const colNumbers = 8;
 var start;
 var end;
 let str_columns=['Position','InternalTierLevel','ExperienceRange','TierSalary','ExternalExperienceTierLevel','ExternalExperience','ExternalExperienceBonus','TotalSalary']
-
+localStorage.removeItem('SearchSalaryStructureResultData');
 let isSearch = false;
-
+if(localStorage.getItem('isSalaryPage')){
+    changeSalaryTable('salary_data');
+}else{
+}
 //顯示資料 salaryStructures
 function displaySalaryStructure(object,page){
     // console.log('get',JSON.parse(localStorage.getItem('SearchSalaryStructureResultData')));
@@ -52,11 +55,9 @@ function displaySalaryStructure(object,page){
     
 }
 
-if(isSearch){
-    displaySalaryStructure(searchData,page);
-}else if (!isSearch){
+
     displaySalaryStructure(salaryStructures,page);
-}
+
 
 //翻頁邏輯
 document.getElementById('next').addEventListener('click', function() {
@@ -215,8 +216,14 @@ const btnSearch = [searchSaveBtn,searchClearBtn]
 
 
 //切換table
-document.getElementById('see_detail').addEventListener('click',()=>loadPage('salary'));
-document.getElementById('see_data').addEventListener('click',()=>changeSalaryTable('salary_data'));
+document.getElementById('see_detail').addEventListener('click',()=>{
+    loadPage('salary');
+    localStorage.removeItem('isSalaryPage');
+});
+document.getElementById('see_data').addEventListener('click',()=>{
+    changeSalaryTable('salary_data')
+    localStorage.setItem('isSalaryPage',1);
+});
 //個人薪資表的邏輯~~
 function changeSalaryTable(table){
 fetch(`${table}.html`)
@@ -224,15 +231,33 @@ fetch(`${table}.html`)
 .then(data => {
     // console.log(data);
     document.getElementById('change_site').innerHTML = data;
+    
+    // const removeSalaryJS = document.getElementById('salary_data_js');
+    // if(removeSalaryJS)removeSalaryJS.remove();
 
     const script = document.createElement('script');
-    script.id = 'salary_data';
+    script.id = 'salary_data_js';
     script.src = `./script/salary_data.js`;
     document.body.appendChild(script);
 
     searchSryPopUp.style.display = 'inline-block';
     searchStrPopUp.style.display = 'none';
 
+    // const removeSalaryJS2 = document.getElementById('js_src');
+    // if(removeSalaryJS2)removeSalaryJS.remove();
+
+    // const script2 = document.createElement('script');
+    // script2.id = 'js_src';
+    // script2.src = `./script/salary.js`;
+    // document.body.appendChild(script);
+
+
+    
+    // script.onload = ()=>{
+    //     if(typeof restart === 'function'){
+    //         restart();
+    //     }
+    // }
  
 })
 }

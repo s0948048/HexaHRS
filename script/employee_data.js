@@ -159,6 +159,7 @@ btnPopModifySave.addEventListener('click',()=>{
 })
 btnPopSearch.addEventListener('click',()=>{
     popSearch.style.display = 'block';
+    clearTable();
 })
 //選了之後點修改會抓資料上去。
 function showToPopUp(getId){
@@ -238,11 +239,19 @@ const popSearchValue = [
 ];
 
 let popSearchSubmit = document.getElementById('srch_submit');
+
+
 popSearchSubmit.addEventListener('click',()=>{
-    searchFunction();
-    //handle
-    //清除在非同步裡面了
     popSearch.style.display = 'none';
+    searchFunction().then(()=>{
+        clearTable();
+        page = 0;
+        isSearch = true;
+        let searchData = JSON.parse(localStorage.getItem('SearchEmployeeResultData'));
+        loadPage('employee_data')
+    })
+    //清除在非同步裡面了
+    
 })
 
 
@@ -408,18 +417,16 @@ function searchFunction(){
     .then(data=>{
         console.log(data);
         //就是這個data  最終結果!
-        
-        clearTable();
         return Promise.resolve(data);
     })
     .then((data)=>{
         page = 0;
         isSearch = true;
         localStorage.setItem('SearchEmployeeResultData',JSON.stringify(data));
+        return data;
     })
     .then(finalData=>{
-        let searchData = JSON.parse(localStorage.getItem('SearchEmployeeResultData'));
-        displayEmployee(searchData,page);
+        displayEmployee(finalData,page);
     })
     .finally(()=>popSearchClear());
 }
@@ -467,6 +474,7 @@ popModifySaveGoReset.addEventListener('click',()=>{
 popModifySaveGoCancel.addEventListener('click',()=>{
     popModifySaveClear();
     popModifySave.style.display = 'none';
+    loadPage('employee_data');
 })
 
 //popSearch
@@ -481,6 +489,7 @@ popSearchReset.addEventListener('click',()=>{
 popSearchCancel.addEventListener('click',()=>{
     popSearchClear();
     popSearch.style.display = 'none';
+    loadPage('employee_data')
 })
 
 

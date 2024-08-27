@@ -6,7 +6,9 @@ const pageNumbers = 10 ;
 let colNumbers = 8;
 var start;
 var end;
-let isSearch = false;
+let isSearch1 = false;
+
+
 
 //這裡是重要資料！
 let employeeSalaryData=[];
@@ -72,9 +74,9 @@ document.getElementById('sry_next').addEventListener('click', function() {
     let getEmployeeSalaryData = JSON.parse(localStorage.getItem('employeeData'));
     if (employeeSalaryData.length <= end)return;
     page++;
-    if(isSearch){
+    if(isSearch1){
         displayEmployeeSalary(searchSalary,page);
-    }else if (!isSearch){
+    }else if (!isSearch1){
         displayEmployeeSalary(getEmployeeSalaryData,page);
     }
 });
@@ -83,9 +85,9 @@ document.getElementById('sry_last').addEventListener('click', function() {
     let getEmployeeSalaryData = JSON.parse(localStorage.getItem('employeeData'));
     if(page == 0){return};
     page--;
-    if(isSearch){
+    if(isSearch1){
         displayEmployeeSalary(searchSalary,page);
-    }else if (!isSearch){
+    }else if (!isSearch1){
         displayEmployeeSalary(getEmployeeSalaryData,page);
     }
 });
@@ -205,11 +207,11 @@ function searchEmpSalary(){
         }else return data;
     })
     .then(data=>{
-        tableClear();
+        
         return Promise.resolve(data);
     })
     .then(data=>{
-        isSearch = true;
+        isSearch1 = true;
         page = 0;
         localStorage.setItem('searchEmpSalary',JSON.stringify(data));
         return Promise.resolve(data);
@@ -221,34 +223,25 @@ function searchEmpSalary(){
 }
 
 srcSrySubmit.addEventListener('click',()=>{
-    
+
+    isSearch1 = false;
+    localStorage.removeItem('searchEmpSalary');
     searchEmpSalary();
     searchEmpSry.style.display = 'none';
 })
 
-// tableClear();
 
 //清除
 srcSryReset.addEventListener('click',()=>{
     popUpclear1();
 })
 
-
-
-
 srcSryCancel.addEventListener('click',()=>{
     searchEmpSry.style.display = 'none';
     popUpclear1();
+    // tableClear();
+    // restart();
 })
-
-
-
-
-
-
-
-
-
 
 function tableClear(){
     for(let i = 0;i<pageNumbers;i++){
@@ -257,10 +250,6 @@ function tableClear(){
         }
     }
 }
-
-
-
-
 
 function popUpclear1(){
     let searchEmpNum = document.getElementById('search_emp_num');
@@ -279,8 +268,6 @@ function popUpclear1(){
     searchEmpTerminEnd.value = '';
 }
 
-
-
 //下方員工詳細薪資的input元件~~
 //解鎖下方員工詳細功能
 let searchSryId = document.getElementById('sry_num');
@@ -295,15 +282,23 @@ let searchSryOuterAttach = document.getElementById('sry_outer_attach');
 let searchSryTotalSalary = document.getElementById('sry_total_salary');
 let searchSaveBtn = document.getElementById('search_save');
 let searchClearBtn = document.getElementById('search_clear');
-const empSalaryModifyAble = [searchSryInLevel,searchSryOuterYears,
-    searchSryOuterAttach,searchSryTotalSalary];
-const empSalaryModifyShow = [searchSryId,searchSryStatus,searchSryYearsIn,searchSryName,
+const empSalaryModifyAble = [
+    searchSryInLevel,searchSryOuterYears,
+    searchSryOuterAttach,searchSryTotalSalary
+];
+const empSalaryModifyShow = [
+    searchSryId,searchSryStatus,searchSryYearsIn,searchSryName,
     searchSryEmpDate,searchSryTerminDate,searchSryInLevel,searchSryOuterYears,
-    searchSryOuterAttach,searchSryTotalSalary];
-const orderGetItem = ['id','EmploymentStatus','Tenure','name',
+    searchSryOuterAttach,searchSryTotalSalary
+];
+const orderGetItem = [
+    'id','EmploymentStatus','Tenure','name',
     'DateEmployed','DateTerminated','InitialSalary','ExternalExperience',
-    'ExternalExperienceBonus','salary'];
-const empSalaryBtn=[searchSaveBtn,searchClearBtn];
+    'ExternalExperienceBonus','salary'
+];
+const empSalaryBtn=[
+    searchSaveBtn,searchClearBtn
+];
 
 empSalaryModifyShow.forEach(item=>{
     item.value = '';
@@ -377,14 +372,18 @@ searchClearBtn.addEventListener('click',()=>{
         item.setAttribute('readonly',true);
         item.style.backgroundColor = '#d7d5d5';
     })
-    
     BackBtnChangeText();
     btnCanNotClick();
     isEditable = false;
 
 })
 
+// let seeData = document.getElementById('see_data');
+// seeData.addEventListener('click',()=>{
 
+//     changeSalaryTable('salary_data');
+
+// })
 
 function OffModifyAble(){
     empSalaryModifyAble.forEach(item=>{
