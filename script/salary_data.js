@@ -1,4 +1,7 @@
-function restart(){
+
+
+
+function resart(){
 let getEmployeeSalaryData = JSON.parse(localStorage.getItem('employeeData'));
 let salaryColumn = ['id','name','position','EmploymentStatus','DateEmployed','DateTerminated','Tenure','salary']
 let page = 0;
@@ -6,10 +9,8 @@ const pageNumbers = 10 ;
 let colNumbers = 8;
 var start;
 var end;
-let isSearch1 = false;
-
-
-
+let isSearch1  = false;
+localStorage.removeItem('searchEmpSalary');
 //這裡是重要資料！
 let employeeSalaryData=[];
 //因為薪資資料都在員工資料表裡所以設定欄位取值！
@@ -65,9 +66,6 @@ function displayEmployeeSalary(Object,page){
 displayEmployeeSalary(employeeSalaryData,page);
 
 //翻頁邏輯
-
-
-
 
 document.getElementById('sry_next').addEventListener('click', function() {
     let searchSalary = JSON.parse(localStorage.getItem('searchEmpSalary'));
@@ -239,8 +237,7 @@ srcSryReset.addEventListener('click',()=>{
 srcSryCancel.addEventListener('click',()=>{
     searchEmpSry.style.display = 'none';
     popUpclear1();
-    // tableClear();
-    // restart();
+    restart();
 })
 
 function tableClear(){
@@ -380,9 +377,7 @@ searchClearBtn.addEventListener('click',()=>{
 
 // let seeData = document.getElementById('see_data');
 // seeData.addEventListener('click',()=>{
-
-//     changeSalaryTable('salary_data');
-
+//     resart()
 // })
 
 function OffModifyAble(){
@@ -417,7 +412,8 @@ function btnCanNotClick(){
 }
 
 
-
-
 }
-restart();
+if(!localStorage.getItem('searchEmpSalary')){
+    
+}
+resart();

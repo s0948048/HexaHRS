@@ -10,10 +10,8 @@ var end;
 let str_columns=['Position','InternalTierLevel','ExperienceRange','TierSalary','ExternalExperienceTierLevel','ExternalExperience','ExternalExperienceBonus','TotalSalary']
 localStorage.removeItem('SearchSalaryStructureResultData');
 let isSearch = false;
-if(localStorage.getItem('isSalaryPage')){
-    changeSalaryTable('salary_data');
-}else{
-}
+let seeData = document.getElementById('see_data');
+seeData.style.display = 'inline-block';
 //顯示資料 salaryStructures
 function displaySalaryStructure(object,page){
     // console.log('get',JSON.parse(localStorage.getItem('SearchSalaryStructureResultData')));
@@ -215,14 +213,15 @@ const btnSearch = [searchSaveBtn,searchClearBtn]
     })
 
 
+
+
+    
 //切換table
 document.getElementById('see_detail').addEventListener('click',()=>{
     loadPage('salary');
-    localStorage.removeItem('isSalaryPage');
 });
 document.getElementById('see_data').addEventListener('click',()=>{
-    changeSalaryTable('salary_data')
-    localStorage.setItem('isSalaryPage',1);
+    changeSalaryTable('salary_data');
 });
 //個人薪資表的邏輯~~
 function changeSalaryTable(table){
@@ -232,13 +231,15 @@ fetch(`${table}.html`)
     // console.log(data);
     document.getElementById('change_site').innerHTML = data;
     
-    // const removeSalaryJS = document.getElementById('salary_data_js');
-    // if(removeSalaryJS)removeSalaryJS.remove();
-
-    const script = document.createElement('script');
-    script.id = 'salary_data_js';
-    script.src = `./script/salary_data.js`;
-    document.body.appendChild(script);
+    const removeSalaryJS = document.getElementById('salary_data_js');
+    if(removeSalaryJS)removeSalaryJS.remove();
+    let seeData = document.getElementById('see_data');
+    seeData.style.display = 'none';
+    const script2 = document.createElement('script');
+    const script1 = document.getElementById('js_src');
+    script2.id = 'salary_data_js';
+    script2.src = `./script/salary_data.js`;
+    document.body.insertBefore(script2,script1);
 
     searchSryPopUp.style.display = 'inline-block';
     searchStrPopUp.style.display = 'none';
